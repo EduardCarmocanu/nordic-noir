@@ -4,14 +4,17 @@ Repository for http://nordicnoirtours.dk
 
 ## First Steps:
 
-only for repository contributors
+1. Create a branch
+2. Install [SASS](http://sass-lang.com/install) and use it from the command line
+3. Run 'sass --watch scss/:css/'. This will watch for changes in the scss folder and update the css folder. Note*: It mantains file structure
 
-1. Do a pull request.
-2. Create a branch.
-3. Add your changes in that branch but make sure your branch is in sync with the master branch.
-4. Commit changes to the branch.
-5. Push the changes to the existing repository.
-6. Discuss whether the changes should be merged into the master branch or not.
+## Library
+
+We will create a css library that we will use across the website for consistency. Everything that is going to be reusable is going to be there. Keep uniques css rules scoped to the page that they are unique to.
+
+Feel free to bring your changes and sugestions
+
+
 
 # Code standards
 
