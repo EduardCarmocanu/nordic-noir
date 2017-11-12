@@ -1,3 +1,7 @@
+<?php ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +11,6 @@
 	<title>Document</title>
 </head>
 <body>
-	<h1>This is admin entry</h1>
+	<?php include 'views/dashboard.php'; ?>
 </body>
 </html>
