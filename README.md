@@ -4,10 +4,11 @@ Repository for http://nordicnoirtours.dk
 
 ## First Steps:
 
-1. Clone Repo
+1. Clone Repository in your dev server working directory (Ex. If using [XAMPP](https://www.apachefriends.org/index.html), in htdocs)
 2. Create a branch
 3. [Install SASS](http://sass-lang.com/install) and use it from the command line
 4. Run 'sass --watch scss/:css/'. This will watch for changes in the scss folder and update the css folder. Note*: It mantains folder structure
+
 
 ## Library
 
@@ -21,16 +22,22 @@ Feel free to bring your changes and sugestions
 
 ## Custom CSS
 
-If any page uses css that is unique to it keep that piece of css with the page
+If any page uses css that is unique to it keep that piece of css with the page in a separate file
 
 ## JS
 
 Create helper functions in the js folder. Import those script files in the pages when needed.
+Same as with CSS keep custom JS with the page that is being used on
+
+##### Open for sugestions: 
+##### all js could be in one file for caching and then having an extract script that binds functions where they are needed
 
 ## Public
 
 Everything that is outside the admin folder is considered public and should not allow for any interaction with the database besides getting data.
-The data will be return by a service that is going to connect to the database, get the data, process it, 
+
+The data will be return by a service that is going to connect to the database, get the data, process it, and return it.
+The data should be comming from a table containing only public data.
 
 ## Admin Folder
 
@@ -43,7 +50,7 @@ It's going to offer an overview of dinamic content on the website.
 
 ## Assets
 
-The assets folde is going to be global, this means that is going to be used by both the public and from within the admin folder.
+The assets folder is going to be global, this means that is going to be used by both the public and from within the admin folder.
 
 # Code standards
 
@@ -56,3 +63,7 @@ We are using the airbnb one as it is very well structured and detailed. Also it 
 
 ### [PHP standard](http://www.php-fig.org/psr/psr-2/)
 PSR of course ;)
+
+# Lauching into production
+
+To be discussed...
