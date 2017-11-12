@@ -43,9 +43,9 @@ The data should be comming from a table containing only public data.
 
 The admin folder will follow PHP MVC structure and it's going to be kept separate from the public.
 
-It's going to handle administrative database interactions (CRUD).
-It's going to offer a user inteface for the administrator.
-It's going to offer an overview of dinamic content on the website.
+It's going to handle administrative database interactions (CRUD). <br>
+It's going to offer a user inteface for the administrator. <br>
+It's going to offer an overview of dinamic content on the website. <br>
 
 
 ## Assets
