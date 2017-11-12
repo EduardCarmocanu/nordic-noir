@@ -64,6 +64,6 @@ We are using the airbnb one as it is very well structured and detailed. Also it 
 ### [PHP standard](http://www.php-fig.org/psr/psr-2/)
 PSR of course ;)
 
-# Lauching into production
+# Launching into production
 
 To be discussed...
