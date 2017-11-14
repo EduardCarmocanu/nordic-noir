@@ -3,7 +3,8 @@
 class DB
 {
 	
-	public static function CONNECT () {
+	public static function CONNECT ()
+	{
 		
 		$host = "localhost";
 		$db = "nordicNoir";
@@ -15,7 +16,7 @@ class DB
 			return $pdo;
 			
 		}catch (Exception $e) {
-			echo $e->getMessage();
+			echo "There has been an internal database Error";
 		}
 	}
 	
