@@ -1,3 +1,16 @@
+<?php
+
+require "core/database/DB.php";
+require "core/database/QueryBuilder.php";
+require "utilities.php";
+
+$pdo = DB::CONNECT();
+
+$queryBuilder = new QueryBuilder($pdo);
+
+var_dump($queryBuilder->select_entry_where("users", "email", "test@test.com"));
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
