@@ -1,4 +1,5 @@
 "use strict";
+<<<<<<< HEAD
 document.addEventListener("DOMContentLoaded", function() {
     let sideShow = false;
     $("#hamburger").click(function () {
@@ -12,3 +13,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
 });
 
+=======
+
+document.addEventListener("DOMContentLoaded", function() {
+	
+});
+>>>>>>> f47a689e507fbd8832f1c47987a4b5269d6e9792
