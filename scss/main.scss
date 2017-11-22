@@ -1,61 +1,80 @@
 @import 'lib/_margin.scss';
 @import 'lib/_padding.scss';
+@import 'lib/_colors.scss';
+@import 'lib/_flex.scss';
+@import 'lib/_center.scss';
+@import 'lib/_text-align.scss';
+@import 'lib/_fonts.scss';
+@import 'lib/_overflow.scss';
+@import 'lib/_dimensions.scss';
+@import 'lib/_background.scss';
+@import '_footer.scss';
 
 
 *{
     box-sizing: border-box;
     margin: 0px;
+    padding: 0;
 }
 
-$front: 10;
+a {
+    text-decoration: none;
+    font-family: $paragraph !important;
+}
 
+p {
+    font-family: $paragraph;
+}
 
-.CTA-button{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $paragraph;
+    letter-spacing: 1px;
+}
+ul {
+    list-style: none;
+}
+
+.CTA-button {
     background: black;
     color: white;
 }
 
-body{
-    background: map-get($colors, white );
+body {
+    background: $white;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    padding-left: $padding1;
-    padding-right: $padding1;
+nav {
     background: transparent;
     position: fixed;
     top:0;
     left:0;
-    width: 100vw;
-
-      figure{
-            height: 100px;
-            
-            img{
-                height: 100%;
+    
+    figure{
+        height: 100px;
+    }
+    nav{
+        color: $white;
+        a{
+            color: $white;
+        }
+    }
+    
+    .big-nav {
+        font-family: $paragraph;
+        ul{
+            a{
+                color: $white;
             }
         }
-    .big-nav{
-        width:100%;
-  
-        ul{
-            height: 100%;
-            display: flex;
-            flex-flow: row;
-            list-style: none;
-            justify-content: space-between;
-            align-items: center;
-             a{
-                color: map-get($colors, white);
-                text-decoration: none;
-                }
-        }
-
+        
     }
-
-    .small-nav{
+    
+    .small-nav {
         .fa{
             font-size: 30px;
             z-index: 11;
@@ -64,24 +83,16 @@ nav{
         .side-bar{
             position: fixed;
             top:0;
-            right: -100vw;
-            width:100vw;
-            height: 100vh;
+            right: 100vw;
             background: white;
-            z-index: $front;
-            ul{
-                display: flex;
+            z-index: 10;
+            transition: right 0.3s ease-in-out;
+            ul {
                 flex-flow: column;
-                list-style: none;
-                padding: 0px;
-                justify-content: space-between;
-                align-items: center;
-                height: 100%;
                 padding-top: 30%;
                 padding-bottom: 80%;                
-                a{
-                    color: map-get($colors, black);
-                    text-decoration: none;
+                a {
+                    color: $black;
                 }
             }
         }
@@ -92,71 +103,71 @@ nav{
 
 
 /* Custom, iPhone Retina */ 
-    @media only screen and (min-width: 320px) {
-        .smaller{
-            display: block;
-        }
-        .bigger{
-            display: none;
-        }
-
+@media only screen and (min-width: 320px) {
+    .smaller {
+        display: block;
     }
-
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (min-width : 480px) {
- .smaller{
-            display: block;
-        }
-        .bigger{
-            display: none;
-        }
+    .bigger {
+        display: none;
     }
+    
+}
 
-    /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
-        .smaller{
-            display: none;
-        }
-
-        .bigger{
-            display: block;
-        }
-
-        .big-nav{
-            ul{
-                padding-left: 20%;
-            }
-        }
-
-        
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+    .smaller {
+        display: block;
     }
-
-    /* Medium Devices, Desktops */
-    @media only screen and (min-width : 992px) {
-        .smaller{
-            display: none;
-        }
-        .bigger{
-            display: block;
-        }
-
-
-
-        .big-nav{
-            ul{
-                padding-left:40%;
-
-            }
-        }
-        
+    .bigger {
+        display: none;
     }
+}
 
-    /* Large Devices, Wide Screens */
-    @media only screen and (min-width : 1200px) {
- .smaller{
-            display: none;
-        }
-        .bigger{
-            display: block;
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .smaller {
+        display: none;
+    }
+    
+    .bigger {
+        display: block;
+    }
+    
+    .big-nav {
+        ul{
+            padding-left: 20%;
         }
     }
+    
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .smaller {
+        display: none;
+    }
+    .bigger {
+        display: block;
+    }
+    
+    
+    
+    .big-nav {
+        ul {
+            padding-left:40%;
+            
+        }
+    }
+    
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .smaller {
+        display: none;
+    }
+    .bigger {
+        display: block;
+    }
+}
