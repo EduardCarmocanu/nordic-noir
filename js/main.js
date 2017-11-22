@@ -1,11 +1,13 @@
 "use strict";
 document.addEventListener("DOMContentLoaded", function() {
-    let sideShow = false;
-    $("#hamburger").click(function () {
+    
+    var sideShow = false;
+    $("#hamburger").addEventListener('click', function () {
+
         if (sideShow){
-            $('#sideNav').css('right','-100vw');
+            $('#sideNav').style.right = '-100vw';
         }else{
-            $('#sideNav').css('right','0');
+            $('#sideNav').style.right = '0vw';
         }
         sideShow = !sideShow;
     });
