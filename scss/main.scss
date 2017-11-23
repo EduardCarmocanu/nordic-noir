@@ -47,6 +47,13 @@ h2 {
     font-family: $headline;
     font-weight: 100;
 }
+h1 {
+    font-size: 2.5em;
+}
+h2 {
+    font-size: 1.8em;
+}
+
 ul {
     list-style: none;
 }
@@ -148,3 +155,29 @@ nav {
         display: block;
     }
 }
+
+
+
+/*
+
+    @media only screen and (max-width : 1200px) {
+        
+            }
+        
+            @media only screen and (max-width : 992px) {
+        
+            }
+        
+            @media only screen and (max-width : 768px) {
+        
+            }
+        
+            @media only screen and (max-width : 480px) {
+        
+            }
+        
+            @media only screen and (max-width : 320px) {
+        
+            }
+    
+*/
