@@ -4,7 +4,10 @@
 .full-height {
 	height: 100%;
 }
-
+.full-width-height {
+	width: 100%;
+	height: 100%;
+}
 .full-view-height {
 	height: 100vh;
 }
@@ -22,6 +25,13 @@
 .half-height {
 	height: 50%;
 }
+.half-view-width {
+	width: 50vw;
+}
+.half-view-height {
+	height: 50vh;
+}
+
 
 .third-width {
 	width: 33.3333%;
