@@ -1,0 +1,25 @@
+.CTA-btn-white {
+	color: $white;
+	padding: 5px 10px 5px 10px;
+	border: 2px solid $white;
+	font-weight: bold;
+	transition: all 0.2s ease-in-out;
+}
+.CTA-btn-white:hover {
+	background-color: $white;
+	color: $black;
+}
+
+
+.CTA-btn-black {
+	color: $black;
+	padding: 5px 10px 5px 10px;
+	border: 2px solid $black;
+	font-weight: bold;
+	transition: all 0.2s ease-in-out;
+}
+
+.CTA-btn-black:hover {
+	background-color: $black;
+	color: $white;
+}
