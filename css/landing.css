@@ -1,72 +1,31 @@
-.mt-1 {
-  margin-top: 10px; }
-
-.pt-10 {
-  padding-top: 10px; }
-
-.pt-1 {
-  padding-top: 10px; }
-
-nav {
-  color: #f8f8f8; }
-  nav a {
-    color: #f8f8f8; }
-
 .first-section {
   background-image: url("http://nordicnoirtours.com/wp-content/uploads/2014/05/4438_The-Oeresund-Bridge_Henrik-Stenberg-1024x812.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center; }
+  flex-flow: column; }
   .first-section h1 {
     color: white !important; }
 
 .second-section {
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
   padding-left: 5%;
   padding-right: 5%; }
-  .second-section .tours-cards-section {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px; }
-    .second-section .tours-cards-section section {
-      width: 200px;
-      background: gray;
-      height: 160px;
-      margin-left: 2px;
-      margin-right: 2px; }
-    .second-section .tours-cards-section .special {
-      height: 180px;
-      width: 210px; }
+  .second-section .tours-cards-section section {
+    width: 200px;
+    background: gray;
+    height: 160px;
+    margin-left: 2px;
+    margin-right: 2px; }
+  .second-section .tours-cards-section .special {
+    height: 180px;
+    width: 210px; }
 
 .third-section {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 100vw;
   padding-left: 5%;
   padding-right: 5%; }
-  .third-section .info {
-    text-align: center; }
   .third-section .image-gallery {
-    display: flex;
     flex-flow: row;
-    flex-wrap: wrap;
-    justify-content: space-between; }
+    flex-wrap: wrap; }
     .third-section .image-gallery figure {
       width: 48%;
-      margin-top: 10px; }
-      .third-section .image-gallery figure img {
-        width: 100%; }
+      margin-top: 20px; }
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {

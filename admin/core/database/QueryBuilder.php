@@ -1,4 +1,8 @@
 <?php
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 class QueryBuilder 
 {
 	private $pdo;
