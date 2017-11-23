@@ -9,6 +9,7 @@
 @import 'lib/_dimensions.scss';
 @import 'lib/_background.scss';
 @import '_footer.scss';
+@import 'lib/_positions.scss';
 
 
 *{
@@ -49,11 +50,8 @@ body {
 }
 
 nav {
-    background: transparent;
-    position: fixed;
     top:0;
-    left:0;
-    
+    left:0; 
     figure{
         height: 100px;
     }
