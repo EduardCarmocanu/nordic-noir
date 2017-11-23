@@ -7,7 +7,7 @@
         section{
             width: 200px;
             background:gray;
-            height: 160px;
+            height: 200px;
         }
         .special{
             height: 180px;
@@ -37,52 +37,6 @@
         display: none;
     }
     
-    
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-    .smaller{
-        display: none;
-    }
-    
-    .bigger{
-        display: block;
-    }
-    
-    .big-nav{
-        ul{
-            padding-left: 20%;
-        }
-        
-    }
-    
-    
-    
-    
-    
-    
-    .second-section{
-        
-        .tours-cards-section{
-            section{
-                width: 180px;
-                height: 210px;
-                margin-left: 10px;
-                margin-right: 10px;
-            }
-            
-            .special{
-                width:200px;            
-                height: 230px;
-            }
-        }
-    }
-    .third-section{
-        padding-left:10%;
-        padding-right:10%;
-        
-    }
     
 }
 
