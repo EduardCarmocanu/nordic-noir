@@ -4,28 +4,20 @@
   .first-section h1 {
     color: white !important; }
 
-.second-section {
-  padding-left: 5%;
-  padding-right: 5%; }
-  .second-section .tours-cards-section section {
-    width: 200px;
-    background: gray;
-    height: 160px;
-    margin-left: 2px;
-    margin-right: 2px; }
-  .second-section .tours-cards-section .special {
-    height: 180px;
-    width: 210px; }
+.second-section .tours-cards-section section {
+  width: 200px;
+  background: gray;
+  height: 160px; }
+.second-section .tours-cards-section .special {
+  height: 180px;
+  width: 210px; }
 
-.third-section {
-  padding-left: 5%;
-  padding-right: 5%; }
-  .third-section .image-gallery {
-    flex-flow: row;
-    flex-wrap: wrap; }
-    .third-section .image-gallery figure {
-      width: 48%;
-      margin-top: 20px; }
+.third-section .image-gallery {
+  flex-flow: row;
+  flex-wrap: wrap; }
+  .third-section .image-gallery figure {
+    width: 50%;
+    margin-top: 20px; }
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width: 320px) {
