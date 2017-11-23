@@ -12,32 +12,20 @@
 	<link rel="stylesheet" href="./css/main.css">
 </head>
 
-<body class="no-overflow-x">
+<body>
 
 	<?php
 	include('partials/navbar.html');
 	?>
 
 	<main>
-		<section class="
-		first-section 
-		flex 
-		flex-justify-center 
-		flex-align-center 
-		flex-column
-		text-center
-		full-view-width-height
-		has-background">
+		<section class="first-section flex flex-justify-center flex-align-center flex-column text-center full-view-height full-width has-background">
 			<h1 class="white main-page-heading">FROM SCANDINAVIA WITH CRIME</h1>
 			<a href="/tours" class="CTA-btn-white mt-1">BOOK A TOUR</a>
 		</section>
-		<section class="second-section 
-		text-center 
-		pt-4 
-		pb-3">
+		<section class="second-section text-center pt-4 pb-3">
 			<h2>Who are we?</h2>
-			<p>We offer tours based on the scandinavian crime series Borgen, The Bridge and The Killing</p>
-
+			<p>We offer tours based on the scandinavian crime series<br>Borgen, The Bridge and The Killing</p>
 			<section class="tours-cards-section flex flex-justify-center flex-align-center pt-2 pb-2">
 				<section>
 					<h4>TEXT</h4>
@@ -53,9 +41,9 @@
 
 		</section>
 
-		<section class="third-section pt-3 pb-3 full-view-width">
-			<section class="info text-center">
-				<h1>Info</h1>
+		<section class="third-section pb-3 pt-4 full-width">
+			<section class="text-center">
+				<h2>Info</h2>
 			</section>
 
 			<section class="image-gallery flex flex-justify-space-between flex-wrap flex-row">
