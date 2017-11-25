@@ -1,80 +1,50 @@
-.first-section{
-    background-image: url('http://nordicnoirtours.com/wp-content/uploads/2014/05/4438_The-Oeresund-Bridge_Henrik-Stenberg-1024x812.jpg');
-}
+
+.first-section{ background-image: url('/assets/2.jpg'); }
 
 .second-section{
-    .tours-cards-section{
-        section{
-            width: 200px;
-            background:gray;
-            height: 200px;
-        }
-        .special{
-            height: 180px;
-            width:210px;
-        }
-    }
-}
-
-
-/* Custom, iPhone Retina */ 
-@media only screen and (min-width: 320px) {
-    .smaller{
-        display: block;
-    }
-    .bigger{
-        display: none;
-    }
-    
-}
-
-/* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
-    .smaller{
-        display: block;
-    }
-    .bigger{
-        display: none;
-    }
-    
-    
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-    .smaller{
-        display: none;
-    }
-    .bigger{
-        display: block;
-    }
+    background-image: url('/assets/1.jpg');
     .tours-cards-section{
         section{
             width: 200px;
             height: 230px;
-            margin-left: 10px;
-            margin-right: 10px;
+            margin: 0px 10px -40px 10px;
+            background:white;
+            border: 1px solid lightgray;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            &:hover {
+                transform: scale(1.1, 1.1);
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+            }
         }
-        
         .special{
-            width:220px;            
-            height: 250px;
+            height: 280px;
+            width:210px;
+            margin-bottom: 0;
         }
-    }
-    
-    .third-section{
-        padding-left:20%;
-        padding-right:20%;
     }
 }
-
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-    .smaller{
-        display: none;
+.third-section {
+    padding-left:20%;
+    padding-right:20%;
+    .nordic-noir-profile-image {
+        height: 70px;
+        width: 70px;
+        background-image: url('/assets/2.jpg');
     }
-    .bigger{
-        display: block;
+    .image-gallery {
+        figure {
+            img {
+                transition: all 0.2s ease-in-out;
+            }
+            &:hover{
+                img {
+                    opacity: 0.5;
+                    cursor: pointer;
+                    z-index: 1;
+                }
+            }
+        }
     }
 }
