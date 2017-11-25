@@ -1,22 +1,23 @@
 // VARIABLES
-@import 'lib/variables/_fonts.scss';
-@import 'lib/variables/_colors.scss';
+@import 'lib/variables/fonts';
+@import 'lib/variables/colors';
 
 // CSS CLASSES
-@import 'lib/_margin.scss';
-@import 'lib/_padding.scss';
-@import 'lib/_flex.scss';
-@import 'lib/_center.scss';
-@import 'lib/_text.scss';
-@import 'lib/_overflow.scss';
-@import 'lib/_dimensions.scss';
-@import 'lib/_background.scss';
-@import 'lib/_positions.scss';
-@import 'lib/_buttons.scss';
+@import 'lib/margin';
+@import 'lib/padding';
+@import 'lib/flex';
+@import 'lib/center';
+@import 'lib/text';
+@import 'lib/overflow';
+@import 'lib/dimensions';
+@import 'lib/background';
+@import 'lib/positions';
+@import 'lib/buttons';
+@import 'lib/borders';
 
 // CUSTOM CSS
-@import 'custom/_footer.scss';
-@import 'custom/_landing.scss';
+@import 'custom/footer';
+@import 'custom/landing';
 
 
 *{
@@ -24,51 +25,29 @@
     margin: 0px;
     padding: 0;
 }
-a {
-    text-decoration: none;
-    font-family: $paragraph !important;
-    color: $white;
-}
-p {
-    font-family: $paragraph;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: $paragraph;
-    letter-spacing: 1px;
-}
-
-h1,
-h2 {
-    font-family: $headline;
-    font-weight: 100;
-}
-h1 {
-    font-size: 2.5em;
-}
-h2 {
-    font-size: 1.8em;
-}
-
-ul {
-    list-style: none;
-}
 body {
     background: $white;
 }
+a {
+    text-decoration: none;
+    font-family: $paragraph !important;
+    color: inherit;
+}
+ul {
+    list-style: none;
+}
+
 nav {
     top:0;
     left:0; 
+    z-index: 9999;
     figure{
         height: 100px;
     }
     .big-nav {
         ul{
-            padding-left: 45%;
+            color: $white;
+            font-weight: 600;
         }
     }
     .small-nav {
@@ -92,71 +71,6 @@ nav {
         }
     }
 }
-
-
-/* Custom, iPhone Retina */ 
-@media only screen and (min-width: 320px) {
-    .smaller {
-        display: block;
-    }
-    .bigger {
-        display: none;
-    }
-    
-}
-
-/* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
-    .smaller {
-        display: block;
-    }
-    .bigger {
-        display: none;
-    }
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-    .smaller {
-        display: none;
-    }
-    .bigger {
-        display: block;
-    }
-    .big-nav {
-        ul{
-            padding-left: 45%;
-        }
-    }
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-    .smaller {
-        display: none;
-    }
-    .bigger {
-        display: block;
-    }
-    .big-nav {
-        ul {
-            padding-left:40%;
-            
-        }
-    }
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-    .smaller {
-        display: none;
-    }
-    .bigger {
-        display: block;
-    }
-}
-
-
 
 /*
 
