@@ -23,28 +23,34 @@
 			<h1 class="white main-page-heading">FROM SCANDINAVIA WITH CRIME</h1>
 			<a href="/tours" class="CTA-btn-white mt-1">BOOK A TOUR</a>
 		</section>
-		<section class="second-section text-center pt-4 pb-3">
+		<section class="second-section has-background text-center pt-4 pb-5">
 			<h2>Who are we?</h2>
 			<p>We offer tours based on the scandinavian crime series<br>Borgen, The Bridge and The Killing</p>
+			<h2 class="pt-5">Tours</h2>
 			<section class="tours-cards-section flex flex-justify-center flex-align-center pt-2 pb-2">
-				<section>
-					<h4>TEXT</h4>
+				
+				<section class="pt-4">
+					<h4 class="headline">THE KILLING</h4>
 				</section>
-				<section class="special">
-					<h4>TEXT</h4>
+				<section class="special pt-4">
+					<h3 class="headline">BORGEN</h3>
 				</section>
-				<section>
-					<h4>TEXT</h4>
+				<section class="pt-4">
+					<h4 class="headline">THE BRIDGE</h4>
 				</section>
 			</section>
 			<a href="/tours" class="CTA-btn-black">View More</a>
 
 		</section>
-
-		<section class="third-section pb-3 pt-4 full-width">
-			<section class="text-center">
-				<h2>Info</h2>
+		<section class="third-section pb-3 pt-5 full-width">
+			<section class="nordic-noir-insta flex flex-column flex-align-center text-center pb-1">
+				<div class="round has-background nordic-noir-profile-image mb-1"></div>
+				<div class="insta-info">
+				<h2>NORDIC NOIR TOURS</h2>
+				<h4>Instagram</h4>
+				</div>
 			</section>
+
 
 			<section class="image-gallery flex flex-justify-space-between flex-wrap flex-row">
 				<figure class="half-width pa-1 third-width">
