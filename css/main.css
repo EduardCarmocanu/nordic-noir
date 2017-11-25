@@ -10,6 +10,18 @@
 .mt-2 {
   margin-top: 20px; }
 
+.mr-1 {
+  margin-right: 10px; }
+
+.mr-2 {
+  margin-right: 20px; }
+
+.mb-1 {
+  margin-bottom: 10px; }
+
+.mb-2 {
+  margin-bottom: 20px; }
+
 /*
 * PADDING ALL
 */
@@ -130,6 +142,29 @@
   margin-left: auto;
   margin-right: auto; }
 
+p {
+  font-family: "Poppins", sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px; }
+
+h1,
+h2 {
+  font-family: "Lora", serif;
+  font-weight: 100; }
+
+h1 {
+  font-size: 2.5em; }
+
+h2 {
+  font-size: 1.8em; }
+
 .text-center {
   text-align: center; }
 
@@ -237,6 +272,9 @@
   background-color: #171717;
   color: #f8f8f8; }
 
+.round {
+  border-radius: 100%; }
+
 .main-footer {
   background-color: #171717; }
 
@@ -248,103 +286,66 @@
   color: #f8f8f8; }
 
 .first-section {
-  background-image: url("http://nordicnoirtours.com/wp-content/uploads/2014/05/4438_The-Oeresund-Bridge_Henrik-Stenberg-1024x812.jpg"); }
+  background-image: url("/assets/2.jpg"); }
 
-.second-section .tours-cards-section section {
-  width: 200px;
-  background: gray;
-  height: 200px; }
-.second-section .tours-cards-section .special {
-  height: 180px;
-  width: 210px; }
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width: 320px) {
-  .smaller {
-    display: block; }
-
-  .bigger {
-    display: none; } }
-/* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px) {
-  .smaller {
-    display: block; }
-
-  .bigger {
-    display: none; } }
-/* Medium Devices, Desktops */
-@media only screen and (min-width: 992px) {
-  .smaller {
-    display: none; }
-
-  .bigger {
-    display: block; }
-
-  .tours-cards-section section {
+.second-section {
+  background-image: url("/assets/1.jpg"); }
+  .second-section .tours-cards-section section {
     width: 200px;
     height: 230px;
-    margin-left: 10px;
-    margin-right: 10px; }
-  .tours-cards-section .special {
-    width: 220px;
-    height: 250px; }
+    margin: 0px 10px -40px 10px;
+    background: white;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out; }
+    .second-section .tours-cards-section section:hover {
+      transform: scale(1.1, 1.1);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      z-index: 1; }
+  .second-section .tours-cards-section .special {
+    height: 280px;
+    width: 210px;
+    margin-bottom: 0; }
 
-  .third-section {
-    padding-left: 20%;
-    padding-right: 20%; } }
-/* Large Devices, Wide Screens */
-@media only screen and (min-width: 1200px) {
-  .smaller {
-    display: none; }
+.third-section {
+  padding-left: 20%;
+  padding-right: 20%; }
+  .third-section .nordic-noir-profile-image {
+    height: 70px;
+    width: 70px;
+    background-image: url("/assets/2.jpg"); }
+  .third-section .image-gallery figure img {
+    transition: all 0.2s ease-in-out; }
+  .third-section .image-gallery figure:hover img {
+    opacity: 0.5;
+    cursor: pointer;
+    z-index: 1; }
 
-  .bigger {
-    display: block; } }
 * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0; }
 
+body {
+  background: #f8f8f8; }
+
 a {
   text-decoration: none;
   font-family: "Poppins", sans-serif !important;
-  color: #f8f8f8; }
-
-p {
-  font-family: "Poppins", sans-serif; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Poppins", sans-serif;
-  letter-spacing: 1px; }
-
-h1,
-h2 {
-  font-family: "Lora", serif;
-  font-weight: 100; }
-
-h1 {
-  font-size: 2.5em; }
-
-h2 {
-  font-size: 1.8em; }
+  color: inherit; }
 
 ul {
   list-style: none; }
 
-body {
-  background: #f8f8f8; }
-
 nav {
   top: 0;
-  left: 0; }
+  left: 0;
+  z-index: 9999; }
   nav figure {
     height: 100px; }
   nav .big-nav ul {
-    padding-left: 45%; }
+    color: #f8f8f8;
+    font-weight: 600; }
   nav .small-nav .fa {
     font-size: 30px;
     z-index: 11; }
@@ -360,47 +361,6 @@ nav {
       nav .small-nav .side-bar ul a {
         color: #171717; }
 
-/* Custom, iPhone Retina */
-@media only screen and (min-width: 320px) {
-  .smaller {
-    display: block; }
-
-  .bigger {
-    display: none; } }
-/* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px) {
-  .smaller {
-    display: block; }
-
-  .bigger {
-    display: none; } }
-/* Small Devices, Tablets */
-@media only screen and (min-width: 768px) {
-  .smaller {
-    display: none; }
-
-  .bigger {
-    display: block; }
-
-  .big-nav ul {
-    padding-left: 45%; } }
-/* Medium Devices, Desktops */
-@media only screen and (min-width: 992px) {
-  .smaller {
-    display: none; }
-
-  .bigger {
-    display: block; }
-
-  .big-nav ul {
-    padding-left: 40%; } }
-/* Large Devices, Wide Screens */
-@media only screen and (min-width: 1200px) {
-  .smaller {
-    display: none; }
-
-  .bigger {
-    display: block; } }
 /*
 
     @media only screen and (max-width : 1200px) {
