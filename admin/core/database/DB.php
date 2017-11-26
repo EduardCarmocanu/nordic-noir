@@ -1,5 +1,8 @@
 <?php
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
 class DB
 {
 	
@@ -9,7 +12,11 @@ class DB
 		$host = "localhost";
 		$db = "nordicNoir";
 		$user = "root";
+<<<<<<< HEAD
+		$password = "root";
+=======
 		$password = "";
+>>>>>>> master
 		
 		try {
 			$pdo = new PDO("mysql:host=$host;dbname=$db", $user, $password);
@@ -20,4 +27,8 @@ class DB
 		}
 	}
 	
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> master

@@ -1,0 +1,23 @@
+header{
+    height: 70px;
+    background:#f3f3f3;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    p{
+        margin-right: 20px;
+    }
+}
+
+main{
+    .left-side-bar{
+        width: 150px;
+       .each-tour{
+           div{
+               img{
+                   width: 100%;
+               }
+           }
+       }
+    }
+}
