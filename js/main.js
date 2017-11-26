@@ -18,15 +18,21 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Check to see if element exists
 
+    /*
+    * Get all the elements that have the 'trigger' attribute
+    */
     var triggerPoints = $('*[trigger]');
     var nav = $('nav')[0];
-        
-    window.addEventListener('scroll', function () {
+
+    function setNavigationBar() {
         for (var i = 0; i < triggerPoints.length; i++) {
             if (window.pageYOffset > triggerPoints[i].offsetTop) {
+                // Sets the value of the trigger attribute to the background color
                 nav.style.backgroundColor = triggerPoints[i].getAttribute('trigger');
             }
         }
-    });
+    }
+    window.addEventListener('scroll', setNavigationBar);
+
 });
 
