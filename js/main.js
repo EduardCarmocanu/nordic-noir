@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Check to see if element exists
 
     var triggerPoints = $('*[trigger]');
-        nav = $('nav')[0];
+    var nav = $('nav')[0];
         
     window.addEventListener('scroll', function () {
         for (var i = 0; i < triggerPoints.length; i++) {
