@@ -16,7 +16,7 @@
 @import 'lib/borders';
 
 // CUSTOM CSS
-@import 'custom/footer';
+@import 'custom/about';
 @import 'custom/landing';
 
 
@@ -27,6 +27,7 @@
 }
 body {
     background: $white;
+    overflow-x: hidden;
 }
 a {
     text-decoration: none;
@@ -43,12 +44,13 @@ nav {
     z-index: 9999;
     transition: all 0.1s ease-in-out;
     figure{
-        height: 100px;
+        height: 60px;
     }
     .big-nav {
         ul{
             color: $white;
             font-weight: 600;
+            padding-left: 55%;
         }
     }
     .small-nav {
@@ -71,6 +73,17 @@ nav {
             }
         }
     }
+}
+
+.main-footer {
+	background-color: $black;
+}
+.footer-col {
+	width: 33.333%;
+}
+.footer-content-wrapper {
+	width: 80vw;
+	color: $white;
 }
 
 /*
