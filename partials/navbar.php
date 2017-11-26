@@ -2,22 +2,27 @@
     <nav class="flex flex-justify-space-around full-view-width fixed">
         <section>
             <figure>
-                <img src="http://nordicnoirtours.com/wp-content/uploads/2014/05/logo.png" alt="Nordic Noir Tours Logo" class="pl-4 full-height" id="logo">
+                <a href="/">
+                    <img src="http://nordicnoirtours.com/wp-content/uploads/2014/05/logo.png" alt="Nordic Noir Tours Logo" class="pl-4 full-height" id="logo">
+                </a>
             </figure>
         </section>
         <section class="bigger big-nav full-width full-height">
             <ul class="navbar-items-wrapper flex">
                 <li class="pa-2">
-                    <a href="/about">ABOUT</a>
+                    <a href="/">HOME</a>
                 </li>
                 <li class="pa-2">
-                    <a href="/tours">TOURS</a>
+                    <a href="/about.php">ABOUT</a>
                 </li>
                 <li class="pa-2">
-                    <a href="/recommandations">RECOMMANDATIONS</a>
+                    <a href="/tours.php">TOURS</a>
                 </li>
                 <li class="pa-2">
-                    <a href="/contact">CONTACT</a>
+                    <a href="/recommandations.php">RECOMMANDATIONS</a>
+                </li>
+                <li class="pa-2">
+                    <a href="/contact.php">CONTACT</a>
                 </li>
             </ul>
         </section>

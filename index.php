@@ -38,7 +38,7 @@
 			<a href="/tours" class="CTA-btn-black">View More</a>
 
 		</section>
-		<section class="third-section pb-3 pt-5 full-width" trigger="white">
+		<section class="third-section pb-3 pt-5 full-width">
 			<section class="nordic-noir-insta flex flex-column flex-align-center text-center pb-1">
 				<div class="round has-background nordic-noir-profile-image mb-1"></div>
 				<div class="insta-info">
