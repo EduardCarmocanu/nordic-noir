@@ -5,25 +5,21 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Document</title>
+	<title>Nordi-Noir</title>
 	<script src="https://use.fontawesome.com/96a62ba6a5.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 	<link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
 
-	<?php
-	include('partials/navbar.html');
-	?>
+	<?php include('partials/navbar.php'); ?>
 
 	<main>
-		<section class="first-section flex flex-justify-center flex-align-center flex-column text-center full-view-height full-width has-background">
+		<section class="first-section flex flex-justify-center flex-align-center flex-column text-center full-view-height full-width has-background" trigger="initial">
 			<h1 class="white main-page-heading">FROM SCANDINAVIA WITH CRIME</h1>
 			<a href="/tours" class="CTA-btn-white mt-1">BOOK A TOUR</a>
 		</section>
-		<section class="second-section has-background text-center pt-4 pb-5">
+		<section class="second-section has-background text-center pt-4 pb-5" trigger="black">
 			<h2>Who are we?</h2>
 			<p>We offer tours based on the scandinavian crime series<br>Borgen, The Bridge and The Killing</p>
 			<h2 class="pt-5">Tours</h2>
@@ -42,7 +38,7 @@
 			<a href="/tours" class="CTA-btn-black">View More</a>
 
 		</section>
-		<section class="third-section pb-3 pt-5 full-width">
+		<section class="third-section pb-3 pt-5 full-width" trigger="white">
 			<section class="nordic-noir-insta flex flex-column flex-align-center text-center pb-1">
 				<div class="round has-background nordic-noir-profile-image mb-1"></div>
 				<div class="insta-info">
@@ -82,12 +78,9 @@
 		</section>
 	</main>
 
-	<?php
-	include('partials/footer.html');
-	?>
+	<?php include('partials/footer.php'); ?>
 
-	<script src="js/util.js"></script>
-	<script src="js/main.js"></script>
+	<!-- Scripts in footer.php -->
 </body>
 
 </html>
