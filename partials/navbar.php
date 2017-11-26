@@ -2,7 +2,7 @@
     <nav class="flex flex-justify-space-around full-view-width fixed">
         <section>
             <figure>
-                <img src="http://nordicnoirtours.com/wp-content/uploads/2014/05/logo.png" alt="Nordic Noir Tours Logo" class="pl-4 full-height">
+                <img src="http://nordicnoirtours.com/wp-content/uploads/2014/05/logo.png" alt="Nordic Noir Tours Logo" class="pl-4 full-height" id="logo">
             </figure>
         </section>
         <section class="bigger big-nav full-width full-height">
@@ -21,7 +21,12 @@
                 </li>
             </ul>
         </section>
-        <section class="smaller small-nav">
+
+
+        <!-- 
+            REMOVED FOR TESTING
+         -->
+        <!-- <section class="smaller small-nav">
             <section class="side-bar full-view-width-height fixed" id="sideNav">
                 <ul class="flex flex-justify-space-between flex-align-center full-height flex-column">
                     <li>
@@ -39,6 +44,6 @@
                 </ul>
             </section>
             <i class="fa fa-bars relative" aria-hidden="true" id="hamburger"></i>
-        </section>
+        </section> -->
     </nav>
 </header>
