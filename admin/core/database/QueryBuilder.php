@@ -1,5 +1,4 @@
 <?php
-
 class QueryBuilder 
 {
 	private $pdo;

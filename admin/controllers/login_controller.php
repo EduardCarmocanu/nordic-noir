@@ -1,26 +1,39 @@
 <?php
+require_once('core/database/DB.php');
+require_once('core/database/QueryBuilder.php');
 
-require "../core/database/DB.php";
-require "../core/database/QueryBuilder.php";
-require "../core/Login.php";
-require "../utilities/utilities.php";
+class Login_controller
+{ 
+    private $queryBuilder;
+    private $users;
+
+    public function __construct ()
+	{
+        $this->queryBuilder = new QueryBuilder(DB::CONNECT());
+        $this->users = $this->queryBuilder->select_all_from('users');
+    }
 
 
-$login = new Login(
-	$_POST['email'],
-	$_POST['password'],
-	new QueryBuilder(DB::CONNECT())
-);
+    public function checkUsers($username, $password){
+        $error;
+        foreach ($this->users as $value) {
+            if($value['user_name'] === $username){
+                if(password_verify($password,$value['password'])){
+                    $error = $value;
+                }else{
+                    $error = "Password does not match";
+                }
+            }else{
+                $error = "No User";
+            }
+        }
+        return $error;
+    }
 
-
-if ($login->authenticate()) {
-	// header('Location: /admin/dashboard.php');
-	dd('match');
+    public function logout(){
+        session_destroy();
+    }
 }
-dd('no match');
 
 
-
-
-$login = null;
-unset($login);
+?>

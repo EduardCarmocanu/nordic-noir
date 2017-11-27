@@ -1,0 +1,15 @@
+header {
+  height: 70px;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px; }
+  header p {
+    margin-right: 20px; }
+
+main .left-side-bar {
+  width: 150px; }
+  main .left-side-bar .each-tour div img {
+    width: 100%; }
+
+/*# sourceMappingURL=admin.css.map */

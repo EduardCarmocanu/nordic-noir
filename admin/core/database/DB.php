@@ -1,5 +1,4 @@
 <?php
-
 class DB
 {
 	
@@ -9,7 +8,7 @@ class DB
 		$host = "localhost";
 		$db = "nordicNoir";
 		$user = "root";
-		$password = "";
+		$password = "root";
 		
 		try {
 			$pdo = new PDO("mysql:host=$host;dbname=$db", $user, $password);
