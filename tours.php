@@ -10,7 +10,7 @@
 </head>
 <body>
 	<?php include('partials/navbar.php'); ?>
-	
+	<?php include('partials/tours-modal.php'); ?>
 	
 	<main>
 		<div class="tours-wrapper">
