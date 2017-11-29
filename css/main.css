@@ -1,5 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Lora";
-@import "https://fonts.googleapis.com/css?family=Poppins";
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,600,700";
 .white {
   color: #f8f8f8; }
 
@@ -353,7 +353,8 @@ h2 {
   width: 200px; }
 
 .first-section {
-  background-image: url("/assets/2.jpg"); }
+  background-image: url("/assets/2.jpg");
+  background-position: top !important; }
 
 .second-section {
   background-image: url("/assets/1.jpg"); }
@@ -411,6 +412,19 @@ h2 {
   .tour-wrapper .tour-name {
     padding-top: 10vh; }
 
+#tours-modal {
+  z-index: 9999;
+  width: 80%;
+  background-color: #f8f8f8;
+  top: 100px; }
+
+.tour-image {
+  height: 100%;
+  width: 100%; }
+  .tour-image img {
+    height: 100%;
+    width: 100%; }
+
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -438,7 +452,7 @@ nav {
   nav .big-nav ul {
     color: #f8f8f8;
     font-weight: 600;
-    padding-left: 60vw; }
+    padding-left: 46vw; }
   nav .small-nav .fa {
     font-size: 30px;
     z-index: 11; }
