@@ -1,8 +1,12 @@
 
-.first-section{ background-image: url('/assets/2.jpg'); }
+.first-section{ 
+    background-image: url('/assets/2.jpg'); 
+    background-position: top !important;
+}
 
 .second-section{
     background-image: url('/assets/1.jpg');
+    
     .tours-cards-section{
         section{
             width: 200px;
