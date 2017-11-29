@@ -1,0 +1,18 @@
+#tours-modal {
+	// display: none;
+	z-index: 9999;
+	width: 80%;
+	background-color: $white;
+	top: 100px;
+}
+.active {
+	// display: block !important;
+}
+.tour-image {
+	height: 100%;
+	width: 100%;
+	img {
+		height: 100%;
+		width: 100%;
+	}
+}
