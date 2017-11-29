@@ -18,7 +18,8 @@
 // CUSTOM CSS
 @import 'custom/about';
 @import 'custom/landing';
-@import 'custom/_tours.scss';
+@import 'custom/tours';
+@import 'custom/tours-modal';
 
 
 *{
@@ -51,7 +52,7 @@ nav {
         ul{
             color: $white;
             font-weight: 600;
-            padding-left: 60vw;
+            padding-left: 46vw;
         }
     }
     .small-nav {
