@@ -2,11 +2,22 @@
 .first-section{ 
     background-image: url('/assets/2.jpg'); 
     background-position: top !important;
+    div {
+        margin-top: 31vh;
+        font-size: 1.3em;
+        .CTA-btn-white {
+            width: 150px;
+            text-align: center;
+        }
+    }
+    
 }
 
 .second-section{
     background-image: url('/assets/1.jpg');
-    
+    .description {
+        max-width: 70%;
+    }
     .tours-cards-section{
         section{
             width: 200px;
