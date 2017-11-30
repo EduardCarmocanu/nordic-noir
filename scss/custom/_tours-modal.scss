@@ -1,0 +1,37 @@
+#tours-modal {
+	.fa {
+		transition: color 0.1s ease-in-out;
+		padding: 10px;
+		cursor: pointer;
+	}
+	.fa:hover {
+		color: lightblue;
+	}
+	.active {
+		display: block !important;
+	}
+	display: none;
+	z-index: 9999;
+	width: 80%;
+	background-color: $white;
+	top: 100px;
+	
+	.tours-modal-content-wrapper {
+		max-height: 58vh;
+		overflow: hidden;
+		width: 100%;
+		.tour-details-wrapper {
+			width: 75%;
+		}
+		.tour-image {
+			img {
+				position: relative;
+				height: 100%;
+			}
+		}
+		.book-tours {
+			margin-bottom: -10px;	
+		}
+	}
+}
+

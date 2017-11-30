@@ -18,7 +18,9 @@
 // CUSTOM CSS
 @import 'custom/about';
 @import 'custom/landing';
-@import 'custom/_tours.scss';
+@import 'custom/tours';
+@import 'custom/tours-modal';
+@import 'custom/contact';
 
 
 *{
@@ -27,7 +29,6 @@
     padding: 0;
 }
 body {
-    background: $white;
     overflow-x: hidden;
 }
 a {
@@ -38,21 +39,32 @@ a {
 ul {
     list-style: none;
 }
-
 nav {
     top:0;
     left:0; 
     z-index: 9999;
     transition: all 0.1s ease-in-out;
+    background-color: $white;
     figure{
         height: 60px;
     }
     .big-nav {
         ul{
-            color: $white;
-            font-weight: 600;
-            padding-left: 60vw;
+            color: $black;
+            font-weight: 400;
+            padding-left: 5vw;
+            li {
+                border-right: 1px solid $black;
+                padding: 0 20px 0 20px;
+                transition: all 0.1s ease-in-out;
+            }
+            li:hover {
+                color: $highlight;
+                border-right: 1px solid $highlight;
+
+            }
         }
+        
     }
     .small-nav {
         .fa{
@@ -86,27 +98,3 @@ nav {
 	width: 80vw;
 	color: $white;
 }
-
-/*
-
-    @media only screen and (max-width : 1200px) {
-        
-            }
-        
-            @media only screen and (max-width : 992px) {
-        
-            }
-        
-            @media only screen and (max-width : 768px) {
-        
-            }
-        
-            @media only screen and (max-width : 480px) {
-        
-            }
-        
-            @media only screen and (max-width : 320px) {
-        
-            }
-    
-*/

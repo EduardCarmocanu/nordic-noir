@@ -10,28 +10,28 @@
 </head>
 <body>
 	<?php include('partials/navbar.php'); ?>
-	
+	<?php include('partials/tours-modal.php'); ?>
 	
 	<main>
 		<div class="tours-wrapper">
-			<div class="tour-wrapper no-overflow quarter-view-height full-width text-center has-background white" id="tour-1">
+			<div class="tour tour-wrapper no-overflow quarter-view-height full-width text-center has-background white" id="tour-1">
 				<div class="tour-content-wrapper relative full-height full-width">
-					<h2 class="tour-name pt-5">The bridge</h2>	
+					<h2 class="tour-name pt-5" id="0">The bridge</h2>	
 				</div>
 			</div>
-			<div class="tour-wrapper no-overflow quarter-view-height full-width text-center has-background white" id="tour-2">
+			<div class="tour tour-wrapper no-overflow quarter-view-height full-width text-center has-background white" id="tour-2">
 				<div class="tour-content-wrapper relative full-height full-width">
-					<h2 class="tour-name pt-5">The killing</h2>	
+					<h2 class="tour-name pt-5" id="1">The killing</h2>	
 				</div>
 			</div>
-			<div class="tour-wrapper no-overflow quarter-view-height full-width text-center has-background white" id="tour-3">
+			<div class="tour tour-wrapper no-overflow quarter-view-height full-width text-center has-background white" id="tour-3">
 				<div class="tour-content-wrapper relative full-height full-width">
-					<h2 class="tour-name pt-5">Borgen</h2>	
+					<h2 class="tour-name pt-5" id="2">Borgen</h2>	
 				</div>
 			</div>
-			<div class="tour-wrapper no-overflow quarter-view-height full-width text-center has-background white" id="tour-4">
+			<div class="tour tour-wrapper no-overflow quarter-view-height full-width text-center has-background white" id="tour-4">
 				<div class="tour-content-wrapper relative full-height full-width">
-					<h2 class="tour-name pt-5">Private tours</h2>	
+					<h2 class="tour-name pt-5" id="3">Private tours</h2>	
 				</div>
 			</div>
 		</div>		

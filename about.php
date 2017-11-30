@@ -13,11 +13,9 @@
 <body>
 	<?php include('partials/navbar.php'); ?>
 	
-	<main class="pt-5 mt-1" trigger="black">
-		<section class="separator-image full-width half-view-height mb-3" style="background-color: rgb(40, 40, 40)">
-			<img src="#" alt="separator parallax image">
-		</section>
-
+	<main>
+		
+		
 		<div class="heading ml-2 pl-5 pt-2">
 			<h1>ABOUT US</h1>
 		</div>
@@ -37,11 +35,8 @@
 				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus quisquam incidunt odit vitae fugit</p>
 			</div>
 		</section>
-		
-		
-		<h1 class="text-center pt-5">MEET OUR GUIDES</h1>
-		<section class="guides flex flex-justify-space-around pa-3">
-			
+		<section class="separator-image full-width half-view-height mb-3 no-overflow has-background"></section>
+		<section class="guides flex">
 			<div class="text-center pa-2 guide">
 				<div class="guide-image-wrapper no-overflow round center">
 					<img src="/assets/amalie.jpeg" alt="guide picture" class="guide-image full-width">
