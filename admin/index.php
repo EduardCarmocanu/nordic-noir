@@ -27,19 +27,10 @@ error_reporting(E_ALL);
 	$CLogin = new Login_controller();
 
 	//checking if user is logged in
-	if(isset($_SESSION['logged'])){
-		if($_SESSION['logged'] === true){
+	if($CLogin->userLogged()){
 			//checking if logout button was pressed
-			if(isset($_POST['logout'])){
-				$CLogin->logout();
-				echo "<meta http-equiv='refresh' content='0'>";				
-			}
-		}
-
-		//including the dashboard VIEW
-		include('views/dashboard.php');
-
-	}else{
+			include('views/dashboard.php');		
+		}else{
 		//checking if the form was posted
 		if(isset($_POST['username']) || isset($_POST['password'])){
 			$username = $_POST['username'];
@@ -69,5 +60,8 @@ error_reporting(E_ALL);
 
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
+
+<script src="views/js/util.js"></script>
+<script src="views/js/dashboard.js"></script>
 </body>
 </html>

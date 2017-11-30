@@ -30,9 +30,22 @@ class Login_controller
         return $error;
     }
 
-    public function logout(){
-        session_destroy();
+
+
+    public function userLogged(){
+        if(isset($_SESSION['logged']) && $_SESSION['logged'] != "No User"){
+            if($_SESSION['logged'] == true){
+                return true;	
+            }else{
+                return false;
+            }
+        }else{
+            return false;
+        }
     }
+
+
+
 }
 
 
