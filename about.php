@@ -30,24 +30,15 @@
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore atque ipsam sequi nam fugit voluptatem accusantium, ut enim, aperiam minus velit non nostrum optio ratione, dolorum totam eligendi earum ducimus?</p>
 			</div>
 			<div class="pa-3 pl-2 text-justify">
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum numquam fugiat, eaque temporibus distinctio dolores, eos dolorum quisquam voluptates accusamus sapiente rerum doloremque tempora asperiores autem commodi velit sint. Et.</p>
+			<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum numquam fugiat, eaque temporibus distinctio dolores, eos dolorum quisquam voluptates accusamus sapiente rerum doloremque tempora asperiores autem commodi velit sint. Et.</p>
 				<br>
 				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus quisquam incidunt odit vitae fugit</p>
 			</div>
 		</section>
 		<section class="separator-image full-width half-view-height mb-3" style="background-color: rgb(40, 40, 40)">
-			<img src="#" alt="separator parallax image">
+			<img src="/assets/2.jpg" alt="separator parallax image">
 		</section>
-		
-		<h1 class="text-center pt-5">MEET OUR GUIDES</h1>
-		<section class="guides flex flex-justify-space-around pa-3">
-			
-			<div class="text-center pa-2 guide">
-				<div class="guide-image-wrapper no-overflow round center">
-					<img src="/assets/amalie.jpeg" alt="guide picture" class="guide-image full-width">
-				</div>
-				<h2 class="pt-3">Amalie</h2>
-				<br>
+		0
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam autem rerum totam illum tempore animi quidem, blanditiis magni, itaque officiis cupiditate odit velit? Vel</p>
 			</div>
 			<div class="text-center pa-2 guide">
