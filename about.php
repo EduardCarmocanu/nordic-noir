@@ -18,20 +18,20 @@
 			<img src="#" alt="separator parallax image">
 		</section>
 
-		<div class="heading pl-5 pt-2">
+		<div class="heading ml-2 pl-5 pt-2">
 			<h1>ABOUT US</h1>
 		</div>
 		<br>
 		<section class="about-section flex flex-jusitify-center pl-4 pr-4">
 			
-			<div class="pa-1">
+			<div class="pa-3 pr-2 text-justify">
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum numquam fugiat, eaque temporibus distinctio dolores, eos dolorum quisquam voluptates accusamus sapiente rerum doloremque tempora asperiores autem commodi velit sint. Et.</p>
 				<br>
 				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus quisquam incidunt odit vitae fugit</p>
 				<br>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore atque ipsam sequi nam fugit voluptatem accusantium, ut enim, aperiam minus velit non nostrum optio ratione, dolorum totam eligendi earum ducimus?</p>
 			</div>
-			<div class="pa-1">
+			<div class="pa-3 pl-2 text-justify">
 				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum numquam fugiat, eaque temporibus distinctio dolores, eos dolorum quisquam voluptates accusamus sapiente rerum doloremque tempora asperiores autem commodi velit sint. Et.</p>
 				<br>
 				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus quisquam incidunt odit vitae fugit</p>
