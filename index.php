@@ -18,7 +18,7 @@
 		<section class="first-section flex flex-column full-view-height full-width has-background" trigger="initial">
 			<div class="pl-5">
 				<h1 class="white main-page-heading pb-3">FROM SCANDINAVIA<br>WITH CRIME</h1>
-				<a href="/tours" class="CTA-btn-white mt-1">BOOK A TOUR</a>	
+				<a href="/tours" class="CTA-btn mt-1"><div>View Tours</div></a>	
 			</div>
 		</section>
 		<section class="second-section has-background text-center pt-4 pb-5" trigger="black">
@@ -29,17 +29,28 @@
 			<h2 class="pt-5">Tours</h2>
 			<section class="tours-cards-section flex flex-justify-center flex-align-center pt-2 pb-4">
 				
-				<section class="pt-4">
+				<section class="pt-4 ">
 					<h4 class="headline">THE KILLING</h4>
+					<br>
+					<h2>299 DKK</h2>
+					<h4>Per Person</h4>
+					<a href="#" class="CTA-btn-tours">View more</a>
 				</section>
-				<section class="special pt-4">
+				<section class="special pt-4 ">
 					<h3 class="headline">BORGEN</h3>
+					<br>
+					<h2>299 DKK</h2>
+					<h4>Per Person</h4>
+					<a href="#" class="CTA-btn-tours">View more</a>
 				</section>
-				<section class="pt-4">
+				<section class="pt-4 ">
 					<h4 class="headline">THE BRIDGE</h4>
+					<br>
+					<h2>299 DKK</h2>
+					<h4>Per Person</h4>
+					<a href="#" class="CTA-btn-tours">View more</a>
 				</section>
 			</section>
-			<a href="/tours" class="CTA-btn-black">View More</a>
 			
 		</section>
 		<section class="third-section pb-3 pt-5 full-width">
