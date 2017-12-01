@@ -6,8 +6,8 @@
 	<div class="tours-modal-content-wrapper flex">
 		<div class="tour-details-wrapper flex flex-column mr-4">
 			<div class="tour-details flex flex-column">
-				<p>Tour description Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic fugit atque fuga rerum rem, quas excepturi iste tempore aliquid impedit minima quod amet aperiam similique velit omnis officia voluptate molestiae.</p><br>
-				<p>Tour description Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic fugit atque fuga rerum rem, quas excepturi iste tempore aliquid impedit minima quod amet aperiam similique velit omnis officia voluptate molestiae.</p>
+				<p>On this tour you will see the locations used in The Killing. Hear stories about the TV series and how Copenhagen has been used as a background to crime.</p><br>
+				<p>You will see some dark corners that you would normaly not find on your own. You will hear the story behind the famous </p>
 			</div>
 			<div class="tour-controls inline-flex text-center flex-align-center ma-2 mt-5 flex-justify-space-between ">
 				<div class="number-of-people">
