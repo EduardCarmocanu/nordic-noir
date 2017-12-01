@@ -1,25 +1,37 @@
-.CTA-btn-white {
-	color: $white;
-	padding: 5px 10px 5px 10px;
-	border: 2px solid $white;
-	font-weight: bold;
+$start: #89253e;
+$end: #e73827;
+.CTA-btn {
+	display: block;
+	color: white;
+	max-width: 240px;
+	padding: 10px 5px 10px 5px;
+	border-radius: 5px;
+	text-align: center;
+	@include gradient();
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 	transition: all 0.2s ease-in-out;
-}
-.CTA-btn-white:hover {
-	background-color: $white;
-	color: $black;
+	div {
+		margin-top: 0 !important;
+	}
+	&:hover {
+		transform: scale(1.1, 1.1);
+	}
 }
 
-
-.CTA-btn-black {
-	color: $black;
+.CTA-btn-tours{
+	display: block;
+	color: white;
+	max-width: 240px;
 	padding: 5px 10px 5px 10px;
-	border: 2px solid $black;
-	font-weight: bold;
+	border-radius: 5px;
+	text-align: center;
+	@include gradient();
+	div {
+		margin-top: 0 !important;
+	}
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
 	transition: all 0.2s ease-in-out;
-}
-
-.CTA-btn-black:hover {
-	background-color: $black;
-	color: $white;
+	&:hover {
+		transform: scale(1.1, 1.1);
+	}
 }
