@@ -2,6 +2,9 @@
 @import 'lib/variables/fonts';
 @import 'lib/variables/colors';
 
+// MIXINS
+@import 'lib/mixins/_CTA-button.scss';
+
 // CSS CLASSES
 @import 'lib/margin';
 @import 'lib/padding';
@@ -89,7 +92,15 @@ nav {
 }
 
 .main-footer {
-	background-color: $black;
+    background-color: $black;
+    img {
+        height: 45px;
+        padding: 10px;
+    }
+    .copyright {
+        font-size: 0.9em;
+        opacity: 0.7
+    }
 }
 .footer-col {
 	width: 33.333%;
