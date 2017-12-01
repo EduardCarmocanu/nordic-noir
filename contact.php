@@ -16,23 +16,30 @@
 	<main class="contact-main">
 		<section class="contact-info full-width has-background white">
 			<div class="contact-info-wrapper pl-5 pt-5 pb-5 full-width full-height">
-				<h1>CONTACT US</h1>
-				<div class="location">
-					<img src="#" alt="">
-					<h3>Ved Vesterport 2<br>1612 København V, Danmark</h3>
+				<div class="contact-details">
+					<h1 class="pb-4">CONTACT US</h1>
+					<div class="location contact-item flex flex-align-center pa-1">
+						<img src="/assets/icons/location-whtie.png" alt="">
+						<h4>Ved Vesterport 2<br>1612 København V, Danmark</h4>
+					</div>
+					<div class="email contact-item flex flex-align-center pa-1">
+						<img src="/assets/icons/mail-white.png" alt="">
+						<h4>info@nordicnoirtours.dk</h4>
+					</div>
+					<div class="phone contact-item flex flex-align-center pa-1">
+						<img src="/assets/icons/telephone-white.png" alt="">
+						<h4>+45 11223344</h4>
+					</div>
 				</div>
-				<div class="email">
-					<img src="#" alt="">
-					<h3>info@nordicnoirtours.dk</h3>
-				</div>
-				<div class="phone">
-					<img src="#" alt="">
-					<h3>+45 11223344</h3>
+				<div class="contact-text pb-3">
+					<br>
+					<p>All our tours start from Vesterport station.</p><br>
+					<p>If you would like to enquire about a group tour, please specify the group size,<br>type of tour and preffered date/time and we will get back to you with the options</p>
 				</div>
 			</div>
 		</section>
 		<section id="map" class="full-width half-view-height"></section>
 	</main>
-
+	
 	<?php include('partials/footer.php'); ?>
 </body>
