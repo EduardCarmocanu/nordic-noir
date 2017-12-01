@@ -15,11 +15,11 @@
 			<h3>FOLLOW US</h3>
 			<br>
 			<div class="flex flex-justify-center">
-				<img src="#" alt="1">
-				<img src="#" alt="2">
-				<img src="#" alt="3">
+				<a href="#"><img src="/assets/icons/facebook-logo.svg" alt="1"></a>
+				<a href="#"><img src="/assets/icons/twitter-logo-silhouette.svg" alt="2"></a>
+				<a href="#"><img src="/assets/icons/instagram-symbol.svg" alt="3"></a>
 			</div>
-			<p>COPYRIGHT 2017 NORDIC NOIR</p>
+			<p class="copyright pt-1">COPYRIGHT 2017 NORDIC NOIR</p>
 		</div>
 		<div class="footer-col text-right">
 			<h3>CONTACT US</h3>
