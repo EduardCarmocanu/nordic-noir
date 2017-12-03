@@ -24,6 +24,7 @@
 @import 'custom/tours';
 @import 'custom/tours-modal';
 @import 'custom/contact';
+@import 'custom/recommendations';
 
 
 *{
@@ -56,40 +57,47 @@ nav {
             color: $black;
             font-weight: 400;
             padding-left: 5vw;
+            .social-media {
+                justify-content: flex-end;
+                width: 100%;
+                div {
+                    margin-right: 10%;
+                    a {
+                        padding: 0 10px 0 10px; 
+                    }
+                }
+            }
             li {
-                border-right: 1px solid $black;
                 padding: 0 20px 0 20px;
                 transition: all 0.1s ease-in-out;
+                img {
+                    height: 25px;
+                }
             }
             li:hover {
                 color: $highlight;
-                border-right: 1px solid $highlight;
-
-            }
-        }
-        
-    }
-    .small-nav {
-        .fa{
-            font-size: 30px;
-            z-index: 11;
-        }
-        .side-bar{
-            top:0;
-            right: 100vw;
-            background: white;
-            z-index: 10;
-            transition: right 0.3s ease-in-out;
-            ul {
-                padding-top: 30%;
-                padding-bottom: 80%;                
-                a {
-                    color: $black;
-                }
             }
         }
     }
 }
+
+.initial {
+    background-color: transparent;
+    ul {
+        a {
+            color: $white !important;
+        }
+    }
+}
+.active {
+    background-color: $white;
+    ul {
+        a {
+            color: $black !important;
+        }
+    }
+}
+
 
 .main-footer {
     background-color: $black;
