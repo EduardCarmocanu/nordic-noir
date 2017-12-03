@@ -15,13 +15,13 @@
 	<?php include('partials/navbar.php'); ?>
 	
 	<main>
-		<section class="first-section flex flex-column full-view-height full-width has-background" trigger="initial">
+		<section class="first-section flex flex-column full-view-height full-width has-background">
 			<div class="pl-5">
 				<h1 class="white main-page-heading pb-3">FROM SCANDINAVIA<br>WITH CRIME</h1>
 				<a href="/tours" class="CTA-btn mt-1"><div>View Tours</div></a>	
 			</div>
 		</section>
-		<section class="second-section has-background text-center pt-4 pb-5" trigger="black">
+		<section class="second-section has-background text-center pt-4 pb-5">
 			<div class="description center">
 				<h2>Who are we?</h2>
 				<p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum praesentium officia veniam ipsa, delectus quas veritatis, eos obcaecati autem laboriosam debitis eaque quisquam reprehenderit adipisci placeat cum. Dolorem, facilis sint?</p>
@@ -93,9 +93,10 @@
 		</section>
 	</main>
 	
+
 	<?php include('partials/footer.php'); ?>
+	<script src="js/nav.js"></script>
 	
-	<!-- Scripts in footer.php -->
 </body>
 
 </html>
