@@ -37,9 +37,11 @@
 					<p>If you would like to enquire about a group tour, please specify the group size,<br>type of tour and preffered date/time and we will get back to you with the options</p>
 				</div>
 			</div>
-		</section>
-		<section id="map" class="full-width half-view-height"></section>
+		</section><section id="map" class="full-width half-view-height"></section>
 	</main>
 	
 	<?php include('partials/footer.php'); ?>
+	
+	<script src="js/map.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBvpawVM7rEGLfuyalskHTc3SPr1_c2QI&callback=initMap"></script>
 </body>
