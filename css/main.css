@@ -378,6 +378,9 @@ h2 {
 .round {
   border-radius: 100%; }
 
+.about-section div {
+  width: 50%; }
+
 .separator-image {
   background-image: url("/assets/2.jpg"); }
 
@@ -506,6 +509,30 @@ h2 {
   .contact-info h3 {
     font-weight: 400; }
 
+.recommendations-header {
+  background-image: url("/assets/thebridge2.jpg");
+  background-position: top;
+  color: white; }
+  .recommendations-header .recommendations-header-wrapper {
+    min-width: 700px;
+    max-width: 45%;
+    text-align: justify;
+    padding-top: 100px;
+    padding-left: 100px;
+    font-weight: 100; }
+    .recommendations-header .recommendations-header-wrapper h1 {
+      font-size: 3.5em; }
+
+.recommendations-list .recommendations-list-wrapper {
+  padding: 50px 200px 50px 200px; }
+  .recommendations-list .recommendations-list-wrapper .recommendation {
+    padding-bottom: 80px; }
+    .recommendations-list .recommendations-list-wrapper .recommendation h2 {
+      color: black;
+      font-family: "Lora", serif; }
+    .recommendations-list .recommendations-list-wrapper .recommendation p {
+      text-align: justify; }
+
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -534,27 +561,30 @@ nav {
     color: #171717;
     font-weight: 400;
     padding-left: 5vw; }
+    nav .big-nav ul .social-media {
+      justify-content: flex-end;
+      width: 100%; }
+      nav .big-nav ul .social-media div {
+        margin-right: 10%; }
+        nav .big-nav ul .social-media div a {
+          padding: 0 10px 0 10px; }
     nav .big-nav ul li {
-      border-right: 1px solid #171717;
       padding: 0 20px 0 20px;
       transition: all 0.1s ease-in-out; }
+      nav .big-nav ul li img {
+        height: 25px; }
     nav .big-nav ul li:hover {
-      color: #e73827;
-      border-right: 1px solid #e73827; }
-  nav .small-nav .fa {
-    font-size: 30px;
-    z-index: 11; }
-  nav .small-nav .side-bar {
-    top: 0;
-    right: 100vw;
-    background: white;
-    z-index: 10;
-    transition: right 0.3s ease-in-out; }
-    nav .small-nav .side-bar ul {
-      padding-top: 30%;
-      padding-bottom: 80%; }
-      nav .small-nav .side-bar ul a {
-        color: #171717; }
+      color: #e73827; }
+
+.initial {
+  background-color: transparent; }
+  .initial ul a {
+    color: #f8f8f8 !important; }
+
+.active {
+  background-color: #f8f8f8; }
+  .active ul a {
+    color: #171717 !important; }
 
 .main-footer {
   background-color: #171717; }
