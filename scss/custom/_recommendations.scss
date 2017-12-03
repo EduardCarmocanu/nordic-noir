@@ -1,0 +1,31 @@
+.recommendations-header {
+	background-image: url('/assets/thebridge2.jpg');
+	background-position: top;
+	color: white;
+	.recommendations-header-wrapper {
+		h1 {
+			font-size: 3.5em;
+		}
+		min-width: 700px;
+		max-width: 45%;
+		text-align: justify;
+		padding-top: 100px;
+		padding-left: 100px;
+		font-weight: 100;
+	}
+}
+.recommendations-list {
+	.recommendations-list-wrapper {
+		padding: 50px 200px 50px 200px;
+		.recommendation {
+			h2 {
+				color: black;
+				font-family: $headline;
+			}
+			p {
+				text-align: justify;
+			}
+			padding-bottom: 80px;
+		}
+	}
+}
