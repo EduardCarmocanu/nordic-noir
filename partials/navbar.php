@@ -1,4 +1,3 @@
-<header>
     <nav class="flex flex-justify-space-around flex-align-center full-view-width">
         <section>
             <figure>
@@ -9,7 +8,7 @@
         </section>
         <section class="bigger big-nav full-width full-height">
             <ul class="navbar-items-wrapper flex">
-            <a href="/"><li>
+                <a href="/"><li>
                     HOME
                 </li></a>
                 <a href="/about.php"><li>
@@ -18,13 +17,19 @@
                 <a href="/tours.php"><li>
                     TOURS
                 </li></a>
-                <a href="/recommandations.php"><li>
-                    RECOMMANDATIONS
+                <a href="/recommendations.php"><li>
+                    RECOMMENDATIONS
                 </li></a>
                 <a href="/contact.php"><li>
                     CONTACT
                 </li></a>
+                <li class="flex social-media">
+                    <div>
+                        <a href="#"><img src="/assets/icons/facebook-logo.svg" alt="1"></a>
+                        <a href="#"><img src="/assets/icons/twitter-logo-silhouette.svg" alt="2"></a>
+                        <a href="#"><img src="/assets/icons/instagram-symbol.svg" alt="3"></a>
+                    </div>
+                </li>
             </ul>
         </section>
     </nav>
-</header>
