@@ -24,7 +24,7 @@
 		<section class="second-section has-background text-center pt-4 pb-5">
 			<div class="description center">
 				<h2>Who are we?</h2>
-				<p class="pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum praesentium officia veniam ipsa, delectus quas veritatis, eos obcaecati autem laboriosam debitis eaque quisquam reprehenderit adipisci placeat cum. Dolorem, facilis sint?</p>
+				<p class="pt-2">We offer tours based on the popular Scandinavian crime series Borge, The Bridge and the Killing. With Nordic Noir Tours you have the opportunity to explore the locations where the crime misteries took place. <br>Take part in the adventure and join our tours.</p>
 			</div>
 			<h2 class="pt-5">Tours</h2>
 			<section class="tours-cards-section flex flex-justify-center flex-align-center pt-2 pb-4">
@@ -32,21 +32,21 @@
 				<section class="pt-4 ">
 					<h4 class="headline">THE KILLING</h4>
 					<br>
-					<h2>299 DKK</h2>
+					<h2>200 DKK</h2>
 					<h4>Per Person</h4>
 					<a href="#" class="CTA-btn-tours">View more</a>
 				</section>
 				<section class="special pt-4 ">
 					<h3 class="headline">BORGEN</h3>
 					<br>
-					<h2>299 DKK</h2>
+					<h2>200 DKK</h2>
 					<h4>Per Person</h4>
 					<a href="#" class="CTA-btn-tours">View more</a>
 				</section>
 				<section class="pt-4 ">
 					<h4 class="headline">THE BRIDGE</h4>
 					<br>
-					<h2>299 DKK</h2>
+					<h2>300 DKK</h2>
 					<h4>Per Person</h4>
 					<a href="#" class="CTA-btn-tours">View more</a>
 				</section>
