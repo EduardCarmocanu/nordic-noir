@@ -44,6 +44,20 @@ class Login_controller
         }
     }
 
+    public function logout(){
+        session_destroy();
+        $this->checkIfHeaders("/admin");   
+    }
+
+    public function checkIfHeaders($place){
+        if (headers_sent()){
+            die('<script type="text/javascript">window.location.href="'.$place.'";</script>');
+        }else{
+            header('Location:/admin');
+            die();
+        }   
+    }
+
 
 
 }

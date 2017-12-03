@@ -58,6 +58,33 @@ class Dashboard_controller
 
     
 
+    public function alerter($x){
+        $printer = '<div class="alerter">';
+        foreach ($x as $key => $item) {
+            $p = '<p>'.$key.' = '.$item;
+            $printer .= $p;
+        }
 
+        $printer .= '</div>';
+        echo $printer;
+    }
+
+
+
+    public function singleAlert($x){
+        echo '<div class="alerter"><p>'.$x.'</p></div>';
+    }
+
+
+    public function generateRandomString($length = 10) {
+        $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $charactersLength = strlen($characters);
+        $randomString = '';
+        for ($i = 0; $i < $length; $i++) {
+            $randomString .= $characters[rand(0, $charactersLength - 1)];
+        }
+        return $randomString;
+    }
+    
 
 }
