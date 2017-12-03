@@ -14,25 +14,15 @@
 	<?php include('partials/navbar.php'); ?>
 	
 	<main>
-		
-		
 		<div class="heading ml-2 pl-5 pt-2">
 			<h1>ABOUT US</h1>
 		</div>
-		<br>
 		<section class="about-section flex flex-jusitify-center pl-4 pr-4">
-			
-			<div class="pa-3 pr-2 text-justify">
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum numquam fugiat, eaque temporibus distinctio dolores, eos dolorum quisquam voluptates accusamus sapiente rerum doloremque tempora asperiores autem commodi velit sint. Et.</p>
-				<br>
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus quisquam incidunt odit vitae fugit</p>
-				<br>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore atque ipsam sequi nam fugit voluptatem accusantium, ut enim, aperiam minus velit non nostrum optio ratione, dolorum totam eligendi earum ducimus?</p>
+			<div class="pa-3 pr-2">
+				<p>In July 2016, Nordic Noir Tours was integrated into www.nordic-insite.com. as one of many tours and services offered by our incoming agency.<br><br>Nordic Noir Tours is now managed by Christine Bordin, founder of NORDIC INSITE, Thank must go to Lise Lotte Frederiksen, the original creator of these tours and to Dieuwertje, without whom Nordic Noir Tours would not have existed.<br><br>Many thanks also to all the visitors, contributions and Scandifans that regulary send their comments. Pictures and articles to share our fandom around the Nordic Noir series</p>
 			</div>
-			<div class="pa-3 pl-2 text-justify">
-				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum numquam fugiat, eaque temporibus distinctio dolores, eos dolorum quisquam voluptates accusamus sapiente rerum doloremque tempora asperiores autem commodi velit sint. Et.</p>
-				<br>
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus quisquam incidunt odit vitae fugit</p>
+			<div class="pa-3 pl-2">
+				<p>We offer tours through Copenhagen and Malmo, based on the crime series The killing Borgen and The Bridge<br><br>vThe name Nordic Noir refers to the dark crime fiction genre, also known as Scandinoir or Scandicrime<br><br>These bleak, slow developing and character focused tv series are exactly what the Nordic countries do best. Now this unique genre has gained worldwide fan base through the years. Nordic Noir Tours was founded in the spring of 2014 by Dieuwetje Visser.</p>
 			</div>
 		</section>
 		<section class="separator-image full-width half-view-height mb-3 no-overflow has-background"></section>
@@ -43,7 +33,7 @@
 				</div>
 				<h2 class="pt-3">Amalie</h2>
 				<br>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam autem rerum totam illum tempore animi quidem, blanditiis magni, itaque officiis cupiditate odit velit? Vel</p>
+				<p>Amalie is our local tour guide from Copenhagen who lived in Germany for several years. She has great ambition to improve tourism in Denmark.</p>
 			</div>
 			<div class="text-center pa-2 guide">
 				<div class="guide-image-wrapper no-overflow round center">
@@ -51,7 +41,7 @@
 				</div>
 				<h2 class="pt-3">Christine</h2>
 				<br>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam autem rerum totam illum tempore animi quidem, blanditiis magni, itaque officiis cupiditate odit velit? Vel</p>
+				<p>Christine is from France and has been living in Denmark since 1996. She is the owner of Nordic Noir Tours, and when time allows she does what she enjoys the most, guiding tours.</p>
 			</div>
 			<div class="text-center pa-2 guide">
 				<div class="guide-image-wrapper no-overflow round center">
@@ -59,7 +49,7 @@
 				</div>
 				<h2 class="pt-3">Hanna</h2>
 				<br>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam autem rerum totam illum tempore animi quidem, blanditiis magni, itaque officiis cupiditate odit velit? Vel</p>
+				<p>Hanna is the newest addition to our team. She is not only a passionate Nordic Noir fan and a Denmark-enthusiast, she is also an educated expert in the field!</p>
 			</div>
 		</section>
 	</main>
