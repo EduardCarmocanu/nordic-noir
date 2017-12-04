@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         xhr.open('GET', 'dataResponse.php', true);
         xhr.send();
     }
-    var toursData = getToursData();
+    // var toursData = getToursData();
     
     var modalActive = false;
     function toggleTour () {
