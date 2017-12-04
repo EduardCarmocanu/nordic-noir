@@ -4,3 +4,7 @@ function $(selector) {
 	}
 	return document.querySelectorAll(selector);
 }
+
+function log(data) {
+	console.log(data);
+}
