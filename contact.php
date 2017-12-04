@@ -26,10 +26,6 @@
 						<img src="/assets/icons/mail-white.png" alt="">
 						<h4>info@nordicnoirtours.dk</h4>
 					</div>
-					<div class="phone contact-item flex flex-align-center pa-1">
-						<img src="/assets/icons/telephone-white.png" alt="">
-						<h4>+45 11223344</h4>
-					</div>
 				</div>
 				<div class="contact-text pb-3">
 					<br>
@@ -41,7 +37,7 @@
 	</main>
 	
 	<?php include('partials/footer.php'); ?>
-	
 	<script src="js/map.js"></script>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBvpawVM7rEGLfuyalskHTc3SPr1_c2QI&callback=initMap"></script>
+	
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBvpawVM7rEGLfuyalskHTc3SPr1_c2QI&callback=initMap"></script>	
 </body>
