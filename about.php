@@ -22,14 +22,14 @@
 				<p>In July 2016, Nordic Noir Tours was integrated into www.nordic-insite.com. as one of many tours and services offered by our incoming agency.<br><br>Nordic Noir Tours is now managed by Christine Bordin, founder of NORDIC INSITE, Thank must go to Lise Lotte Frederiksen, the original creator of these tours and to Dieuwertje, without whom Nordic Noir Tours would not have existed.<br><br>Many thanks also to all the visitors, contributions and Scandifans that regulary send their comments. Pictures and articles to share our fandom around the Nordic Noir series</p>
 			</div>
 			<div class="pa-3 pl-2">
-				<p>We offer tours through Copenhagen and Malmo, based on the crime series The killing Borgen and The Bridge<br><br>vThe name Nordic Noir refers to the dark crime fiction genre, also known as Scandinoir or Scandicrime<br><br>These bleak, slow developing and character focused tv series are exactly what the Nordic countries do best. Now this unique genre has gained worldwide fan base through the years. Nordic Noir Tours was founded in the spring of 2014 by Dieuwetje Visser.</p>
+				<p>We offer tours through Copenhagen and Malmo, based on the crime series The killing Borgen and The Bridge<br><br>The name Nordic Noir refers to the dark crime fiction genre, also known as Scandinoir or Scandicrime<br><br>These bleak, slow developing and character focused tv series are exactly what the Nordic countries do best. Now this unique genre has gained worldwide fan base through the years. Nordic Noir Tours was founded in the spring of 2014 by Dieuwetje Visser.</p>
 			</div>
 		</section>
 		<section class="separator-image full-width half-view-height mb-3 no-overflow has-background"></section>
 		<section class="guides flex">
 			<div class="text-center pa-2 guide">
 				<div class="guide-image-wrapper no-overflow round center">
-					<img src="/assets/amalie.jpeg" alt="guide picture" class="guide-image full-width">
+					<img src="/assets/amalie.png" alt="guide picture" class="guide-image full-width">
 				</div>
 				<h2 class="pt-3">Amalie</h2>
 				<br>
@@ -37,7 +37,7 @@
 			</div>
 			<div class="text-center pa-2 guide">
 				<div class="guide-image-wrapper no-overflow round center">
-					<img src="/assets/christine.jpg" alt="guide picture" class="guide-image full-width">
+					<img src="/assets/christine-profile.png" alt="guide picture" class="guide-image full-width">
 				</div>
 				<h2 class="pt-3">Christine</h2>
 				<br>
@@ -45,7 +45,7 @@
 			</div>
 			<div class="text-center pa-2 guide">
 				<div class="guide-image-wrapper no-overflow round center">
-					<img src="/assets/hanna.jpg" alt="guide picture" class="guide-image full-width">
+					<img src="/assets/hanna.png" alt="guide picture" class="guide-image full-width">
 				</div>
 				<h2 class="pt-3">Hanna</h2>
 				<br>
