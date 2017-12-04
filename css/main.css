@@ -382,7 +382,7 @@ h2 {
   width: 50%; }
 
 .separator-image {
-  background-image: url("/assets/2.jpg"); }
+  background-image: url("/assets/about-privatetours.jpg"); }
 
 .guides .guide {
   width: 33.33333%; }
@@ -405,16 +405,20 @@ h2 {
   .second-section .description {
     max-width: 70%; }
   .second-section .tours-cards-section section {
-    width: 200px;
-    height: 260px;
+    width: 230px;
+    height: 360px;
     margin: 30px 20px 0px 20px;
     background: white;
     border: 1px solid lightgray;
     cursor: pointer;
     transition: all 0.2s ease-in-out; }
+    .second-section .tours-cards-section section .price {
+      color: #e73827;
+      font-weight: 800; }
     .second-section .tours-cards-section section a {
       display: block;
-      margin: 40px; }
+      margin: 40px;
+      margin-top: 20px; }
     .second-section .tours-cards-section section:hover {
       transform: scale(1.1, 1.1);
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -448,7 +452,7 @@ h2 {
   background-image: url("/assets/borgen2.jpg"); }
 
 #tour-4 {
-  background-image: url("/assets/privatetours4.png"); }
+  background-image: url("/assets/about-privatetours.jpg"); }
 
 #tour-1,
 #tour-2,
@@ -480,11 +484,11 @@ h2 {
     padding: 10px;
     cursor: pointer; }
   #tours-modal .fa:hover {
-    color: lightblue; }
+    color: #e73827; }
   #tours-modal .active {
     display: block !important; }
   #tours-modal .tours-modal-content-wrapper {
-    max-height: 58vh;
+    max-height: 70vh;
     overflow: hidden;
     width: 100%; }
     #tours-modal .tours-modal-content-wrapper .tour-details-wrapper {
@@ -575,6 +579,21 @@ nav {
         height: 25px; }
     nav .big-nav ul li:hover {
       color: #e73827; }
+  nav .social-media div {
+    display: flex; }
+    nav .social-media div a {
+      margin: 0 10px 0 10px;
+      height: 25px;
+      width: 25px;
+      display: block;
+      background-position: center center;
+      background-size: cover; }
+    nav .social-media div .facebook {
+      background-image: url("/assets/icons/facebook-logo.svg"); }
+    nav .social-media div .twitter {
+      background-image: url("/assets/icons/twitter-logo-silhouette.svg"); }
+    nav .social-media div .instagram {
+      background-image: url("/assets/icons/instagram-symbol.svg"); }
 
 .initial {
   background-color: transparent; }
@@ -585,6 +604,12 @@ nav {
   background-color: #f8f8f8; }
   .active ul a {
     color: #171717 !important; }
+  .active ul .facebook {
+    background-image: url("/assets/icons/facebook-logo.svg") !important; }
+  .active ul .twitter {
+    background-image: url("/assets/icons/twitter-logo-silhouette.svg") !important; }
+  .active ul .instagram {
+    background-image: url("/assets/icons/instagram-symbol.svg") !important; }
 
 .main-footer {
   background-color: #171717; }

@@ -21,7 +21,7 @@
 				<a href="/tours" class="CTA-btn mt-1"><div>View Tours</div></a>	
 			</div>
 		</section>
-		<section class="second-section has-background text-center pt-4 pb-5">
+		<section class="second-section has-background text-center pt-4 pb-5" trigger>
 			<div class="description center">
 				<h2>Who are we?</h2>
 				<p class="pt-2">We offer tours based on the popular Scandinavian crime series Borge, The Bridge and the Killing. With Nordic Noir Tours you have the opportunity to explore the locations where the crime misteries took place. <br>Take part in the adventure and join our tours.</p>
@@ -32,22 +32,40 @@
 				<section class="pt-4 ">
 					<h4 class="headline">THE KILLING</h4>
 					<br>
-					<h2>200 DKK</h2>
+					<h2 class="price">200 DKK</h2>
 					<h4>Per Person</h4>
+					<br>
+					<h6>*if 6 or more in a group</h6>
+					<br>
+					<br>
+					<h5>Early Reservation<br>
+					Discunt</h5>
 					<a href="#" class="CTA-btn-tours">View more</a>
 				</section>
 				<section class="special pt-4 ">
 					<h3 class="headline">BORGEN</h3>
 					<br>
-					<h2>200 DKK</h2>
+					<h2 class="price">200 DKK</h2>
 					<h4>Per Person</h4>
+					<br>
+					<h6>*if 6 or more in a group</h6>
+					<br>
+					<br>
+					<h5>Early Reservation<br>
+					Discunt</h5>
 					<a href="#" class="CTA-btn-tours">View more</a>
 				</section>
 				<section class="pt-4 ">
 					<h4 class="headline">THE BRIDGE</h4>
 					<br>
-					<h2>300 DKK</h2>
+					<h2 class="price">300 DKK</h2>
 					<h4>Per Person</h4>
+					<br>
+					<h6>*Booking and<br>prepayment required</h6>
+					<br>
+					<br>
+					<h5>Early Reservation<br>
+					Discunt</h5>
 					<a href="#" class="CTA-btn-tours">View more</a>
 				</section>
 			</section>

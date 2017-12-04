@@ -6,8 +6,7 @@
 	<div class="tours-modal-content-wrapper flex">
 		<div class="tour-details-wrapper flex flex-column mr-4">
 			<div class="tour-details flex flex-column">
-				<p>On this tour you will see the locations used in The Killing. Hear stories about the TV series and how Copenhagen has been used as a background to crime.</p><br>
-				<p>You will see some dark corners that you would normaly not find on your own. You will hear the story behind the famous </p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum aliquid nam fugit repellat, voluptas rerum, molestiae veniam impedit aperiam obcaecati vitae suscipit voluptatum vero aut ex. Possimus mollitia soluta officiis Lorem ipsum dolor sit amet<br><br> consectetur adipisicing elit. Dolore temporibus consectetur cum molestiae nostrum eligendi eius voluptate, <br><br>reiciendis dolores labore sapiente ab in hic explicabo sint sunt, error delectus assumenda? Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat numquam animi nobis doloribus qui iure, omnis modi aliquid ratione, eum vitae iusto minus quos. Doloremque a earum nulla odio voluptates?</p>
 			</div>
 			<div class="tour-controls inline-flex text-center flex-align-center ma-2 mt-5 flex-justify-space-between ">
 				<div class="number-of-people">
@@ -30,7 +29,7 @@
 					
 				</div>
 				<div class="book-tours">
-					<a href="#" class="CTA-btn-black">BOOK A TOUR</a>
+					<a href="#" class="CTA-btn-black CTA-btn">BOOK A TOUR</a>
 				</div>
 			</div>
 			<div>

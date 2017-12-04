@@ -1,26 +1,36 @@
-function setNavigationBar() {
-	if (window.pageYOffset > triggerPoint.offsetTop) {
-		$('nav')[0].style.backgroundColor = '#f8f8f8';
+'use strict';
+
+var socialIconsSrcs = {
+	black: [
+		'/assets/icons/facebook-logo.svgasd',
+		'/assets/icons/twitter-logo-silhouette.svgasd',
+		'/assets/icons/instagram-symbol.svgasd'
+	],
+	white: [
+		'/assets/icons/facebook-logo.svg',
+		'/assets/icons/twitter-logo-silhouette.svg',
+		'/assets/icons/instagram-symbol.svg'
+	]
+};
+var triggerPoint = $('section[trigger]')[0];
+
+function setIcons(srcSet) {
+	for (var i = 0; i < socialIconsSrcs.length; i++) {
+		console.log($('.nav-icon')[0].src);
+		$('.nav-icon')[i].style.backgroundImage = "url('" + srcSet[i] + "')";
 	}
 }
-
-var triggerPoints = $('*[trigger]');
-var nav = $('nav')[0];
-
 function setNavigationBar() {
-	for (var i = 0; i < triggerPoints.length; i++) {
-		if (window.pageYOffset > triggerPoints[i].offsetTop) {
-			// Sets the value of the trigger attribute to the background color
-			nav.style.backgroundColor = triggerPoints[i].getAttribute('trigger');
-			for (var x = 0; x < $('nav ul li').length; x++) {
-				$('nav ul a')[x].style.color = 'black';
-			}
-		}
-		else {
-			for (var x = 0; x < $('nav ul li').length; x++) {
-				$('nav ul a')[x].style.color = 'white';
-			}
-		}
+	
+	if (window.pageYOffset > triggerPoint.offsetTop - 50) {
+		$('nav')[0].classList.add('active');
+		$('nav')[0].classList.remove('initial');
+		setIcons(socialIconsSrcs.black);
+	}
+	else {
+		$('nav')[0].classList.remove('active');
+		$('nav')[0].classList.add('initial');
+		setIcons(socialIconsSrcs.white);
 	}
 }
 window.addEventListener('scroll', setNavigationBar);

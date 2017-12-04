@@ -25,9 +25,9 @@
                 </li></a>
                 <li class="flex social-media">
                     <div>
-                        <a href="#"><img src="/assets/icons/facebook-logo.svg" alt="1"></a>
-                        <a href="#"><img src="/assets/icons/twitter-logo-silhouette.svg" alt="2"></a>
-                        <a href="#"><img src="/assets/icons/instagram-symbol.svg" alt="3"></a>
+                        <a href="#" class="nav-icon facebook"></a>
+                        <a href="#" class="nav-icon twitter"></a>
+                        <a href="#" class="nav-icon instagram"></a>
                     </div>
                 </li>
             </ul>

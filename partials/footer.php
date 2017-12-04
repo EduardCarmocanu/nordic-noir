@@ -35,4 +35,3 @@
 </footer>
 
 <script src="js/util.js"></script>
-<script src="js/main.js"></script>

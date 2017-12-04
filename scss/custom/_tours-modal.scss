@@ -5,7 +5,7 @@
 		cursor: pointer;
 	}
 	.fa:hover {
-		color: lightblue;
+		color: $highlight;
 	}
 	.active {
 		display: block !important;
@@ -15,9 +15,8 @@
 	width: 80%;
 	background-color: $white;
 	top: 100px;
-	
 	.tours-modal-content-wrapper {
-		max-height: 58vh;
+		max-height: 70vh;
 		overflow: hidden;
 		width: 100%;
 		.tour-details-wrapper {

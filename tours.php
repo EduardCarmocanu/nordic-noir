@@ -38,5 +38,6 @@
 	</main>
 	
 	<?php include('partials/footer.php'); ?>
+	<script src="js/tours.js"></script>
 </body>
 </html>

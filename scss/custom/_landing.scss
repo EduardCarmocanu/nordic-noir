@@ -20,16 +20,21 @@
     }
     .tours-cards-section{
         section{
-            width: 200px;
-            height: 260px;
+            width: 230px;
+            height: 360px;
             margin: 30px 20px 0px 20px;
             background:white;
             border: 1px solid lightgray;
             cursor: pointer;
             transition: all 0.2s ease-in-out;
+            .price {
+                color: $highlight;
+                font-weight: 800;
+            }
             a {
                 display: block;
                 margin: 40px;
+                margin-top: 20px;
             }
             &:hover {
                 transform: scale(1.1, 1.1);
