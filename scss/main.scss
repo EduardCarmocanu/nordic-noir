@@ -91,16 +91,15 @@ nav {
                 background-size: cover;
             }
             .facebook {            
-                background-image: url('/assets/icons/facebook-logo.svg');
+                background-image: url('/assets/icons/facebook-logo-black.png');
             }
             .twitter {
-                background-image: url('/assets/icons/twitter-logo-silhouette.svg');
+                background-image: url('/assets/icons/twitter-logo-silhouette-black.png');
             }
             .instagram {
-                background-image: url('/assets/icons/instagram-symbol.svg');
+                background-image: url('/assets/icons/instagram-symbol-black.png');
             }
-        }
-        
+        }   
     }
 }
 
@@ -111,6 +110,15 @@ nav {
             color: $white !important;
         }
     }
+    .facebook {            
+        background-image: url('/assets/icons/facebook-logo-white.png') !important;
+    }
+    .twitter {
+        background-image: url('/assets/icons/twitter-logo-silhouette-white.png') !important;
+    }
+    .instagram {
+        background-image: url('/assets/icons/instagram-symbol-white.png') !important;
+    }
 }
 .active {
     background-color: $white;
@@ -119,13 +127,13 @@ nav {
             color: $black !important;
         }
             .facebook {            
-                background-image: url('/assets/icons/facebook-logo.svg') !important;
+                background-image: url('/assets/icons/facebook-logo-black.png') !important;
             }
             .twitter {
-                background-image: url('/assets/icons/twitter-logo-silhouette.svg') !important;
+                background-image: url('/assets/icons/twitter-logo-silhouette-black.png') !important;
             }
             .instagram {
-                background-image: url('/assets/icons/instagram-symbol.svg') !important;
+                background-image: url('/assets/icons/instagram-symbol-black.png') !important;
             }
     }
 }
