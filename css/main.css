@@ -260,6 +260,12 @@ h2 {
 .h-font {
   font-family: "Lora", serif; }
 
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+/* Medium Devices, Desktops */
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
 .no-overflow {
   overflow: hidden; }
 
@@ -633,5 +639,42 @@ nav {
 .footer-content-wrapper {
   width: 80vw;
   color: #f8f8f8; }
+
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .dp-big {
+    display: block; }
+
+  .dp-sm {
+    display: none; } }
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .dp-big {
+    display: block; }
+
+  .dp-sm {
+    display: none; } }
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .dp-big {
+    display: none; }
+
+  .dp-sm {
+    display: block; } }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .dp-big {
+    display: none; }
+
+  .dp-sm {
+    display: block; } }
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .dp-big {
+    display: none; }
+
+  .dp-sm {
+    display: block; } }
 
 /*# sourceMappingURL=main.css.map */

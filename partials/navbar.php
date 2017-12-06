@@ -6,7 +6,7 @@
                 </a>
             </figure>
         </section>
-        <section class="bigger big-nav full-width full-height">
+        <section class="bigger big-nav full-width full-height dp-big">
             <ul class="navbar-items-wrapper flex">
                 <a href="/"><li>
                     HOME
@@ -31,5 +31,8 @@
                     </div>
                 </li>
             </ul>
+        </section>
+        <section class="dp-sm">
+        jhgjhg
         </section>
     </nav>

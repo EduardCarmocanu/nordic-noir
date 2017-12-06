@@ -45,7 +45,7 @@ ul {
 }
 nav {
     top:0;
-    left:0; 
+    left:0;
     z-index: 9999;
     transition: all 0.1s ease-in-out;
     background-color: $white;
@@ -157,3 +157,57 @@ nav {
 	width: 80vw;
 	color: $white;
 }
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+        .dp-big{
+            display: block;
+        }
+        .dp-sm{
+            display: none;
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+        .dp-big{
+            display: block;
+        }
+        .dp-sm{
+            display: none;
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+        .dp-big{
+            display: none;
+        }
+        .dp-sm{
+            display: block;
+        }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+        .dp-big{
+            display: none;
+        }
+        .dp-sm{
+            display: block;
+        }
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        .dp-big{
+            display: none;
+        }
+        .dp-sm{
+            display: block;
+        }
+    }
