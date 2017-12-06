@@ -25,6 +25,17 @@ class QueryBuilder
 	}
 
 	public function insert_into_tours($data){
+
+
+		//$this->singleAlert($data->image_url);
+		if($data->image_url != $data->old_image_url){
+			$this->singleAlert($data->image_url);						
+			unlink($data->old_image_url);
+		}
+		if($data->thumbnail_url != $data->old_thumbnail_url){
+			unlink($data->old_thumbnail_url);
+			$this->singleAlert("LALALA");
+		}
 		$userID = $_SESSION['logged']['id'];
 		$date = date("Y-m-d");
 		$statement = $this->pdo->prepare("UPDATE `Tours` SET `user_id`=$userID, `title`='$data->title', `content`='$data->content', `image_url`='$data->image_url', `thumbnail_url`='$data->thumbnail_url', `price`=$data->price, `aditional_info`='$data->aditional', `state`=$data->state, `date_altered`= '$date' WHERE `id`=$data->id");
@@ -43,6 +54,10 @@ class QueryBuilder
 		$statement->execute();
 	}
 
+
+	public function singleAlert($x){
+        echo '<div class="alerter"><p>'.$x.'</p></div>';
+    }
 	
 	
 	
