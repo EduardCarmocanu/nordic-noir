@@ -25,9 +25,10 @@
                 </li></a>
                 <li class="flex social-media">
                     <div>
-                        <a href="https://www.facebook.com/NordicNoirTours" class="nav-icon facebook"></a>
-                        <a href="https://twitter.com/NordicNoirTours" class="nav-icon twitter"></a>
-                        <a href="https://www.instagram.com/nordicnoirtours/" class="nav-icon instagram"></a>
+                        <a href="https://www.tripadvisor.com/Attraction_Review-g189541-d7055048-Reviews-Nordic_Noir_Tours-Copenhagen_Zealand.html" class="nav-icon tripadvisor" target="_blank"></a>
+                        <a href="https://www.facebook.com/NordicNoirTours" class="nav-icon facebook" target="_blank"></a>
+                        <a href="https://twitter.com/NordicNoirTours" class="nav-icon twitter" target="_blank"></a>
+                        <a href="https://www.instagram.com/nordicnoirtours/" class="nav-icon instagram" target="_blank"></a>
                     </div>
                 </li>
             </ul>
