@@ -1,9 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Lora";
-<<<<<<< HEAD
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,600,700";
-=======
-@import "https://fonts.googleapis.com/css?family=Poppins:200,300,400,600";
->>>>>>> baldur
 .white {
   color: #f8f8f8; }
 
@@ -465,6 +461,7 @@ h2 {
   background-position: center; }
 
 .tour-wrapper {
+  height: calc(25vh - (60px)/ 4);
   cursor: pointer; }
   .tour-wrapper .tour-content-wrapper {
     background-color: rgba(0, 0, 0, 0.8);

@@ -25,9 +25,9 @@
                 </li></a>
                 <li class="flex social-media">
                     <div>
-                        <a href="https://www.facebook.com/NordicNoirTours" class="nav-icon facebook"></a>
-                        <a href="https://twitter.com/NordicNoirTours" class="nav-icon twitter"></a>
-                        <a href="https://www.instagram.com/nordicnoirtours/" class="nav-icon instagram"></a>
+                        <a target="_blank" href="https://www.facebook.com/NordicNoirTours" class="nav-icon facebook"></a>
+                        <a target="_blank" href="https://twitter.com/NordicNoirTours" class="nav-icon twitter"></a>
+                        <a target="_blank" href="https://www.instagram.com/nordicnoirtours/" class="nav-icon instagram"></a>
                     </div>
                 </li>
             </ul>

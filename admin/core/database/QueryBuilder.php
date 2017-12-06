@@ -25,8 +25,6 @@ class QueryBuilder
 	}
 
 	public function insert_into_tours($data){
-
-
 		//$this->singleAlert($data->image_url);
 		if($data->image_url != $data->old_image_url){
 			$this->singleAlert($data->image_url);						
