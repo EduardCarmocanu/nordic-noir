@@ -11,16 +11,16 @@
                 <a href="/"><li>
                     HOME
                 </li></a>
-                <a href="/about.php"><li>
+                <a href="about.php"><li>
                     ABOUT
                 </li></a>
-                <a href="/tours.php"><li>
+                <a href="tours.php"><li>
                     TOURS
                 </li></a>
-                <a href="/recommendations.php"><li>
+                <a href="recommendations.php"><li>
                     RECOMMENDATIONS
                 </li></a>
-                <a href="/contact.php"><li>
+                <a href="contact.php"><li>
                     CONTACT
                 </li></a>
                 <li class="flex social-media">
