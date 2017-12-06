@@ -461,7 +461,8 @@ h2 {
   background-position: center; }
 
 .tour-wrapper {
-  cursor: pointer; }
+  cursor: pointer;
+  height: calc(25vh - (60px) / 4); }
   .tour-wrapper .tour-content-wrapper {
     background-color: rgba(0, 0, 0, 0.8);
     transition: all 0.4s ease-in-out;
@@ -510,6 +511,8 @@ h2 {
       .contact-info .contact-info-wrapper .contact-item img {
         height: 40px;
         padding-right: 20px; }
+    .contact-info .contact-info-wrapper .contact-text {
+      width: 40%; }
   .contact-info h3 {
     font-weight: 400; }
 
@@ -536,6 +539,17 @@ h2 {
       font-family: "Lora", serif; }
     .recommendations-list .recommendations-list-wrapper .recommendation p {
       text-align: justify; }
+
+.faq-container {
+  width: 70%;
+  overflow: hidden; }
+  .faq-container .question-active {
+    height: 100% !important; }
+  .faq-container .question {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    height: 50px; }
 
 * {
   box-sizing: border-box;
@@ -583,11 +597,14 @@ nav {
     display: flex; }
     nav .social-media div a {
       margin: 0 10px 0 10px;
-      height: 25px;
+      height: 27px;
       width: 25px;
       display: block;
       background-position: center center;
       background-size: cover; }
+    nav .social-media div .tripadvisor {
+      background-image: url("/assets/icons/tripadvisor-black.png");
+      width: 45px; }
     nav .social-media div .facebook {
       background-image: url("/assets/icons/facebook-logo-black.png"); }
     nav .social-media div .twitter {
@@ -599,6 +616,8 @@ nav {
   background-color: transparent; }
   .initial ul a {
     color: #f8f8f8 !important; }
+  .initial .tripadvisor {
+    background-image: url("/assets/icons/tripadvisor-white.png") !important; }
   .initial .facebook {
     background-image: url("/assets/icons/facebook-logo-white.png") !important; }
   .initial .twitter {
