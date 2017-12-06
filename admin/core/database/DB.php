@@ -6,7 +6,7 @@ class DB
 	{
 		
 		$host = "localhost";
-		$db = "nordicNoir";
+		$db = "nordic";
 		$user = "root";
 		$password = "root";
 		
