@@ -11,10 +11,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 return JSON.parse(this.responseText)
             }
         }
-        xhr.open('GET', 'dataResponse.php', true);
+        xhr.open('GET', '/admin/controllers/tours_data_controller.php', true);
         xhr.send();
     }
-    // var toursData = getToursData();
+    var toursData = getToursData();
+    log(toursData);
     
     var modalActive = false;
     function toggleTour () {
