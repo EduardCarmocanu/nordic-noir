@@ -14,9 +14,9 @@
 						<p>Number of people</p>
 					</div>
 					<div class="flex flex-justify-space-between">
-						<h2><i class="fa fa-angle-left" aria-hidden="true"></i></h2>
+						<h2 id="decrement"><i class="fa fa-angle-left" aria-hidden="true"></i></h2>
 						<h2 class="paragraph" id="number-of-people">1</h2>
-						<h2><i class="fa fa-angle-right" aria-hidden="true"></i></h2>
+						<h2 id="increment"><i class="fa fa-angle-right" aria-hidden="true"></i></h2>
 					</div>
 				</div>
 				<div class="total-price">
