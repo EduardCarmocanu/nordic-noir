@@ -14,16 +14,37 @@ document.addEventListener("DOMContentLoaded", function() {
         if (this.readyState == 4 && this.status == 200) {
             
             toursData = JSON.parse(this.responseText);
-            console.log(toursData);
+            setUpTours();
             
         }
     }
     xhttp.open('GET', '/admin/controllers/tours_data_controller.php', true);
     xhttp.send();
     
-    
-    
-    
+
+    function setUpTours() {
+        var tours = $('.tour');
+        var tourNames = $('.tour-name');
+
+        for(var i = 0; i < tours.length; i++) {
+            tours[i].addEventListener('click', openTour);
+
+            if (toursData[i] && toursData[i].hasOwnProperty('image_url')) {
+                toursData[i].image_url = toursData[i].image_url.replace('../', "");
+                tours[i].style.backgroundImage = "url(" + toursData[i].image_url + ")"
+                tourNames[i].innerHTML = toursData[i].title;
+            }
+            
+            
+        }
+        
+        $('#close-modal').addEventListener('click', function () {
+            $('#tours-modal').style.display = "none";
+        });
+        $('#decrement').addEventListener('click', decrement);
+        $('#increment').addEventListener('click', increment);
+    }
+
     function openTour (el) {
         
         tour = toursData[parseInt(el.target.getAttribute('id'))];
@@ -34,7 +55,6 @@ document.addEventListener("DOMContentLoaded", function() {
         tour.aditional_info = tour.aditional_info.replace(/(\n)+/g, '<br />');
         tour.thumbnail_url = tour.thumbnail_url.replace('../', '');
         
-        
         $('#tour-content p').innerHTML = tour.content;
         $('#tour-title').innerHTML = tour.title;
         $('#additional-info h6').innerHTML = tour.aditional_info;
@@ -42,11 +62,8 @@ document.addEventListener("DOMContentLoaded", function() {
         $('#total-price').innerHTML = currentTourPrice + ' DKK';
         $('#number-of-people').innerHTML = numberOfPeople;
         
-        
         $('#tours-modal').style.display = "block";
-        
     }
-    
     function increment() {
         if (numberOfPeople < 30) {
             
@@ -67,17 +84,6 @@ document.addEventListener("DOMContentLoaded", function() {
             $('#number-of-people').innerHTML = numberOfPeople;
         }
     }
-    
-    var tours = $('.tour');
-    for(var i = 0; i < tours.length; i++) {
-        tours[i].addEventListener('click', openTour);
-        console.log(tours[i]);
-    }
-    
-    $('#close-modal').addEventListener('click', function () {
-        $('#tours-modal').style.display = "none";
-    });
-    $('#decrement').addEventListener('click', decrement);
-    $('#increment').addEventListener('click', increment);
+   
     
 });
