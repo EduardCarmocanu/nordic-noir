@@ -232,7 +232,7 @@ nav {
 
 
 .dp-sm{
-    display: none;
+    display: none !important;
 }
 
 
@@ -255,30 +255,30 @@ footer{
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
     .dp-big{
-        display: block;
+        display: block !important;
     }
     .dp-sm{
-        display: none;
+        display: none !important;
     }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
     .dp-big{
-        display: block;
+        display: block !important;
     }
     .dp-sm{
-        display: none;
+        display: none !important;
     }
 }
 
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
         .dp-big{
-            display: none;
+            display: none !important;
         }
         .dp-sm{
-            display: block;
+            display: block !important;
         }
 
 
@@ -353,10 +353,10 @@ footer{
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
         .dp-big{
-            display: none;
+            display: none !important;
         }
         .dp-sm{
-            display: block;
+            display: block !important;
         }
         .tours-cards-section,.footer-content-wrapper{
             flex-flow: column;
@@ -439,16 +439,13 @@ footer{
         }
 
     }
-    .dp-sm{
-        display: block;
-    }
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
     .dp-big{
-        display: none;
+        display: none !important;
     }
     .dp-sm{
-        display: block;
+        display: block !important;
     }
 }

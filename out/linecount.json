@@ -1,0 +1,809 @@
+{
+    "extension": "linecount",
+    "version": "0.1.7",
+    "workspace": "/Users/balli/Desktop/webdev/nordicNoir",
+    "linecount": [
+        {
+            "version": "0.1.7",
+            "counttime": "2017-12-07 16:49:57",
+            "filesum": 123,
+            "codesum": 8993,
+            "commentsum": 5591,
+            "blanksum": 642,
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": ".gitignore"
+                },
+                {
+                    "filename": ".sass-cache/0ed0f6795f452d3e88c372a11da9ad7d2dc5d6b9/_background.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/0ed0f6795f452d3e88c372a11da9ad7d2dc5d6b9/_borders.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/0ed0f6795f452d3e88c372a11da9ad7d2dc5d6b9/_buttons.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/0ed0f6795f452d3e88c372a11da9ad7d2dc5d6b9/_center.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/0ed0f6795f452d3e88c372a11da9ad7d2dc5d6b9/_dimensions.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/0ed0f6795f452d3e88c372a11da9ad7d2dc5d6b9/_flex.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/0ed0f6795f452d3e88c372a11da9ad7d2dc5d6b9/_margin.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/0ed0f6795f452d3e88c372a11da9ad7d2dc5d6b9/_overflow.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/0ed0f6795f452d3e88c372a11da9ad7d2dc5d6b9/_padding.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/0ed0f6795f452d3e88c372a11da9ad7d2dc5d6b9/_positions.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/0ed0f6795f452d3e88c372a11da9ad7d2dc5d6b9/_text.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/45e7229dbdbd6e8893a03aed56d24de2211f74af/_about.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/45e7229dbdbd6e8893a03aed56d24de2211f74af/_contact.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/45e7229dbdbd6e8893a03aed56d24de2211f74af/_landing.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/45e7229dbdbd6e8893a03aed56d24de2211f74af/_recommendations.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/45e7229dbdbd6e8893a03aed56d24de2211f74af/_tours-modal.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/45e7229dbdbd6e8893a03aed56d24de2211f74af/_tours.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/9ed2a6d4341815f4ad6b98ef69ec66283c9b3ca2/_CTA-button.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/b61b145cf39f357eb1fae6931553d164615d9425/admin.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/b61b145cf39f357eb1fae6931553d164615d9425/main.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/e42a49752b22ef37aad8bf3e6720defbccdbbf7d/_colors.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": ".sass-cache/e42a49752b22ef37aad8bf3e6720defbccdbbf7d/_fonts.scssc",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "about.php"
+                },
+                {
+                    "blank": 22,
+                    "code": 68,
+                    "comment": 0,
+                    "filename": "admin/controllers/Dashboard_controller.php"
+                },
+                {
+                    "blank": 5,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "admin/controllers/getters.php"
+                },
+                {
+                    "blank": 14,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "admin/controllers/login_controller.php"
+                },
+                {
+                    "blank": 6,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "admin/controllers/tours_data_controller.php"
+                },
+                {
+                    "blank": 8,
+                    "code": 59,
+                    "comment": 1,
+                    "filename": "admin/controllers/Upload.php"
+                },
+                {
+                    "blank": 5,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "admin/core/database/DB.php"
+                },
+                {
+                    "blank": 14,
+                    "code": 47,
+                    "comment": 1,
+                    "filename": "admin/core/database/QueryBuilder.php"
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 4,
+                    "filename": "admin/core/Login.php"
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "admin/core/Session.php"
+                },
+                {
+                    "blank": 2,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "admin/core/session_write.php"
+                },
+                {
+                    "blank": 23,
+                    "code": 54,
+                    "comment": 62,
+                    "filename": "admin/DB.sql"
+                },
+                {
+                    "blank": 17,
+                    "code": 42,
+                    "comment": 7,
+                    "filename": "admin/index.php"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "admin/utilities/utilities.php"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "admin/views/css/dashboard.css"
+                },
+                {
+                    "blank": 17,
+                    "code": 65,
+                    "comment": 1,
+                    "filename": "admin/views/dashboard.php"
+                },
+                {
+                    "blank": 7,
+                    "code": 64,
+                    "comment": 0,
+                    "filename": "admin/views/form.php"
+                },
+                {
+                    "blank": 10,
+                    "code": 30,
+                    "comment": 47,
+                    "filename": "admin/views/js/dashboard.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "admin/views/js/util.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "admin/views/login.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "admin/views/logout.html"
+                },
+                {
+                    "blank": 2,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "admin/views/sidebar.php"
+                },
+                {
+                    "filename": "admin/views/uploads.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "admin/views/uploads/1.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/1.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 7,
+                    "code": 1479,
+                    "comment": 1128,
+                    "filename": "assets/2.jpg"
+                },
+                {
+                    "blank": 14,
+                    "code": 1989,
+                    "comment": 2937,
+                    "filename": "assets/about-privatetours.jpg"
+                },
+                {
+                    "filename": "assets/amalie.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/borgen2.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/christine-profile.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/hanna.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/icons/facebook-logo-black.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/icons/facebook-logo-white.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/icons/Hamburger_icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/icons/instagram-symbol-black.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/icons/instagram-symbol-white.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/icons/location-whtie.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/icons/mail-white.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/icons/telephone-white.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/icons/tripadvisor-black.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/icons/tripadvisor-white.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/icons/twitter-logo-silhouette-black.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/icons/twitter-logo-silhouette-white.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/privatetours4.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 2,
+                    "code": 829,
+                    "comment": 1,
+                    "filename": "assets/thebridge2.jpg"
+                },
+                {
+                    "blank": 10,
+                    "code": 1288,
+                    "comment": 1314,
+                    "filename": "assets/thekilling3.jpg"
+                },
+                {
+                    "filename": "assets/tours/8sORuOqQixletter.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/tours/dRNAeeFK5t11-male-tshirt-mockup.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/tours/h9vCMlBnbeletter.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/tours/INMwGewLfJScreen.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/tours/PqLDXmAUqCApparel-Pack_White_black_small.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/tours/vViIJf8zgBletter.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "assets/tours/YnhkqzFnoaApparel-Pack_White_black_small.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 5,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "contact.php"
+                },
+                {
+                    "blank": 17,
+                    "code": 224,
+                    "comment": 11,
+                    "filename": "css/admin.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "css/admin.css.map"
+                },
+                {
+                    "blank": 161,
+                    "code": 649,
+                    "comment": 38,
+                    "filename": "css/main.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "css/main.css.map"
+                },
+                {
+                    "blank": 3,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "faq.php"
+                },
+                {
+                    "blank": 12,
+                    "code": 107,
+                    "comment": 0,
+                    "filename": "index.php"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "js/faq.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "js/map.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "js/mobileNav.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "js/nav.js"
+                },
+                {
+                    "blank": 26,
+                    "code": 56,
+                    "comment": 0,
+                    "filename": "js/tours.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "js/util.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "partials/footer.php"
+                },
+                {
+                    "blank": 2,
+                    "code": 64,
+                    "comment": 0,
+                    "filename": "partials/navbar.php"
+                },
+                {
+                    "blank": 2,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "partials/tours-modal.php"
+                },
+                {
+                    "blank": 28,
+                    "code": 38,
+                    "comment": 7,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 2,
+                    "code": 61,
+                    "comment": 0,
+                    "filename": "recommendations.php"
+                },
+                {
+                    "blank": 48,
+                    "code": 281,
+                    "comment": 0,
+                    "filename": "scss/admin.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "scss/custom/_about.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "scss/custom/_contact.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "scss/custom/_faq.scss"
+                },
+                {
+                    "blank": 3,
+                    "code": 72,
+                    "comment": 0,
+                    "filename": "scss/custom/_landing.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "scss/custom/_recommendations.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "scss/custom/_tours-modal.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "scss/custom/_tours.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "scss/lib/_background.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "scss/lib/_borders.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "scss/lib/_buttons.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "scss/lib/_center.scss"
+                },
+                {
+                    "blank": 4,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "scss/lib/_dimensions.scss"
+                },
+                {
+                    "blank": 8,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "scss/lib/_flex.scss"
+                },
+                {
+                    "blank": 6,
+                    "code": 75,
+                    "comment": 0,
+                    "filename": "scss/lib/_margin.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "scss/lib/_overflow.scss"
+                },
+                {
+                    "blank": 4,
+                    "code": 75,
+                    "comment": 15,
+                    "filename": "scss/lib/_padding.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "scss/lib/_positions.scss"
+                },
+                {
+                    "blank": 22,
+                    "code": 72,
+                    "comment": 6,
+                    "filename": "scss/lib/_text.scss"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "scss/lib/mixins/_CTA-button.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "scss/lib/variables/_colors.scss"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "scss/lib/variables/_fonts.scss"
+                },
+                {
+                    "blank": 61,
+                    "code": 383,
+                    "comment": 10,
+                    "filename": "scss/main.scss"
+                },
+                {
+                    "blank": 2,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "tours.php"
+                },
+                {
+                    "filename": "uploads/DSC_3064.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "uploads/Kuka_arm.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "uploads/Landing3-1.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "uploads/NEWNEW_landing4.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "uploads/Teogther.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                }
+            ]
+        }
+    ]
+}
