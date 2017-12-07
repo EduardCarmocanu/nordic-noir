@@ -16,21 +16,23 @@
 	<main class="contact-main">
 		<section class="contact-info full-width has-background white">
 			<div class="contact-info-wrapper pl-5 pt-5 pb-5 full-width full-height">
-				<div class="contact-details">
-					<h1 class="pb-4">CONTACT US</h1>
-					<div class="location contact-item flex flex-align-center pa-1">
-						<img src="/assets/icons/location-whtie.png" alt="">
-						<h4>Ved Vesterport 2<br>1612 København V, Danmark</h4>
+				<h1 class="pb-4 pl-1">CONTACT US</h1>
+				<div class="flex flex-justify-space-between">
+					<div class="contact-details pa-5 pl-1">
+						<div class="location contact-item flex flex-align-center">
+							<img src="/assets/icons/location-whtie.png" alt="">
+							<h4>Ved Vesterport 2<br>1612 København V, Danmark</h4>
+						</div>
+						<div class="email contact-item flex flex-align-center pa-1">
+							<a href="mailto:info@nordicnoirtours.dk"><img src="/assets/icons/mail-white.png" alt=""></a>
+							<a href="mailto:info@nordicnoirtours.dk"><h4>info@nordicnoirtours.dk</h4></a>
+						</div>
 					</div>
-					<div class="email contact-item flex flex-align-center pa-1">
-						<img src="/assets/icons/mail-white.png" alt="">
-						<h4>info@nordicnoirtours.dk</h4>
+					<div class="contact-text pa-5 pt-3">
+						<br>
+						<p>All our tours start from Vesterport station.</p><br>
+						<p>If you would like to enquire about a group tour, please specify the group size,type of tour and preffered date/time and we will get back to you with the options</p>
 					</div>
-				</div>
-				<div class="contact-text pb-3">
-					<br>
-					<p>All our tours start from Vesterport station.</p><br>
-					<p>If you would like to enquire about a group tour, please specify the group size,<br>type of tour and preffered date/time and we will get back to you with the options</p>
 				</div>
 			</div>
 		</section><section id="map" class="full-width half-view-height"></section>

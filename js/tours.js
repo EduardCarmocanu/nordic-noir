@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
         tour.aditional_info = tour.aditional_info.replace(/(\n)+/g, '<br />');
         tour.thumbnail_url = tour.thumbnail_url.replace('../', '');
         
-            
+        
         $('#tour-content p').innerHTML = tour.content;
         $('#tour-title').innerHTML = tour.title;
         $('#additional-info h6').innerHTML = tour.aditional_info;
