@@ -94,6 +94,7 @@ nav {
             .tripadvisor {
                 background-image: url('/assets/icons/tripadvisor-black.png');
                 width: 45px;
+                height: 45px;
             }
             .facebook {            
                 background-image: url('/assets/icons/facebook-logo-black.png');
@@ -116,7 +117,9 @@ nav {
         }
     }
     .tripadvisor {
-        background-image: url('/assets/icons/tripadvisor-white.png') !important;
+        background-image: url('/assets/icons/tripadvisor-white.svg') !important;
+        width: 45px;
+        height: 45px;
     }
     .facebook {            
         background-image: url('/assets/icons/facebook-logo-white.png') !important;
@@ -134,15 +137,18 @@ nav {
         a {
             color: $black !important;
         }
-            .facebook {            
-                background-image: url('/assets/icons/facebook-logo-black.png') !important;
-            }
-            .twitter {
-                background-image: url('/assets/icons/twitter-logo-silhouette-black.png') !important;
-            }
-            .instagram {
-                background-image: url('/assets/icons/instagram-symbol-black.png') !important;
-            }
+        .tripadvisor {            
+            background-image: url('/assets/icons/tripd.tripadvisor-black.png') !important;
+        }
+        .facebook {            
+            background-image: url('/assets/icons/facebook-logo-black.png') !important;
+        }
+        .twitter {
+            background-image: url('/assets/icons/twitter-logo-silhouette-black.png') !important;
+        }
+        .instagram {
+            background-image: url('/assets/icons/instagram-symbol-black.png') !important;
+        }
     }
 }
 
@@ -170,52 +176,52 @@ nav {
 
 /*==========  Non-Mobile First Method  ==========*/
 
-    /* Large Devices, Wide Screens */
-    @media only screen and (max-width : 1200px) {
-        .dp-big{
-            display: block;
-        }
-        .dp-sm{
-            display: none;
-        }
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .dp-big{
+        display: block;
     }
+    .dp-sm{
+        display: none;
+    }
+}
 
-    /* Medium Devices, Desktops */
-    @media only screen and (max-width : 992px) {
-        .dp-big{
-            display: block;
-        }
-        .dp-sm{
-            display: none;
-        }
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .dp-big{
+        display: block;
     }
+    .dp-sm{
+        display: none;
+    }
+}
 
-    /* Small Devices, Tablets */
-    @media only screen and (max-width : 768px) {
-        .dp-big{
-            display: none;
-        }
-        .dp-sm{
-            display: block;
-        }
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .dp-big{
+        display: none;
     }
+    .dp-sm{
+        display: block;
+    }
+}
 
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (max-width : 480px) {
-        .dp-big{
-            display: none;
-        }
-        .dp-sm{
-            display: block;
-        }
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    .dp-big{
+        display: none;
     }
+    .dp-sm{
+        display: block;
+    }
+}
 
-    /* Custom, iPhone Retina */ 
-    @media only screen and (max-width : 320px) {
-        .dp-big{
-            display: none;
-        }
-        .dp-sm{
-            display: block;
-        }
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    .dp-big{
+        display: none;
     }
+    .dp-sm{
+        display: block;
+    }
+}

@@ -467,13 +467,9 @@ h2 {
   background-position: center; }
 
 .tour-wrapper {
-<<<<<<< HEAD
   height: calc(25vh - (60px)/ 4);
-  cursor: pointer; }
-=======
   cursor: pointer;
   height: calc(25vh - (60px) / 4); }
->>>>>>> faq
   .tour-wrapper .tour-content-wrapper {
     background-color: rgba(0, 0, 0, 0.8);
     transition: all 0.4s ease-in-out;
@@ -615,7 +611,8 @@ nav {
       background-size: cover; }
     nav .social-media div .tripadvisor {
       background-image: url("/assets/icons/tripadvisor-black.png");
-      width: 45px; }
+      width: 45px;
+      height: 45px; }
     nav .social-media div .facebook {
       background-image: url("/assets/icons/facebook-logo-black.png"); }
     nav .social-media div .twitter {
@@ -628,7 +625,9 @@ nav {
   .initial ul a {
     color: #f8f8f8 !important; }
   .initial .tripadvisor {
-    background-image: url("/assets/icons/tripadvisor-white.png") !important; }
+    background-image: url("/assets/icons/tripadvisor-white.svg") !important;
+    width: 45px;
+    height: 45px; }
   .initial .facebook {
     background-image: url("/assets/icons/facebook-logo-white.png") !important; }
   .initial .twitter {
@@ -640,6 +639,8 @@ nav {
   background-color: #f8f8f8; }
   .active ul a {
     color: #171717 !important; }
+  .active ul .tripadvisor {
+    background-image: url("/assets/icons/tripd.tripadvisor-black.png") !important; }
   .active ul .facebook {
     background-image: url("/assets/icons/facebook-logo-black.png") !important; }
   .active ul .twitter {
