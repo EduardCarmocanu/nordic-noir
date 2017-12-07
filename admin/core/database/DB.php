@@ -8,10 +8,10 @@ class DB
 		$host = "localhost";
 		$db = "nordicNoir";
 		$user = "root";
-		$password = "root";
+		$password = "";
 		
 		try {
-			$pdo = new PDO("mysql:host=$host;dbname=$db", $user, $password);
+			$pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8", $user, $password);
 			return $pdo;
 			
 		}catch (Exception $e) {
