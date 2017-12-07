@@ -3,34 +3,54 @@
 document.addEventListener("DOMContentLoaded", function() {
 
 
-    function getToursData() {
-        var xhr = new XMLHttpRequest();
-        xhr.onreadystatechange = function () {
-            if(this.readyState == 4 && this.status == 200) {
-                // process data to be used for filling up the modal
-                return JSON.parse(this.responseText)
-            }
+    var tours;
+    var currentTourPrice = 0;
+
+
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+
+            tours = JSON.parse(this.responseText);
+            console.log(tours);
+
         }
-        xhr.open('GET', 'dataResponse.php', true);
-        xhr.send();
     }
-    // var toursData = getToursData();
+    xhttp.open('GET', '/admin/controllers/tours_data_controller.php', true);
+    xhttp.send();
+
+
+        
     
-    var modalActive = false;
-    function toggleTour () {
-        if (!modalActive) {
-            $('#tours-modal').style.display = "block";
-        }
-        else {
-            $('#tours-modal').style.display = "none";
-        }
-        modalActive = !modalActive;
+    function openTour (el) {
+         
+        var tour = tours[parseInt(el.target.getAttribute('id'))];
+
+        tour.content = tour.content.replace(/(\n)+/g, '<br />');
+        tour.aditional_info = tour.aditional_info.replace(/(\n)+/g, '<br />');
+        tour.thumbnail_url = tour.thumbnail_url.replace('../', '');
+        console.log(tour.thumbnail_url);
+
+        $('#tours-modal').style.display = "block";
+
+        $('#tour-content p').innerHTML = tour.content;
+        $('#tour-title').innerHTML = tour.title;
+        $('#additional-info h6').innerHTML = tour.aditional_info;
+        $('#tour-image').innerHTML = "<img src=" + tour.thumbnail_url + ">"
+        currentTourPrice = tour.price;
+
     }
+    function closeModal() {
+        $('#tours-modal').style.display = "none";
+    }
+
+
     
+
     var tours = $('.tour');
     for(var i = 0; i < tours.length; i++) {
-        tours[i].addEventListener('click', toggleTour);
+        tours[i].addEventListener('click', openTour);
     }
-    $('#close-modal').addEventListener('click', toggleTour);
-
+    $('#close-modal').addEventListener('click', closeModal);
+    
 });
