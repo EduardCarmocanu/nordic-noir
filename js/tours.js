@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
     function decrement () {
-        if (numberOfPeople > 0) {
+        if (numberOfPeople > 1) {
             
             currentTourPrice -= tour.price;
             numberOfPeople--;
