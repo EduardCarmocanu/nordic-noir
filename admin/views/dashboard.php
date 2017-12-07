@@ -1,31 +1,25 @@
 <?php
 
+
 //adding the controllers
 require_once('controllers/Dashboard_controller.php');
-
-
-
 $DBC = new Dashboard_controller();
-
-
-
 $tours = $DBC->tours;
+
+
 $_SESSION['tour'] = 0;
-
-
+include('controllers/getters.php');
     if(isset($_POST['submit'])){
         $coverPhoto = false;
         $thumbnailPhoto = false;
         $coverPhoto = filestuff("inputPhoto");
         $thumbnailPhoto = filestuff("inputPhoto2");
-
         if(!$coverPhoto){
             $coverPhoto = $tours[$_SESSION['tour']]['image_url'];
         }
         if(!$thumbnailPhoto){
             $thumbnailPhoto = $tours[$_SESSION['tour']]['thumbnail_url'];
         }
-
         $object = (object) [
             'id' => $_POST['id'],
             'title' => $_POST['title'],
@@ -38,13 +32,9 @@ $_SESSION['tour'] = 0;
             'old_thumbnail_url' => $tours[$_SESSION['tour']]['thumbnail_url'],
             'state' => (int)$_POST['state']
         ];
-
         $DBC->changeTour($object);
         echo "<meta http-equiv='refresh' content='0'>";
     }
-
-    include('controllers/getters.php');
-
 ?>
 
 
@@ -77,7 +67,6 @@ $_SESSION['tour'] = 0;
 
 
 <?php
-
 function filestuff($name){
     require_once('controllers/Upload.php');
     if($_FILES[$name]["tmp_name"]){
@@ -86,9 +75,9 @@ function filestuff($name){
         if(!$Upload->returner){
             return false;
         }else{
-            return $Upload->returner;    
+            echo $Upload->returner . '<br>';
+            return $Upload->returner;  
         }
-        unset($Upload);
     }
 }
 ?>

@@ -113,8 +113,7 @@
 	
 
 	<?php include('partials/footer.php'); ?>
-	<script src="js/nav.js"></script>
-	
+	<script src="js/nav.js"></script>	
 </body>
 
 </html>

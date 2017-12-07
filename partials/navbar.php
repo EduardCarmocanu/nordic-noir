@@ -1,4 +1,4 @@
-    <nav class="flex flex-justify-space-around flex-align-center full-view-width">
+    <nav class="flex flex-justify-space-around flex-align-center full-view-width initial">
         <section>
             <figure>
                 <a href="/">
@@ -33,6 +33,33 @@
             </ul>
         </section>
         <section class="dp-sm">
-        jhgjhg
+            <i class="fa fa-bars hamburger" id="hamburger"></i>
+
+            <ul class="small-nav navClosed" id="smallNav">
+            <i class="fa fa-times hamburger"></i>
+                
+                <a href="/"><li>
+                    HOME
+                </li></a>
+                <a href="/about.php"><li>
+                    ABOUT
+                </li></a>
+                <a href="/tours.php"><li>
+                    TOURS
+                </li></a>
+                <a href="/recommendations.php"><li>
+                    RECOMMENDATIONS
+                </li></a>
+                <a href="/contact.php"><li>
+                    CONTACT
+                </li></a>
+                <li class="flex social-media">
+                    <div>
+                        <a target="_blank" href="https://www.facebook.com/NordicNoirTours" class="nav-icon facebook"></a>
+                        <a target="_blank" href="https://twitter.com/NordicNoirTours" class="nav-icon twitter"></a>
+                        <a target="_blank" href="https://www.instagram.com/nordicnoirtours/" class="nav-icon instagram"></a>
+                    </div>
+                </li>
+            </ul>
         </section>
     </nav>

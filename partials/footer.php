@@ -19,7 +19,6 @@
 				<a href="https://twitter.com/NordicNoirTours"><img src="/assets/icons/twitter-logo-silhouette-white.png" alt="2"></a>
 				<a href="https://www.instagram.com/nordicnoirtours/"><img src="/assets/icons/instagram-symbol-white.png" alt="3"></a>
 			</div>
-			<p class="copyright pt-1">&copy; COPYRIGHT 2017 NORDIC NOIR</p>
 		</div>
 		<div class="footer-col text-right">
 			<h3>CONTACT US</h3>
@@ -31,8 +30,15 @@
 			</p>
 		</div>
 	</div>
+	<section class="copyright-section">
+		<p class="copyright pt-1">&copy; COPYRIGHT 2017 NORDIC NOIR</p>
+	</section>
 </footer>
 
+
+
 <script src="js/util.js"></script>
+<script src="js/mobileNav.js"></script>
+
 
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>

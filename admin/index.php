@@ -15,6 +15,7 @@ error_reporting(E_ALL);
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>NOIR Admin</title>
+	<script src="https://use.fontawesome.com/96a62ba6a5.js"></script>
 	<link rel="stylesheet" href="../css/main.css">
 	
 	<link rel="stylesheet" href="../css/admin.css">
@@ -25,6 +26,7 @@ error_reporting(E_ALL);
 	//adding the controllers
 	require_once('controllers/Login_controller.php');
 	$CLogin = new Login_controller();
+	
 
 	//checking if user is logged in
 	if($CLogin->userLogged()){
@@ -49,8 +51,6 @@ error_reporting(E_ALL);
 			}
 		}
 		include('views/login.html');
-
-
 	}
 
 

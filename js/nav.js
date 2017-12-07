@@ -1,7 +1,11 @@
 'use strict';
 
-var triggerPoint = $('section[trigger]')[0];
 
+
+if (window.innerWidth > 768) {
+
+
+var triggerPoint = $('section[trigger]')[0];
 function setNavigationBar() {
 	
 	if (window.pageYOffset > triggerPoint.offsetTop - 50) {
@@ -15,5 +19,6 @@ function setNavigationBar() {
 }
 window.addEventListener('scroll', setNavigationBar);
 
-$('nav')[0].style.position = 'fixed';
-$('nav')[0].classList.add('initial');
+}else{
+
+}

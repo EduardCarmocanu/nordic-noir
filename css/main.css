@@ -181,10 +181,10 @@
   justify-content: center; }
 
 .flex-justify-space-around {
-  justify-content: space-around !important; }
+  justify-content: space-around; }
 
 .flex-justify-space-between {
-  justify-content: space-between !important; }
+  justify-content: space-between; }
 
 .flex-align-center {
   align-items: center; }
@@ -264,7 +264,13 @@ h2 {
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .main-page-heading {
+    font-size: 2em; } }
 /* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .main-page-heading {
+    font-size: 1.5em; } }
 /* Custom, iPhone Retina */
 .no-overflow {
   overflow: hidden; }
@@ -391,7 +397,8 @@ h2 {
   background-image: url("/assets/about-privatetours.jpg"); }
 
 .guides .guide {
-  width: 33.33333%; }
+  width: 33.33333%;
+  text-align: justify; }
 .guides .guide-image-wrapper {
   height: 200px;
   width: 200px; }
@@ -601,6 +608,38 @@ nav {
       background-image: url("/assets/icons/twitter-logo-silhouette-black.png"); }
     nav .social-media div .instagram {
       background-image: url("/assets/icons/instagram-symbol-black.png"); }
+  nav .dp-sm .hamburger {
+    font-size: 2.5em;
+    color: #f8f8f8; }
+  nav .dp-sm .small-nav {
+    height: 100vh;
+    width: 100vw;
+    background: #171717;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in;
+    z-index: 10; }
+    nav .dp-sm .small-nav a {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      color: #f8f8f8 !important; }
+    nav .dp-sm .small-nav .social-media div .nav-icon {
+      color: #f8f8f8 !important; }
+    nav .dp-sm .small-nav .fa-times {
+      position: absolute;
+      top: 20px;
+      right: 20px; }
+  nav .dp-sm .navOpen {
+    left: 0; }
+  nav .dp-sm .navClosed {
+    left: 100vw; }
+
+.initial .social-media {
+  color: #f8f8f8 !important; }
 
 .initial {
   background-color: transparent; }
@@ -640,6 +679,19 @@ nav {
   width: 80vw;
   color: #f8f8f8; }
 
+.dp-sm {
+  display: none; }
+
+footer {
+  position: relative; }
+
+.copyright-section {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #f8f8f8;
+  text-align: center; }
+
 /*==========  Non-Mobile First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
@@ -661,14 +713,100 @@ nav {
     display: none; }
 
   .dp-sm {
-    display: block; } }
+    display: block; }
+
+  nav {
+    justify-content: space-between !important;
+    padding-left: 30px;
+    padding-right: 30px; }
+
+  #logo {
+    padding-left: 0px; }
+
+  .third-section {
+    padding-left: 2%;
+    padding-right: 2%; }
+
+  nav .dp-sm .small-nav a {
+    margin-top: 20px;
+    margin-bottom: 20px; }
+
+  .active .dp-sm .small-nav .social-media div a {
+    color: #f8f8f8 !important; }
+
+  .guides {
+    padding: 0px; }
+
+  .heading, .about-section {
+    padding-left: 30px;
+    margin-left: 0px; }
+
+  .about-section div {
+    padding-left: 0px; }
+
+  .recommendations-header {
+    height: 70vh; }
+
+  .recommendations-list-wrapper {
+    padding: 50px 100px 50px 100px !important; } }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .dp-big {
     display: none; }
 
   .dp-sm {
-    display: block; } }
+    display: block; }
+
+  .tours-cards-section, .footer-content-wrapper {
+    flex-flow: column; }
+
+  .footer-content-wrapper {
+    align-items: center; }
+    .footer-content-wrapper div {
+      text-align: center; }
+
+  .tours-cards-section section {
+    margin-bottom: 30px !important; }
+
+  .CTA-btn {
+    max-width: 150px; }
+    .CTA-btn div {
+      font-size: 1em; }
+
+  .third-section {
+    padding-left: 5%;
+    padding-right: 5%; }
+    .third-section .image-gallery figure {
+      width: 50%; }
+
+  .about-section {
+    flex-flow: column; }
+    .about-section div {
+      width: 100%; }
+
+  .guides {
+    flex-flow: column; }
+    .guides div {
+      width: 100% !important; }
+      .guides div .guide-image-wrapper {
+        width: 200px !important; }
+
+  .recommendations-header .recommendations-header-wrapper {
+    padding-top: 50px;
+    padding-left: 10px;
+    min-width: 90vw;
+    text-align: left; }
+    .recommendations-header .recommendations-header-wrapper h1 {
+      font-size: 1.5em; }
+
+  .recommendations-list-wrapper {
+    padding-left: 10px !important;
+    padding-right: 10px !important; }
+    .recommendations-list-wrapper .recommendation {
+      padding-bottom: 20px !important; }
+
+  .contact-info-wrapper {
+    padding-left: 10px; } }
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
   .dp-big {

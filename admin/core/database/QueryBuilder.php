@@ -27,12 +27,11 @@ class QueryBuilder
 	public function insert_into_tours($data){
 		//$this->singleAlert($data->image_url);
 		if($data->image_url != $data->old_image_url){
-			$this->singleAlert($data->image_url);						
+			$this->singleAlert($data->image_url,$data->old_image_url);						
 			unlink($data->old_image_url);
 		}
 		if($data->thumbnail_url != $data->old_thumbnail_url){
 			unlink($data->old_thumbnail_url);
-			$this->singleAlert("LALALA");
 		}
 		$userID = $_SESSION['logged']['id'];
 		$date = date("Y-m-d");
@@ -53,8 +52,8 @@ class QueryBuilder
 	}
 
 
-	public function singleAlert($x){
-        echo '<div class="alerter"><p>'.$x.'</p></div>';
+	public function singleAlert($x,$x2){
+        echo '<div class="alerter"><p>'.$x.'</p><p>'.$x2.'</p></div>';
     }
 	
 	

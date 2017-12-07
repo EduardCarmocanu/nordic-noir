@@ -26,28 +26,28 @@
 			</div>
 		</section>
 		<section class="separator-image full-width half-view-height mb-3 no-overflow has-background"></section>
-		<section class="guides flex">
-			<div class="text-center pa-2 guide">
+		<section class="guides flex pl-5 pr-5">
+			<div class="text-center pa-2 pl-3 pr-3 guide">
 				<div class="guide-image-wrapper no-overflow round center">
 					<img src="/assets/amalie.png" alt="guide picture" class="guide-image full-width">
 				</div>
-				<h2 class="pt-3">Amalie</h2>
+				<h2 class="pt-3 text-center">Amalie</h2>
 				<br>
 				<p>Amalie is our local tour guide from Copenhagen who lived in Germany for several years. She has great ambition to improve tourism in Denmark.</p>
 			</div>
-			<div class="text-center pa-2 guide">
+			<div class="text-center pa-2 pl-3 pr-3 guide">
 				<div class="guide-image-wrapper no-overflow round center">
 					<img src="/assets/christine-profile.png" alt="guide picture" class="guide-image full-width">
 				</div>
-				<h2 class="pt-3">Christine</h2>
+				<h2 class="pt-3 text-center">Christine</h2>
 				<br>
 				<p>Christine is from France and has been living in Denmark since 1996. She is the owner of Nordic Noir Tours, and when time allows she does what she enjoys the most, guiding tours.</p>
 			</div>
-			<div class="text-center pa-2 guide">
+			<div class="text-center pa-2 pl-3 pr-3 guide">
 				<div class="guide-image-wrapper no-overflow round center">
 					<img src="/assets/hanna.png" alt="guide picture" class="guide-image full-width">
 				</div>
-				<h2 class="pt-3">Hanna</h2>
+				<h2 class="pt-3 text-center">Hanna</h2>
 				<br>
 				<p>Hanna is the newest addition to our team. She is not only a passionate Nordic Noir fan and a Denmark-enthusiast, she is also an educated expert in the field!</p>
 			</div>

@@ -101,6 +101,63 @@ nav {
             }
         }   
     }
+
+
+    .dp-sm{
+        .hamburger{
+            font-size: 2.5em;
+            color: $white;
+        }
+
+
+
+        .small-nav{
+            height: 100vh;
+            width: 100vw;
+            background: $black;
+            position: fixed;
+            top:0;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease-in;
+            z-index: 10;
+            
+            a{
+                margin-top: 40px;
+                margin-bottom: 40px;
+                color: $white !important;
+            }
+
+            .social-media{
+                div{
+                    .nav-icon{
+                        color: $white !important;
+                    }
+                }
+   
+            }
+
+            .fa-times{
+                position: absolute;
+                top:20px;
+                right: 20px;
+            }
+
+        }
+        .navOpen{
+            left:0;
+        }
+        .navClosed{
+            left:100vw;
+        }
+    }
+    
+}
+
+.initial .social-media{
+    color: $white !important;
 }
 
 .initial {
@@ -155,7 +212,26 @@ nav {
 }
 .footer-content-wrapper {
 	width: 80vw;
-	color: $white;
+    color: $white;
+    
+}
+
+
+.dp-sm{
+    display: none;
+}
+
+
+footer{
+    position: relative;
+}
+
+.copyright-section{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: $white;
+    text-align: center;
 }
 
 
@@ -190,6 +266,71 @@ nav {
         .dp-sm{
             display: block;
         }
+
+
+        nav{
+            justify-content: space-between !important;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        #logo{
+            padding-left: 0px;
+        }
+
+        .third-section{
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+
+        nav{
+            .dp-sm{
+                .small-nav{
+                    a{
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+        }
+
+        .active{
+            .dp-sm{
+                .small-nav{
+                    .social-media{
+                        div{
+                            a{
+                                color: $white !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .guides{
+            padding: 0px;
+        }
+        .heading, .about-section{
+            padding-left: 30px;
+            margin-left:0px;
+        }
+
+        .about-section{
+            div{
+                padding-left:0px;
+            }
+        }
+
+        .recommendations-header{
+            height: 70vh;
+        }
+        .recommendations-list-wrapper {
+            padding: 50px 100px 50px 100px !important; 
+        }
+
+
     }
 
     /* Extra Small Devices, Phones */ 
@@ -200,6 +341,86 @@ nav {
         .dp-sm{
             display: block;
         }
+        .tours-cards-section,.footer-content-wrapper{
+            flex-flow: column;
+        }
+
+        .footer-content-wrapper{
+            align-items: center;
+            div{
+                text-align: center;
+            }
+        }
+
+        .tours-cards-section {
+            section{
+                margin-bottom: 30px !important;
+            }
+        }
+
+        .CTA-btn{
+            max-width: 150px;
+            div{
+                font-size: 1em;
+            }
+        }
+
+        .third-section{
+            padding-left: 5%;
+            padding-right: 5%;
+
+            .image-gallery{
+                figure{
+                    width: 50%;
+                }
+            }
+            
+        }
+
+        .about-section{
+            flex-flow: column;
+            div {
+                width: 100%;
+            }
+        } 
+
+        .guides {
+            flex-flow: column;
+            div{
+                width: 100% !important;
+
+                .guide-image-wrapper{
+                    width: 200px !important;
+                }
+            }
+        }
+
+        .recommendations-header{
+            .recommendations-header-wrapper{
+            padding-top: 50px;
+            padding-left:10px;
+            min-width: 90vw;
+            text-align: left;           
+                h1{
+                    font-size: 1.5em;
+                    
+                }
+            }
+        }
+
+        .recommendations-list-wrapper{
+            padding-left:10px !important;
+            padding-right: 10px !important;
+
+            .recommendation{
+                padding-bottom: 20px !important;
+            }
+        }
+
+        .contact-info-wrapper {
+            padding-left:10px;
+        }
+
     }
 
     /* Custom, iPhone Retina */ 

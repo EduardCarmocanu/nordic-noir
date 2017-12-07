@@ -278,3 +278,52 @@ main{
     opacity:0;
     cursor:pointer;
 }
+
+.login-main{
+    min-height:100vh;
+    min-width: 100vw;
+    background-image: url('https://hdwallsource.com/img/2014/9/light-gradient-wallpaper-26039-26724-hd-wallpapers.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .login-form{
+        padding-left:10px;
+        padding-right: 10px;
+        width: 270px;
+        display: flex;
+        flex-flow: column;
+
+        .login-form-control{
+            display: flex;
+            flex-flow: row;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+            input{
+                background: transparent;
+                border: 0px;
+                border-bottom: 1px solid rgb(150, 150, 150);
+                color: black;
+                width: 200px;
+                font-size: 25px;
+                font-family: Poppins;
+                font-weight: 100;
+                outline: none;
+                text-align: center;
+            }
+
+            i{
+                color: rgb(104, 104, 104);
+                font-size: 26px;
+            }
+
+          
+        }
+        input[type=submit]{
+            margin-top: 40px;
+        }
+    }
+    
+}
