@@ -1,20 +1,9 @@
-#tour-1 {
-	background-image: url('/assets/2.jpg');
-}
-#tour-2 {
-	background-image: url('/assets/thekilling3.jpg');
-}
-#tour-3 {
-	background-image: url('/assets/borgen2.jpg');
-}
-#tour-4 {
-	background-image: url('/assets/about-privatetours.jpg');
-}
 #tour-1,
 #tour-2,
 #tour-3,
 #tour-4 {
 	background-position: center;
+	background-color: rgb(40, 40, 40);
 }
 .tour-wrapper {
 	height: calc(25vh - (60px)/ 4);
