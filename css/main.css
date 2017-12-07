@@ -710,7 +710,7 @@ nav {
   color: #f8f8f8; }
 
 .dp-sm {
-  display: none; }
+  display: none !important; }
 
 footer {
   position: relative; }
@@ -726,24 +726,24 @@ footer {
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
   .dp-big {
-    display: block; }
+    display: block !important; }
 
   .dp-sm {
-    display: none; } }
+    display: none !important; } }
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .dp-big {
-    display: block; }
+    display: block !important; }
 
   .dp-sm {
-    display: none; } }
+    display: none !important; } }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   .dp-big {
-    display: none; }
+    display: none !important; }
 
   .dp-sm {
-    display: block; }
+    display: block !important; }
 
   nav {
     -webkit-box-pack: justify !important;
@@ -784,10 +784,10 @@ footer {
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .dp-big {
-    display: none; }
+    display: none !important; }
 
   .dp-sm {
-    display: block; }
+    display: block !important; }
 
   .tours-cards-section, .footer-content-wrapper {
     -webkit-box-orient: vertical;
@@ -853,9 +853,9 @@ footer {
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
   .dp-big {
-    display: none; }
+    display: none !important; }
 
   .dp-sm {
-    display: block; } }
+    display: block !important; } }
 
 /*# sourceMappingURL=main.css.map */
