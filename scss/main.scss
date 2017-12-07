@@ -272,7 +272,6 @@ footer{
     }
 }
 
-<<<<<<< HEAD
     /* Small Devices, Tablets */
     @media only screen and (max-width : 768px) {
         .dp-big{
@@ -346,19 +345,12 @@ footer{
         }
 
 
-=======
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-    .dp-big{
-        display: none;
->>>>>>> 54ac0c639a809dbe4a0f9b7e4b6928ee70ce2f07
     }
     .dp-sm{
         display: block;
     }
 }
 
-<<<<<<< HEAD
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
         .dp-big{
@@ -447,12 +439,6 @@ footer{
             padding-left:10px;
         }
 
-=======
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
-    .dp-big{
-        display: none;
->>>>>>> 54ac0c639a809dbe4a0f9b7e4b6928ee70ce2f07
     }
     .dp-sm{
         display: block;
