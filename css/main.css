@@ -773,6 +773,9 @@ footer {
 
   .recommendations-list-wrapper {
     padding: 50px 100px 50px 100px !important; } }
+.dp-sm {
+  display: block; }
+
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .dp-big {
@@ -831,6 +834,9 @@ footer {
 
   .contact-info-wrapper {
     padding-left: 10px; } }
+.dp-sm {
+  display: block; }
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
   .dp-big {
