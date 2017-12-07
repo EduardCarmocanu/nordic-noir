@@ -101,9 +101,9 @@ nav {
             }
             .tripadvisor {
                 background-image: url('/assets/icons/tripadvisor-black.png');
-                width: 45px;
-                height: 45px;
-            }
+                height: 25px !important;
+                width: 45px !important;
+            } 
             .facebook {            
                 background-image: url('/assets/icons/facebook-logo-black.png');
             }
@@ -186,15 +186,15 @@ nav {
 
 .initial {
     background-color: transparent;
-    ul {
+    ul {    
         a {
             color: $white !important;
         }
     }
     .tripadvisor {
-        background-image: url('/assets/icons/tripadvisor-white.svg') !important;
-        width: 45px;
-        height: 45px;
+        background-image: url('/assets/icons/tripadvisor-white.png') !important;
+        height: 25px !important;
+        width: 45px !important;
     }
     .facebook {            
         background-image: url('/assets/icons/facebook-logo-white.png') !important;
