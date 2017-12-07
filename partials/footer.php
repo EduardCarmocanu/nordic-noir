@@ -39,10 +39,7 @@
 
 
 <script src="js/util.js"></script>
-<<<<<<< HEAD
 <script src="js/mobileNav.js"></script>
 
 
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-=======
->>>>>>> 54ac0c639a809dbe4a0f9b7e4b6928ee70ce2f07
