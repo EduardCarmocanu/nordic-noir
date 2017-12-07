@@ -1,36 +1,82 @@
 "use strict";
 
 document.addEventListener("DOMContentLoaded", function() {
-
-
-    function getToursData() {
-        var xhr = new XMLHttpRequest();
-        xhr.onreadystatechange = function () {
-            if(this.readyState == 4 && this.status == 200) {
-                // process data to be used for filling up the modal
-                return JSON.parse(this.responseText)
-            }
-        }
-        xhr.open('GET', 'dataResponse.php', true);
-        xhr.send();
-    }
-    // var toursData = getToursData();
     
-    var modalActive = false;
-    function toggleTour () {
-        if (!modalActive) {
-            $('#tours-modal').style.display = "block";
+    
+    var tours;
+    var currentTourPrice = 0;
+    var numberOfPeople = 1;
+    var tour;
+    
+    
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            
+            tours = JSON.parse(this.responseText);
+            console.log(tours);
+            
         }
-        else {
-            $('#tours-modal').style.display = "none";
+    }
+    xhttp.open('GET', '/admin/controllers/tours_data_controller.php', true);
+    xhttp.send();
+    
+    
+    
+    
+    function openTour (el) {
+        
+        tour = tours[parseInt(el.target.getAttribute('id'))];
+        currentTourPrice = parseInt(tour.price);
+        numberOfPeople = 1;
+        
+        tour.content = tour.content.replace(/(\n)+/g, '<br />');
+        tour.aditional_info = tour.aditional_info.replace(/(\n)+/g, '<br />');
+        tour.thumbnail_url = tour.thumbnail_url.replace('../', '');
+        
+        
+        $('#tour-content p').innerHTML = tour.content;
+        $('#tour-title').innerHTML = tour.title;
+        $('#additional-info h6').innerHTML = tour.aditional_info;
+        $('#tour-image').innerHTML = "<img src=" + tour.thumbnail_url + ">"
+        $('#total-price').innerHTML = currentTourPrice + ' DKK';
+        $('#number-of-people').innerHTML = numberOfPeople;
+        
+        
+        $('#tours-modal').style.display = "block";
+        
+    }
+    
+    function increment() {
+        if (numberOfPeople < 30) {
+            
+            currentTourPrice += parseInt(tour.price);
+            numberOfPeople++;
+            
+            $('#total-price').innerHTML = currentTourPrice + ' DKK';
+            $('#number-of-people').innerHTML = numberOfPeople;
         }
-        modalActive = !modalActive;
+    }
+    function decrement () {
+        if (numberOfPeople > 1) {
+            
+            currentTourPrice -= tour.price;
+            numberOfPeople--;
+            
+            $('#total-price').innerHTML = currentTourPrice + ' DKK';
+            $('#number-of-people').innerHTML = numberOfPeople;
+        }
     }
     
     var tours = $('.tour');
     for(var i = 0; i < tours.length; i++) {
-        tours[i].addEventListener('click', toggleTour);
+        tours[i].addEventListener('click', openTour);
     }
-    $('#close-modal').addEventListener('click', toggleTour);
-
+    
+    $('#close-modal').addEventListener('click', function () {
+        $('#tours-modal').style.display = "none";
+    });
+    $('#decrement').addEventListener('click', decrement);
+    $('#increment').addEventListener('click', increment);
+    
 });

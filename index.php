@@ -18,7 +18,7 @@
 		<section class="first-section flex flex-column full-view-height full-width has-background">
 			<div class="pl-5">
 				<h1 class="white main-page-heading pb-3">FROM SCANDINAVIA<br>WITH CRIME</h1>
-				<a href="/tours" class="CTA-btn mt-1"><div>View Tours</div></a>	
+				<a href="/tours.php" class="CTA-btn mt-1"><div>View Tours</div></a>	
 			</div>
 		</section>
 		<section class="second-section has-background text-center pt-4 pb-5" trigger>
@@ -40,7 +40,7 @@
 					<br>
 					<h5>Early Reservation<br>
 					Discunt</h5>
-					<a href="#" class="CTA-btn-tours">View more</a>
+					<a href="/tours.php" class="CTA-btn-tours">View more</a>
 				</section>
 				<section class="special pt-4 ">
 					<h3 class="headline">BORGEN</h3>
@@ -53,7 +53,7 @@
 					<br>
 					<h5>Early Reservation<br>
 					Discunt</h5>
-					<a href="#" class="CTA-btn-tours">View more</a>
+					<a href="/tours.php" class="CTA-btn-tours">View more</a>
 				</section>
 				<section class="pt-4 ">
 					<h4 class="headline">THE BRIDGE</h4>
@@ -66,7 +66,7 @@
 					<br>
 					<h5>Early Reservation<br>
 					Discunt</h5>
-					<a href="#" class="CTA-btn-tours">View more</a>
+					<a href="/tours.php" class="CTA-btn-tours">View more</a>
 				</section>
 			</section>
 			
