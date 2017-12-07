@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     
     
-    var tours;
+    var toursData;
     var currentTourPrice = 0;
     var numberOfPeople = 1;
     var tour;
@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", function() {
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             
-            tours = JSON.parse(this.responseText);
-            console.log(tours);
+            toursData = JSON.parse(this.responseText);
+            console.log(toursData);
             
         }
     }
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     function openTour (el) {
         
-        tour = tours[parseInt(el.target.getAttribute('id'))];
+        tour = toursData[parseInt(el.target.getAttribute('id'))];
         currentTourPrice = parseInt(tour.price);
         numberOfPeople = 1;
         
@@ -71,6 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var tours = $('.tour');
     for(var i = 0; i < tours.length; i++) {
         tours[i].addEventListener('click', openTour);
+        console.log(tours[i]);
     }
     
     $('#close-modal').addEventListener('click', function () {

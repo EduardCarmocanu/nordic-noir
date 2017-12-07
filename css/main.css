@@ -566,6 +566,7 @@ h2 {
     height: 50px; }
 
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0px;
   padding: 0; }
@@ -585,6 +586,7 @@ nav {
   top: 0;
   left: 0;
   z-index: 9999;
+  -webkit-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
   background-color: #f8f8f8; }
   nav figure {
@@ -594,6 +596,8 @@ nav {
     font-weight: 400;
     padding-left: 5vw; }
     nav .big-nav ul .social-media {
+      -webkit-box-pack: end;
+      -ms-flex-pack: end;
       justify-content: flex-end;
       width: 100%; }
       nav .big-nav ul .social-media div {
@@ -602,12 +606,15 @@ nav {
           padding: 0 10px 0 10px; }
     nav .big-nav ul li {
       padding: 0 20px 0 20px;
+      -webkit-transition: all 0.1s ease-in-out;
       transition: all 0.1s ease-in-out; }
       nav .big-nav ul li img {
         height: 25px; }
     nav .big-nav ul li:hover {
       color: #e73827; }
   nav .social-media div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; }
     nav .social-media div a {
       margin: 0 10px 0 10px;
@@ -635,10 +642,20 @@ nav {
     background: #171717;
     position: fixed;
     top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
     flex-flow: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
     z-index: 10; }
     nav .dp-sm .small-nav a {
@@ -740,6 +757,8 @@ footer {
     display: block; }
 
   nav {
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: justify !important;
     justify-content: space-between !important;
     padding-left: 30px;
     padding-right: 30px; }
@@ -773,9 +792,6 @@ footer {
 
   .recommendations-list-wrapper {
     padding: 50px 100px 50px 100px !important; } }
-.dp-sm {
-  display: block; }
-
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .dp-big {
@@ -785,9 +801,14 @@ footer {
     display: block; }
 
   .tours-cards-section, .footer-content-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
     flex-flow: column; }
 
   .footer-content-wrapper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center; }
     .footer-content-wrapper div {
       text-align: center; }
@@ -807,11 +828,17 @@ footer {
       width: 50%; }
 
   .about-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
     flex-flow: column; }
     .about-section div {
       width: 100%; }
 
   .guides {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
     flex-flow: column; }
     .guides div {
       width: 100% !important; }
@@ -834,9 +861,6 @@ footer {
 
   .contact-info-wrapper {
     padding-left: 10px; } }
-.dp-sm {
-  display: block; }
-
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 320px) {
   .dp-big {
