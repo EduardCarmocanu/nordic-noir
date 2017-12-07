@@ -16,22 +16,22 @@
 		<section class="tours-wrapper">
 			<div class="tour tour-wrapper no-overflow full-width text-center has-background white" id="tour-1">
 				<div class="tour-content-wrapper relative full-height full-width">
-					<h2 class="tour-name pt-5" id="0">The bridge</h2>	
+					<h2 class="tour-name pt-5" id="0"></h2>	
 				</div>
 			</div>
 			<div class="tour tour-wrapper no-overflow full-width text-center has-background white" id="tour-2">
 				<div class="tour-content-wrapper relative full-height full-width">
-					<h2 class="tour-name pt-5" id="1">The killing</h2>	
+					<h2 class="tour-name pt-5" id="1"></h2>	
 				</div>
 			</div>
 			<div class="tour tour-wrapper no-overflow full-width text-center has-background white" id="tour-3">
 				<div class="tour-content-wrapper relative full-height full-width">
-					<h2 class="tour-name pt-5" id="2">Borgen</h2>	
+					<h2 class="tour-name pt-5" id="2"></h2>	
 				</div>
 			</div>
 			<div class="tour tour-wrapper no-overflow full-width text-center has-background white" id="tour-4">
 				<div class="tour-content-wrapper relative full-height full-width">
-					<h2 class="tour-name pt-5" id="3">Private tours</h2>	
+					<h2 class="tour-name pt-5" id="3"></h2>	
 				</div>
 			</div>
 		</section>		
