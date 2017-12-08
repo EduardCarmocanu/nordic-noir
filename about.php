@@ -14,7 +14,8 @@
 	<?php include('partials/navbar.php'); ?>
 	
 	<main>
-		<div class="heading ml-2 pl-5 pt-2">
+		<br>
+		<div class="heading ml-2 pl-5 pt-2 about-heading">
 			<h1>ABOUT US</h1>
 		</div>
 		<section class="about-section flex flex-jusitify-center pl-4 pr-4">
