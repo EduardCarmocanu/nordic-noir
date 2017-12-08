@@ -1,13 +1,14 @@
 .faq-container {
 	width: 70%;
 	overflow: hidden;
-	.question-active {
-		height: 100% !important;
-	}
+	min-height: calc(100vh - 60px);
 	.question {
-		-webkit-transition: all 0.3s ease-in-out;
-		transition: all 0.3s ease-in-out;
-		position: relative;
+		cursor: pointer;
 		height: 50px;
+		border-bottom: 1px solid $white;
+		margin: 10px;
+	}
+	.question-active {
+		height: initial;
 	}
 }
