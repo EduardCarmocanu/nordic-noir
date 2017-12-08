@@ -46,6 +46,7 @@ ul {
     list-style: none;
 }
 nav {
+    position: fixed;
     top:0;
     left:0;
     z-index: 9999;
@@ -213,7 +214,7 @@ nav {
             color: $black !important;
         }
         .tripadvisor {            
-            background-image: url('/assets/icons/tripd.tripadvisor-black.png') !important;
+            background-image: url('/assets/icons/tripadvisor-black.png') !important;
         }
         .facebook {            
             background-image: url('/assets/icons/facebook-logo-black.png') !important;
