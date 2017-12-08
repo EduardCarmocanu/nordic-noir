@@ -1,22 +1,25 @@
-.contact-info {
-	background-image: url('/assets/2.jpg');
-	.contact-info-wrapper  {
-		background-color: rgba(0, 0, 0, 0.7);
-		.contact-item {
-			padding-left: 0;
-			h4 {
-				font-weight: 100;
+.contact-main {
+	padding-top: 60px;
+	.contact-info {
+		background-image: url('/assets/2.jpg');
+		.contact-info-wrapper  {
+			background-color: rgba(0, 0, 0, 0.7);
+			.contact-item {
+				padding-left: 0;
+				h4 {
+					font-weight: 100;
+				}
+				img {
+					height: 40px;
+					padding-right: 20px;
+				}
 			}
-			img {
-				height: 40px;
-				padding-right: 20px;
+			.contact-text {
+				width: 40%;
 			}
 		}
-		.contact-text {
-			width: 40%;
+		h3 {
+			font-weight: 400;
 		}
-	}
-	h3 {
-		font-weight: 400;
-	}
+	}	
 }
