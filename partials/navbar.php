@@ -1,4 +1,4 @@
-    <nav class="flex flex-justify-space-around flex-align-center full-view-width initial">
+    <nav class="flex flex-justify-space-around flex-align-center full-view-width active">
         <section>
             <figure>
                 <a href="/">
