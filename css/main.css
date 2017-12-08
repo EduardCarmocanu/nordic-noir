@@ -390,6 +390,9 @@ h2 {
 .round {
   border-radius: 100%; }
 
+.about-heading {
+  padding-top: 60px; }
+
 .about-section div {
   width: 50%; }
 
@@ -462,20 +465,22 @@ h2 {
   background-position: center;
   background-color: #282828; }
 
-.tour-wrapper {
-  height: calc(25vh - (60px)/ 4);
-  cursor: pointer;
-  height: calc(25vh - (60px) / 4); }
-  .tour-wrapper .tour-content-wrapper {
-    background-color: rgba(0, 0, 0, 0.8);
-    transition: all 0.4s ease-in-out;
-    opacity: 0; }
-    .tour-wrapper .tour-content-wrapper:hover {
-      opacity: 1;
-      box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.8); }
-  .tour-wrapper .tour-name {
-    padding-top: 10vh;
-    height: 100%; }
+.tours-wrapper {
+  padding-top: 60px; }
+  .tours-wrapper .tour-wrapper {
+    height: calc(25vh - (60px)/ 4);
+    cursor: pointer;
+    height: calc(25vh - (60px) / 4); }
+    .tours-wrapper .tour-wrapper .tour-content-wrapper {
+      background-color: rgba(0, 0, 0, 0.8);
+      transition: all 0.4s ease-in-out;
+      opacity: 0; }
+      .tours-wrapper .tour-wrapper .tour-content-wrapper:hover {
+        opacity: 1;
+        box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.8); }
+    .tours-wrapper .tour-wrapper .tour-name {
+      padding-top: 10vh;
+      height: 100%; }
 
 #tours-modal {
   display: none;
@@ -503,21 +508,23 @@ h2 {
     #tours-modal .tours-modal-content-wrapper .book-tours {
       margin-bottom: -10px; }
 
-.contact-info {
-  background-image: url("/assets/2.jpg"); }
-  .contact-info .contact-info-wrapper {
-    background-color: rgba(0, 0, 0, 0.7); }
-    .contact-info .contact-info-wrapper .contact-item {
-      padding-left: 0; }
-      .contact-info .contact-info-wrapper .contact-item h4 {
-        font-weight: 100; }
-      .contact-info .contact-info-wrapper .contact-item img {
-        height: 40px;
-        padding-right: 20px; }
-    .contact-info .contact-info-wrapper .contact-text {
-      width: 40%; }
-  .contact-info h3 {
-    font-weight: 400; }
+.contact-main {
+  padding-top: 60px; }
+  .contact-main .contact-info {
+    background-image: url("/assets/2.jpg"); }
+    .contact-main .contact-info .contact-info-wrapper {
+      background-color: rgba(0, 0, 0, 0.7); }
+      .contact-main .contact-info .contact-info-wrapper .contact-item {
+        padding-left: 0; }
+        .contact-main .contact-info .contact-info-wrapper .contact-item h4 {
+          font-weight: 100; }
+        .contact-main .contact-info .contact-info-wrapper .contact-item img {
+          height: 40px;
+          padding-right: 20px; }
+      .contact-main .contact-info .contact-info-wrapper .contact-text {
+        width: 40%; }
+    .contact-main .contact-info h3 {
+      font-weight: 400; }
 
 .recommendations-header {
   background-image: url("/assets/thebridge2.jpg");
@@ -573,6 +580,7 @@ ul {
   list-style: none; }
 
 nav {
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 9999;
@@ -686,7 +694,7 @@ nav {
   .active ul a {
     color: #171717 !important; }
   .active ul .tripadvisor {
-    background-image: url("/assets/icons/tripd.tripadvisor-black.png") !important; }
+    background-image: url("/assets/icons/tripadvisor-black.png") !important; }
   .active ul .facebook {
     background-image: url("/assets/icons/facebook-logo-black.png") !important; }
   .active ul .twitter {
