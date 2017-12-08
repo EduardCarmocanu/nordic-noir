@@ -545,14 +545,15 @@ h2 {
 
 .faq-container {
   width: 70%;
-  overflow: hidden; }
-  .faq-container .question-active {
-    height: 100% !important; }
+  overflow: hidden;
+  min-height: calc(100vh - 60px); }
   .faq-container .question {
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    position: relative;
-    height: 50px; }
+    cursor: pointer;
+    height: 50px;
+    border-bottom: 1px solid #f8f8f8;
+    margin: 10px; }
+  .faq-container .question-active {
+    height: initial; }
 
 * {
   -webkit-box-sizing: border-box;
