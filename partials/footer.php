@@ -1,4 +1,4 @@
-<footer class="pt-2 pb-5 main-footer ">
+<footer class="pt-2 pb-5 main-footer" mobileTrigger="#f8f8f8">
 	<div class="footer-content-wrapper center flex flex-justify-center">
 		<div class="footer-col text-left">
 			<h3>ABOUT US</h3>
