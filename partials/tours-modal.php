@@ -29,7 +29,7 @@
 					
 				</div>
 				<div class="book-tours">
-					<a href="#" class="CTA-btn-black CTA-btn">BOOK A TOUR</a>
+					<a href="mailto:cb@nordic-insite.dk" class="CTA-btn-black CTA-btn">BOOK A TOUR</a>
 				</div>
 			</div>
 			<div id="additional-info">
