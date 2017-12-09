@@ -8,17 +8,22 @@ document.addEventListener("DOMContentLoaded", function() {
     var currentNumberOfPeople = 1;
     var tour;
     
-    
+    // Instantiates a new XMLHttpRequest
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
+
+            // Parses the JSON reponse
             toursData = JSON.parse(this.responseText);
             
+            // Call function once the request has completed
             setUpTours();
             
         }
     }
+    // Opens a get request for the tours data controller
     xhttp.open('GET', '/admin/controllers/tours_data_controller.php', true);
+    // Send the request
     xhttp.send();
     
 
