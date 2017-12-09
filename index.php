@@ -14,14 +14,14 @@
 	
 	<?php include('partials/navbar.php'); ?>
 	
-	<main>
+	<main mobileTrigger="#f8f8f8">
 		<section class="first-section flex flex-column full-view-height full-width has-background">
 			<div class="pl-5">
 				<h1 class="white main-page-heading pb-3">FROM SCANDINAVIA<br>WITH CRIME</h1>
 				<a href="/tours.php" class="CTA-btn mt-1"><div>View Tours</div></a>	
 			</div>
 		</section>
-		<section class="second-section has-background text-center pt-4 pb-5" trigger>
+		<section class="second-section has-background text-center pt-4 pb-5" trigger mobileTrigger="#171717">
 			<div class="description center">
 				<h2>Who are we?</h2>
 				<p class="pt-2">We offer tours based on the popular Scandinavian crime series Borge, The Bridge and the Killing. With Nordic Noir Tours you have the opportunity to explore the locations where the crime misteries took place. <br>Take part in the adventure and join our tours.</p>
