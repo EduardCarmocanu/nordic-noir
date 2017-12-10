@@ -98,6 +98,7 @@ header{
         justify-content: space-between;
         padding-left: $padding1;
         padding-right: $padding1;
+        position: relative !important;
         h5{
             font-weight: 300;
             span{
@@ -115,7 +116,7 @@ header{
 main{
     background: $gray;
     color: $black;
-    min-height: calc(100vh - 50px);
+    min-height: calc(100vh);
     display: flex;
     flex-flow: row;
 
@@ -199,6 +200,7 @@ main{
 
     form{
         width: 100%;
+        height: 100%;
         .title{
             input{
                 width: 250px;

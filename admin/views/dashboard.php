@@ -1,25 +1,31 @@
 <?php
-
-
 //adding the controllers
 require_once('controllers/Dashboard_controller.php');
 $DBC = new Dashboard_controller();
 $tours = $DBC->tours;
 
-
+//reseting the tour in the session.
 $_SESSION['tour'] = 0;
+//all the getters are added to the dashboard
 include('controllers/getters.php');
+
+    //checking if the adming form was Submitted
     if(isset($_POST['submit'])){
         $coverPhoto = false;
         $thumbnailPhoto = false;
-        $coverPhoto = filestuff("inputPhoto");
-        $thumbnailPhoto = filestuff("inputPhoto2");
+        //filestuff i a function that handles the upload of pictures
+        $coverPhoto = $DBC->filestuff("inputPhoto");
+        $thumbnailPhoto = $DBC->filestuff("inputPhoto2");
+
+        //checking if a new photo was uploaded.. if not then the photo will be set to the same as the old one
         if(!$coverPhoto){
             $coverPhoto = $tours[$_SESSION['tour']]['image_url'];
         }
         if(!$thumbnailPhoto){
             $thumbnailPhoto = $tours[$_SESSION['tour']]['thumbnail_url'];
         }
+
+        //everything from the form is gathered into an object which is then posted into the Dashboard Controller
         $object = (object) [
             'id' => $_POST['id'],
             'title' => $_POST['title'],
@@ -33,6 +39,7 @@ include('controllers/getters.php');
             'state' => (int)$_POST['state']
         ];
         $DBC->changeTour($object);
+        //refrehs the page after submitting to get the recent updates to the Database.
         echo "<meta http-equiv='refresh' content='0'>";
     }
 ?>

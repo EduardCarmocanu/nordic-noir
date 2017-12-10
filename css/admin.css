@@ -82,7 +82,8 @@ header {
     align-items: center;
     justify-content: space-between;
     padding-left: 20px;
-    padding-right: 20px; }
+    padding-right: 20px;
+    position: relative !important; }
     header nav h5 {
       font-weight: 300; }
       header nav h5 span {
@@ -95,7 +96,7 @@ header {
 main {
   background: #ECECEC;
   color: #171717;
-  min-height: calc(100vh - 50px);
+  min-height: calc(100vh);
   display: flex;
   flex-flow: row; }
   main .left-side-bar {
@@ -158,7 +159,8 @@ main {
   padding: 20px;
   padding-top: 100px; }
   .main-section form {
-    width: 100%; }
+    width: 100%;
+    height: 100%; }
     .main-section form .title input {
       width: 250px; }
     .main-section form .price {

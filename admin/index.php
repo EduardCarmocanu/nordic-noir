@@ -1,4 +1,5 @@
 <?php
+
 session_start();
 
 ini_set('display_errors', 1);
@@ -30,28 +31,28 @@ error_reporting(E_ALL);
 
 	//checking if user is logged in
 	if($CLogin->userLogged()){
-			//checking if logout button was pressed
 			include('views/dashboard.php');		
 		}else{
-		//checking if the form was posted
-		if(isset($_POST['username']) || isset($_POST['password'])){
-			$username = $_POST['username'];
-			$password =$_POST['password'];
+			//checking if the form was posted
+			if(isset($_POST['username']) || isset($_POST['password'])){
+				$username = $_POST['username'];
+				$password =$_POST['password'];
 
-			//checking the password compaired to the database
-			$checker = $CLogin->checkUsers($username, $password);
+				//checking the password compaired to the database
+				$checker = $CLogin->checkUsers($username, $password);
 
-			if($checker == true){
-				//setting the session as logged in and refreshing the page
-				$_SESSION['logged'] = $checker;
-				echo "<meta http-equiv='refresh' content='0'>";
-			}else{
-				//displaying the errror message
-				echo $checker;
+				if($checker == true){
+					//setting the session as logged in and refreshing the page
+					$_SESSION['logged'] = $checker;
+					echo "<meta http-equiv='refresh' content='0'>";
+				}else{
+					//displaying the errror message
+					echo $checker;
+				}
 			}
+			//login form is put into the view
+			include('views/login.html');
 		}
-		include('views/login.html');
-	}
 
 
 ?>

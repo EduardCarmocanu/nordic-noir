@@ -85,6 +85,21 @@ class Dashboard_controller
         }
         return $randomString;
     }
+
+
+    public function filestuff($name){
+        require_once('controllers/Upload.php');
+        if($_FILES[$name]["tmp_name"]){
+            $check = getimagesize($_FILES[$name]["tmp_name"]);
+            $Upload = new Upload_controller($_FILES[$name],$check);
+            if(!$Upload->returner){
+                return false;
+            }else{
+                echo $Upload->returner . '<br>';
+                return $Upload->returner;  
+            }
+        }
+    }
     
 
 }

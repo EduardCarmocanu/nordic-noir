@@ -623,13 +623,8 @@ nav {
       background-size: cover; }
     nav .social-media div .tripadvisor {
       background-image: url("/assets/icons/tripadvisor-black.png");
-<<<<<<< HEAD
-      height: 25px !important;
-      width: 45px !important; }
-=======
       width: 45px;
       height: 45px; }
->>>>>>> baldur
     nav .social-media div .facebook {
       background-image: url("/assets/icons/facebook-logo-black.png"); }
     nav .social-media div .twitter {
@@ -684,15 +679,9 @@ nav {
   .initial ul a {
     color: #f8f8f8 !important; }
   .initial .tripadvisor {
-<<<<<<< HEAD
-    background-image: url("/assets/icons/tripadvisor-white.png") !important;
-    height: 25px !important;
-    width: 45px !important; }
-=======
     background-image: url("/assets/icons/tripadvisor-white.svg") !important;
     width: 45px;
     height: 45px; }
->>>>>>> baldur
   .initial .facebook {
     background-image: url("/assets/icons/facebook-logo-white.png") !important; }
   .initial .twitter {
@@ -705,11 +694,7 @@ nav {
   .active ul a {
     color: #171717 !important; }
   .active ul .tripadvisor {
-<<<<<<< HEAD
     background-image: url("/assets/icons/tripadvisor-black.png") !important; }
-=======
-    background-image: url("/assets/icons/tripd.tripadvisor-black.png") !important; }
->>>>>>> baldur
   .active ul .facebook {
     background-image: url("/assets/icons/facebook-logo-black.png") !important; }
   .active ul .twitter {
