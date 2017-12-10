@@ -550,18 +550,6 @@ h2 {
     .recommendations-list .recommendations-list-wrapper .recommendation p {
       text-align: justify; }
 
-.faq-container {
-  width: 70%;
-  overflow: hidden;
-  min-height: calc(100vh - 60px); }
-  .faq-container .question {
-    cursor: pointer;
-    height: 50px;
-    border-bottom: 1px solid #f8f8f8;
-    margin: 10px; }
-  .faq-container .question-active {
-    height: initial; }
-
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -623,8 +611,8 @@ nav {
       background-size: cover; }
     nav .social-media div .tripadvisor {
       background-image: url("/assets/icons/tripadvisor-black.png");
-      width: 45px;
-      height: 45px; }
+      height: 25px !important;
+      width: 45px !important; }
     nav .social-media div .facebook {
       background-image: url("/assets/icons/facebook-logo-black.png"); }
     nav .social-media div .twitter {
@@ -679,9 +667,9 @@ nav {
   .initial ul a {
     color: #f8f8f8 !important; }
   .initial .tripadvisor {
-    background-image: url("/assets/icons/tripadvisor-white.svg") !important;
-    width: 45px;
-    height: 45px; }
+    background-image: url("/assets/icons/tripadvisor-white.png") !important;
+    height: 25px !important;
+    width: 45px !important; }
   .initial .facebook {
     background-image: url("/assets/icons/facebook-logo-white.png") !important; }
   .initial .twitter {
