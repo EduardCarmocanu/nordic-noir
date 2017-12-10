@@ -8,7 +8,7 @@ class DB
 		$host = "localhost";
 		$db = "nordicNoir";
 		$user = "root";
-		$password = "root";
+		$password = "";
 		
 		try {
 			$pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8", $user, $password);
