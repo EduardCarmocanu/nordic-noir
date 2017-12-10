@@ -133,7 +133,7 @@
             }, $("#feed").spectragram("getUserFeed", {
                 max: 6,
                 query: 'baldurarge',
-				wrapEachWith: '<figure class="half-width pa-1 third-width">'
+				wrapEachWith: '<figure class="half-width pa-1 third-width no-overflow">'
             })
         }
     };

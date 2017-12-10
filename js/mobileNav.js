@@ -10,7 +10,7 @@ window.addEventListener('scroll', function () {
 	for (var i = 0; i < mobileTriggers.length; i++) {
 		if (window.pageYOffset > mobileTriggers[i].offsetTop - 50) {
 			// Sets the color of the hamburger with the attribute data
-			$("#hamburger").style.color = mobileTriggers[i].getAttribute('mobileTrigger');
+			$("#hamburger")[0].style.color = mobileTriggers[i].getAttribute('mobileTrigger');
 		}
 	}
 });
