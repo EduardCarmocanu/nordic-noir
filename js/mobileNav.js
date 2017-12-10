@@ -1,3 +1,5 @@
+"use strict";
+
 // Gets all triggers
 var mobileTriggers = $("*[mobileTrigger]");
 
@@ -16,10 +18,10 @@ window.addEventListener('scroll', function () {
 // gets the hamburger elements
 var hamburgers = $('.hamburger');
 // runs through all of them and bind anonymous function to their click event
-for(i = 0; i < hamburgers.length; i++){
+for(var i = 0; i < hamburgers.length; i++){
 	hamburgers[i].addEventListener('click', function () {
 		// toggles functions needed for the right display
-		$('#smallNav').classList.toggle('navOpen')
+		$('#smallNav').classList.toggle('navOpen');
 		$('#smallNav').classList.toggle('navClosed');
 	});
 }
