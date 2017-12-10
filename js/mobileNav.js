@@ -10,7 +10,7 @@ window.addEventListener('scroll', function () {
 	for (var i = 0; i < mobileTriggers.length; i++) {
 		if (window.pageYOffset > mobileTriggers[i].offsetTop - 50) {
 			// Sets the color of the hamburger with the attribute data
-			$("#hamburger")[0].style.color = mobileTriggers[i].getAttribute('mobileTrigger');
+			$(".hamburger")[0].style.color = mobileTriggers[i].getAttribute('mobileTrigger');
 		}
 	}
 });
@@ -21,7 +21,7 @@ var hamburgers = $('.hamburger');
 for(var i = 0; i < hamburgers.length; i++){
 	hamburgers[i].addEventListener('click', function () {
 		// toggles functions needed for the right display
-		$('#smallNav').classList.toggle('navOpen');
-		$('#smallNav').classList.toggle('navClosed');
+		$('.small-nav')[0].classList.toggle('navOpen');
+		$('.small-nav')[0].classList.toggle('navClosed');
 	});
 }
