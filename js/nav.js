@@ -24,8 +24,6 @@ document.addEventListener('DOMContentLoaded', function () {
 				$('nav')[0].classList.add('initial');
 			}
 		}
-		// Binds function setNavigationBar to the window scroll event
-		window.addEventListener('scroll', setNavigationBar);
 		
 	}
 });
