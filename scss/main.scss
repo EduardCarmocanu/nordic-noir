@@ -25,7 +25,7 @@
 @import 'custom/tours-modal';
 @import 'custom/contact';
 @import 'custom/recommendations';
-@import 'custom/faq';
+//@import 'custom/faq';
 
 
 *{
@@ -346,10 +346,7 @@ footer{
 
 
     }
-    .dp-sm{
-        display: block;
-    }
-}
+
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
@@ -440,10 +437,6 @@ footer{
         }
 
     }
-    .dp-sm{
-        display: block;
-    }
-}
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {

@@ -597,11 +597,15 @@ nav {
     display: flex; }
     nav .social-media div a {
       margin: 0 10px 0 10px;
-      height: 25px;
+      height: 27px;
       width: 25px;
       display: block;
       background-position: center center;
       background-size: cover; }
+    nav .social-media div .tripadvisor {
+      background-image: url("/assets/icons/tripadvisor-black.png");
+      width: 45px;
+      height: 45px; }
     nav .social-media div .facebook {
       background-image: url("/assets/icons/facebook-logo-black.png"); }
     nav .social-media div .twitter {
@@ -645,6 +649,10 @@ nav {
   background-color: transparent; }
   .initial ul a {
     color: #f8f8f8 !important; }
+  .initial .tripadvisor {
+    background-image: url("/assets/icons/tripadvisor-white.svg") !important;
+    width: 45px;
+    height: 45px; }
   .initial .facebook {
     background-image: url("/assets/icons/facebook-logo-white.png") !important; }
   .initial .twitter {
@@ -656,6 +664,8 @@ nav {
   background-color: #f8f8f8; }
   .active ul a {
     color: #171717 !important; }
+  .active ul .tripadvisor {
+    background-image: url("/assets/icons/tripd.tripadvisor-black.png") !important; }
   .active ul .facebook {
     background-image: url("/assets/icons/facebook-logo-black.png") !important; }
   .active ul .twitter {
