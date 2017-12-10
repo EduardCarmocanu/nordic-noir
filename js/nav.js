@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
 				$('nav')[0].classList.add('initial');
 			}
 		}
-		
+		window.addEventListener('scroll', setNavigationBar);
 	}
 });
 
