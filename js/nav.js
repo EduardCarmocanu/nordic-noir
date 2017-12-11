@@ -1,31 +1,24 @@
 'use strict';
 
-// Runs script on the DOM is loaded
-document.addEventListener('DOMContentLoaded', function () {
+if (window.innerWidth > 768) {
+	if (window.location.pathname === "/" || window.location.pathname === "/index.php") {
+		$('nav')[0].classList.remove('active');
+		$('nav')[0].classList.add('initial');
 
-	// Removes predefined component class "active" and adds initial
-	$('nav')[0].classList.remove('active');
-	$('nav')[0].classList.add('initial');
-
-	// Checks the window width in order to avoid conflicts with mobileNav.js
-	if (window.innerWidth > 768) {
+		var triggers = $('*[trigger]');
 		
-		// Stored the elements that have the "trigger" attribute
-		var triggerPoint = $('section[trigger]')[0];
-		function setNavigationBar() {
-			
-			// Checks to see if windows reached trigger point
-			if (window.pageYOffset > triggerPoint.offsetTop - 50) {
-				$('nav')[0].classList.add('active');
-				$('nav')[0].classList.remove('initial');
-			}
-			else {
-				$('nav')[0].classList.remove('active');
-				$('nav')[0].classList.add('initial');
-			}
+		function desktopNav () {
+			for (var i = 0; i < triggers.length; i++) {
+				if (window.pageYOffset > triggers[i].offsetTop - 50) {
+					$('nav')[0].classList.add('active');
+				}
+				else {
+					$('nav')[0].classList.remove('active');
+				}
+			}	
 		}
-		window.addEventListener('scroll', setNavigationBar);
+		window.addEventListener('scroll', desktopNav);
 	}
-});
+}
 
 
