@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Instantiates a new XMLHttpRequest
     var xhttp = new XMLHttpRequest();
+    // Binds annoymous function to the state change event
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
 
