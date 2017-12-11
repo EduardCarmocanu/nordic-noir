@@ -47,11 +47,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 tours[i].style.backgroundImage = "url(" + toursData[i].image_url + ")"
                 // Sets up the tours title
                 tourNames[i].innerHTML = toursData[i].title;
-            }else{
-                console.log("DOES NOT");
             }
-            
-            
         }
         
         // Binds function to close button
