@@ -522,7 +522,7 @@ h2 {
           height: 40px;
           padding-right: 20px; }
       .contact-main .contact-info .contact-info-wrapper .contact-text {
-        width: 40%; }
+        width: 60%; }
     .contact-main .contact-info h3 {
       font-weight: 400; }
 
@@ -549,6 +549,18 @@ h2 {
       font-family: "Lora", serif; }
     .recommendations-list .recommendations-list-wrapper .recommendation p {
       text-align: justify; }
+
+.faq-container {
+  width: 70%;
+  overflow: hidden;
+  min-height: calc(100vh - 60px); }
+  .faq-container .question {
+    cursor: pointer;
+    height: 50px;
+    border-bottom: 1px solid #f8f8f8;
+    margin: 10px; }
+  .faq-container .question-active {
+    height: initial; }
 
 * {
   -webkit-box-sizing: border-box;

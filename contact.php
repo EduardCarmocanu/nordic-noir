@@ -16,7 +16,7 @@
 	<main class="contact-main">
 		<section class="contact-info full-width has-background white">
 			<div class="contact-info-wrapper pl-5 pt-5 pb-5 full-width full-height">
-				<h1 class="pb-4 pl-1">CONTACT US</h1>
+				<h1 class="pl-1">CONTACT US</h1>
 				<div class="flex flex-justify-space-between">
 					<div class="contact-details pa-5 pl-1">
 						<div class="location contact-item flex flex-align-center">
@@ -27,12 +27,14 @@
 							<a href="mailto:info@nordicnoirtours.dk"><img src="/assets/icons/mail-white.png" alt=""></a>
 							<a href="mailto:info@nordicnoirtours.dk"><h4>info@nordicnoirtours.dk</h4></a>
 						</div>
-					</div>
-					<div class="contact-text pa-5 pt-3">
-						<br>
-						<p>All our tours start from Vesterport station.</p><br>
-						<p>If you would like to enquire about a group tour, please specify the group size,type of tour and preffered date/time and we will get back to you with the options</p>
-					</div>
+						<div class="contact-text pt-3">
+							<br>
+							<p>
+								All our tours start from Vesterport station.<br><br>
+								If you would like to enquire about a group tour, please specify the group size, type of tour and preffered date/time and we will get back to you with the options
+							</p>
+						</div>
+					</div>	
 				</div>
 			</div>
 		</section><section id="map" class="full-width half-view-height"></section>

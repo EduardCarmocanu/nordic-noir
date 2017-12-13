@@ -7,8 +7,3 @@ function $(selector) {
 	return document.querySelectorAll(selector);
 
 }
-
-// Shortfunction for loggin data to the console
-function log(data) {
-	console.log(data);
-}
