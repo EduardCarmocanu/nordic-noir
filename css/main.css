@@ -456,7 +456,8 @@ h2 {
   .third-section .image-gallery figure:hover img {
     opacity: 0.5;
     cursor: pointer;
-    z-index: 1; }
+    z-index: 1;
+    width: 100%; }
 
 #tour-1,
 #tour-2,
@@ -549,18 +550,6 @@ h2 {
       font-family: "Lora", serif; }
     .recommendations-list .recommendations-list-wrapper .recommendation p {
       text-align: justify; }
-
-.faq-container {
-  width: 70%;
-  overflow: hidden;
-  min-height: calc(100vh - 60px); }
-  .faq-container .question {
-    cursor: pointer;
-    height: 50px;
-    border-bottom: 1px solid #f8f8f8;
-    margin: 10px; }
-  .faq-container .question-active {
-    height: initial; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -731,7 +720,6 @@ footer {
   color: #f8f8f8;
   text-align: center; }
 
-/*==========  Non-Mobile First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
   .dp-big {
@@ -789,7 +777,69 @@ footer {
     height: 70vh; }
 
   .recommendations-list-wrapper {
-    padding: 50px 100px 50px 100px !important; } }
+    padding: 50px 100px 50px 100px !important; }
+
+  .tours-cards-section, .footer-content-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column; }
+
+  .footer-content-wrapper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .footer-content-wrapper div {
+      text-align: center; }
+
+  .tours-cards-section section {
+    margin-bottom: 30px !important; }
+
+  .CTA-btn {
+    max-width: 150px; }
+    .CTA-btn div {
+      font-size: 1em; }
+
+  .third-section {
+    padding-left: 5%;
+    padding-right: 5%; }
+    .third-section .image-gallery figure {
+      width: 50%; }
+
+  .about-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column; }
+    .about-section div {
+      width: 100%; }
+
+  .guides {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column; }
+    .guides div {
+      width: 100% !important; }
+      .guides div .guide-image-wrapper {
+        width: 200px !important; }
+
+  .recommendations-header .recommendations-header-wrapper {
+    padding-top: 50px;
+    padding-left: 10px;
+    min-width: 90vw;
+    text-align: left; }
+    .recommendations-header .recommendations-header-wrapper h1 {
+      font-size: 1.5em; }
+
+  .recommendations-list-wrapper {
+    padding-left: 10px !important;
+    padding-right: 10px !important; }
+    .recommendations-list-wrapper .recommendation {
+      padding-bottom: 20px !important; }
+
+  .contact-info-wrapper {
+    padding-left: 10px; } }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .dp-big {
