@@ -1,10 +1,16 @@
 <?php
+
+/*
+*	This class handles the connection to the databse
+*	It returns PDO instance in order for it to be used in Database operations
+*/
+
 class DB
 {
 	
 	public static function CONNECT ()
 	{
-		
+		// Connection Credentials 
 		$host = "localhost";
 		$db = "nordicNoir";
 		$user = "root";

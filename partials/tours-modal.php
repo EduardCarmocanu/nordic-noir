@@ -40,5 +40,4 @@
 			<img src="/assets/2.jpg" alt="">
 		</div>
 	</div>
-	
 </div>
