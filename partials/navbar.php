@@ -1,14 +1,14 @@
     <nav class="flex flex-justify-space-around flex-align-center full-view-width active">
         <section>
             <figure>
-                <a href="/">
+                <a href="http://104.152.168.36/~nordicnoirtours/">
                     <img src="http://nordicnoirtours.com/wp-content/uploads/2014/05/logo.png" alt="Nordic Noir Tours Logo" class="pa-1 pl-4 full-height" id="logo">
                 </a>
             </figure>
         </section>
         <section class="bigger big-nav full-width full-height dp-big">
             <ul class="navbar-items-wrapper flex">
-                <a href="/"><li>
+                <a href="http://104.152.168.36/~nordicnoirtours/"><li>
                     HOME
                 </li></a>
                 <a href="about.php"><li>
@@ -39,19 +39,19 @@
             <ul class="small-nav navClosed" id="smallNav">
             <i class="fa fa-times hamburger"></i>
                 
-                <a href="/"><li>
+                <a href="http://104.152.168.36/~nordicnoirtours/"><li>
                     HOME
                 </li></a>
-                <a href="/about.php"><li>
+                <a href="about.php"><li>
                     ABOUT
                 </li></a>
-                <a href="/tours.php"><li>
+                <a href="tours.php"><li>
                     TOURS
                 </li></a>
-                <a href="/recommendations.php"><li>
+                <a href="recommendations.php"><li>
                     RECOMMENDATIONS
                 </li></a>
-                <a href="/contact.php"><li>
+                <a href="contact.php"><li>
                     CONTACT
                 </li></a>
                 <li class="flex social-media">

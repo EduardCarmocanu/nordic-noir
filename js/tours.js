@@ -20,15 +20,17 @@ xhttp.onreadystatechange = function () {
     }
 }
 // Opens a get request for the tours data controller
-xhttp.open('GET', '/admin/controllers/tours_data_controller.php', true);
+xhttp.open('GET', './admin/controllers/tours_data_controller.php', true);
 // Send the request
 xhttp.send();
 
 
 function setUpTours() {
+    
+    
     var tours = $('.tour');
     var tourNames = $('.tour-name');
-    
+    console.log(toursData);
     for(var i = 0; i < tours.length; i++) {
         // Binds function to each tour
         tours[i].addEventListener('click', openTour);
@@ -37,7 +39,9 @@ function setUpTours() {
             // Formats the url
             toursData[i].image_url = toursData[i].image_url.replace('../', "./");
             // Sets up the tour background image
-            tours[i].style.backgroundImage = "url(" + toursData[i].image_url + ")"
+            console.log(toursData[i].thumbnail_url);
+tours[i].style.backgroundImage = "url(" + toursData[i].image_url + ")"
+            console.log("HEllo");
             // Sets up the tours titled
             tourNames[i].innerHTML = toursData[i].title;
         }

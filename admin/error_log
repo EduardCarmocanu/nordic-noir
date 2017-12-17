@@ -1,0 +1,119 @@
+[16-Dec-2017 15:15:08 America/Chicago] PHP Warning:  require_once(controllers/Login_controller.php): failed to open stream: No such file or directory in /home/nordicnoirtours/public_html/admin/index.php on line 28
+[16-Dec-2017 15:15:08 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'controllers/Login_controller.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nordicnoirtours/public_html/admin/index.php on line 28
+[16-Dec-2017 15:15:10 America/Chicago] PHP Warning:  require_once(controllers/Login_controller.php): failed to open stream: No such file or directory in /home/nordicnoirtours/public_html/admin/index.php on line 28
+[16-Dec-2017 15:15:10 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'controllers/Login_controller.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nordicnoirtours/public_html/admin/index.php on line 28
+[16-Dec-2017 15:15:11 America/Chicago] PHP Warning:  require_once(controllers/Login_controller.php): failed to open stream: No such file or directory in /home/nordicnoirtours/public_html/admin/index.php on line 28
+[16-Dec-2017 15:15:11 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'controllers/Login_controller.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nordicnoirtours/public_html/admin/index.php on line 28
+[16-Dec-2017 15:15:11 America/Chicago] PHP Warning:  require_once(controllers/Login_controller.php): failed to open stream: No such file or directory in /home/nordicnoirtours/public_html/admin/index.php on line 28
+[16-Dec-2017 15:15:11 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'controllers/Login_controller.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nordicnoirtours/public_html/admin/index.php on line 28
+[16-Dec-2017 15:15:11 America/Chicago] PHP Warning:  require_once(controllers/Login_controller.php): failed to open stream: No such file or directory in /home/nordicnoirtours/public_html/admin/index.php on line 28
+[16-Dec-2017 15:15:11 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'controllers/Login_controller.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nordicnoirtours/public_html/admin/index.php on line 28
+[16-Dec-2017 15:16:06 America/Chicago] PHP Warning:  require_once(./admin/controllers/Login_controller.php): failed to open stream: No such file or directory in /home/nordicnoirtours/public_html/admin/index.php on line 28
+[16-Dec-2017 15:16:06 America/Chicago] PHP Fatal error:  require_once(): Failed opening required './admin/controllers/Login_controller.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nordicnoirtours/public_html/admin/index.php on line 28
+[16-Dec-2017 15:16:08 America/Chicago] PHP Warning:  require_once(./admin/controllers/Login_controller.php): failed to open stream: No such file or directory in /home/nordicnoirtours/public_html/admin/index.php on line 28
+[16-Dec-2017 15:16:08 America/Chicago] PHP Fatal error:  require_once(): Failed opening required './admin/controllers/Login_controller.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nordicnoirtours/public_html/admin/index.php on line 28
+[16-Dec-2017 15:16:24 America/Chicago] PHP Warning:  require_once(../admin/controllers/Login_controller.php): failed to open stream: No such file or directory in /home/nordicnoirtours/public_html/admin/index.php on line 28
+[16-Dec-2017 15:16:24 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../admin/controllers/Login_controller.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nordicnoirtours/public_html/admin/index.php on line 28
+[16-Dec-2017 15:16:37 America/Chicago] PHP Warning:  require_once(./controllers/Login_controller.php): failed to open stream: No such file or directory in /home/nordicnoirtours/public_html/admin/index.php on line 28
+[16-Dec-2017 15:16:37 America/Chicago] PHP Fatal error:  require_once(): Failed opening required './controllers/Login_controller.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nordicnoirtours/public_html/admin/index.php on line 28
+[16-Dec-2017 15:16:38 America/Chicago] PHP Warning:  require_once(./controllers/Login_controller.php): failed to open stream: No such file or directory in /home/nordicnoirtours/public_html/admin/index.php on line 28
+[16-Dec-2017 15:16:38 America/Chicago] PHP Fatal error:  require_once(): Failed opening required './controllers/Login_controller.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nordicnoirtours/public_html/admin/index.php on line 28
+[16-Dec-2017 15:17:09 America/Chicago] PHP Notice:  Undefined variable: error in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 30
+[16-Dec-2017 15:17:44 America/Chicago] PHP Notice:  Undefined variable: error in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 30
+[16-Dec-2017 15:18:30 America/Chicago] PHP Notice:  Undefined variable: error in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 30
+[16-Dec-2017 15:19:49 America/Chicago] PHP Warning:  require_once(../core/database/DB.php): failed to open stream: No such file or directory in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 2
+[16-Dec-2017 15:19:49 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../core/database/DB.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 2
+[16-Dec-2017 15:19:50 America/Chicago] PHP Warning:  require_once(../core/database/DB.php): failed to open stream: No such file or directory in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 2
+[16-Dec-2017 15:19:50 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../core/database/DB.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 2
+[16-Dec-2017 15:19:51 America/Chicago] PHP Warning:  require_once(../core/database/DB.php): failed to open stream: No such file or directory in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 2
+[16-Dec-2017 15:19:51 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../core/database/DB.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 2
+[16-Dec-2017 15:19:59 America/Chicago] PHP Notice:  Undefined variable: error in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 30
+[16-Dec-2017 15:20:00 America/Chicago] PHP Notice:  Undefined variable: error in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 30
+[16-Dec-2017 15:20:00 America/Chicago] PHP Notice:  Undefined variable: error in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 30
+[16-Dec-2017 15:20:01 America/Chicago] PHP Notice:  Undefined variable: error in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 30
+[16-Dec-2017 15:20:17 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 32
+[16-Dec-2017 15:20:39 America/Chicago] PHP Notice:  Undefined variable: error in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 30
+[16-Dec-2017 15:20:40 America/Chicago] PHP Notice:  Undefined variable: error in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 30
+[16-Dec-2017 15:20:41 America/Chicago] PHP Notice:  Undefined variable: error in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 30
+[16-Dec-2017 15:20:42 America/Chicago] PHP Notice:  Undefined variable: error in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 30
+[16-Dec-2017 15:20:42 America/Chicago] PHP Notice:  Undefined variable: error in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 30
+[16-Dec-2017 15:22:56 America/Chicago] PHP Warning:  require_once(../core/database/QueryBuilder.php): failed to open stream: No such file or directory in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 3
+[16-Dec-2017 15:22:56 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '../core/database/QueryBuilder.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/nordicnoirtours/public_html/admin/controllers/login_controller.php on line 3
+[16-Dec-2017 15:41:49 America/Chicago] PHP Warning:  unlink(../assets/tours/tUXrrOCBTdborgen2.jpg): No such file or directory in /home/nordicnoirtours/public_html/admin/core/database/QueryBuilder.php on line 31
+[16-Dec-2017 15:41:49 America/Chicago] PHP Warning:  unlink(../assets/tours/tv9Cs1VzHQthekilling3copy.jpg): No such file or directory in /home/nordicnoirtours/public_html/admin/core/database/QueryBuilder.php on line 34
+[16-Dec-2017 15:42:03 America/Chicago] PHP Warning:  unlink(../assets/tours/Lc2eFsTTifthekilling3copy.jpg): No such file or directory in /home/nordicnoirtours/public_html/admin/core/database/QueryBuilder.php on line 31
+[16-Dec-2017 15:42:03 America/Chicago] PHP Warning:  unlink(../assets/tours/iDJUdJ945athekilling3.jpg): No such file or directory in /home/nordicnoirtours/public_html/admin/core/database/QueryBuilder.php on line 34
+[16-Dec-2017 15:42:12 America/Chicago] PHP Warning:  unlink(../assets/tours/CyWgX9BckZthebridge.jpg): No such file or directory in /home/nordicnoirtours/public_html/admin/core/database/QueryBuilder.php on line 31
+[16-Dec-2017 15:42:12 America/Chicago] PHP Warning:  unlink(../assets/tours/tFElSitklsthekilling3.jpg): No such file or directory in /home/nordicnoirtours/public_html/admin/core/database/QueryBuilder.php on line 34
+[16-Dec-2017 15:42:20 America/Chicago] PHP Warning:  unlink(../assets/tours/ntEM7XKGbRprivatetours2.jpg): No such file or directory in /home/nordicnoirtours/public_html/admin/core/database/QueryBuilder.php on line 31
+[16-Dec-2017 15:42:20 America/Chicago] PHP Warning:  unlink(../assets/tours/q49BvwPA1Xthekilling3.jpg): No such file or directory in /home/nordicnoirtours/public_html/admin/core/database/QueryBuilder.php on line 34
+[17-Dec-2017 11:35:41 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 2
+[17-Dec-2017 11:35:41 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 6
+[17-Dec-2017 11:35:41 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 10
+[17-Dec-2017 11:35:41 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 15
+[17-Dec-2017 11:35:41 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 18
+[17-Dec-2017 11:35:41 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 26
+[17-Dec-2017 11:35:41 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 33
+[17-Dec-2017 11:35:41 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 44
+[17-Dec-2017 11:35:41 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 58
+[17-Dec-2017 11:35:41 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 65
+[17-Dec-2017 11:35:43 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 2
+[17-Dec-2017 11:35:43 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 6
+[17-Dec-2017 11:35:43 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 10
+[17-Dec-2017 11:35:43 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 15
+[17-Dec-2017 11:35:43 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 18
+[17-Dec-2017 11:35:43 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 26
+[17-Dec-2017 11:35:43 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 33
+[17-Dec-2017 11:35:43 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 44
+[17-Dec-2017 11:35:43 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 58
+[17-Dec-2017 11:35:43 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 65
+[17-Dec-2017 11:35:44 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 2
+[17-Dec-2017 11:35:44 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 6
+[17-Dec-2017 11:35:44 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 10
+[17-Dec-2017 11:35:44 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 15
+[17-Dec-2017 11:35:44 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 18
+[17-Dec-2017 11:35:44 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 26
+[17-Dec-2017 11:35:44 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 33
+[17-Dec-2017 11:35:44 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 44
+[17-Dec-2017 11:35:44 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 58
+[17-Dec-2017 11:35:44 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 65
+[17-Dec-2017 11:35:45 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 2
+[17-Dec-2017 11:35:45 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 6
+[17-Dec-2017 11:35:45 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 10
+[17-Dec-2017 11:35:45 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 15
+[17-Dec-2017 11:35:45 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 18
+[17-Dec-2017 11:35:45 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 26
+[17-Dec-2017 11:35:45 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 33
+[17-Dec-2017 11:35:45 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 44
+[17-Dec-2017 11:35:45 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 58
+[17-Dec-2017 11:35:45 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 65
+[17-Dec-2017 11:37:20 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 2
+[17-Dec-2017 11:37:20 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 6
+[17-Dec-2017 11:37:20 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 10
+[17-Dec-2017 11:37:20 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 15
+[17-Dec-2017 11:37:20 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 18
+[17-Dec-2017 11:37:20 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 26
+[17-Dec-2017 11:37:20 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 33
+[17-Dec-2017 11:37:20 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 44
+[17-Dec-2017 11:37:20 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 58
+[17-Dec-2017 11:37:20 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 65
+[17-Dec-2017 11:40:17 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 2
+[17-Dec-2017 11:40:17 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 6
+[17-Dec-2017 11:40:17 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 10
+[17-Dec-2017 11:40:17 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 15
+[17-Dec-2017 11:40:17 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 18
+[17-Dec-2017 11:40:17 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 26
+[17-Dec-2017 11:40:17 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 33
+[17-Dec-2017 11:40:17 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 44
+[17-Dec-2017 11:40:17 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 58
+[17-Dec-2017 11:40:17 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 65
+[17-Dec-2017 11:40:18 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 2
+[17-Dec-2017 11:40:18 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 6
+[17-Dec-2017 11:40:18 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 10
+[17-Dec-2017 11:40:18 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 15
+[17-Dec-2017 11:40:18 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 18
+[17-Dec-2017 11:40:18 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 26
+[17-Dec-2017 11:40:18 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 33
+[17-Dec-2017 11:40:18 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 44
+[17-Dec-2017 11:40:18 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 58
+[17-Dec-2017 11:40:18 America/Chicago] PHP Notice:  Undefined offset: 4 in /home/nordicnoirtours/public_html/admin/views/form.php on line 65

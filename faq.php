@@ -55,5 +55,5 @@
 	<main>
 	
 	<?php include('partials/footer.php') ?>
-	<script src="/js/faq.js"></script>
+	<script src="js/faq.js"></script>
 </body>

@@ -157,10 +157,6 @@ if ( typeof Object.create !== "function" ) {
 
 					$image = $( "<img>", {
 						alt: imageCaption,
-						attr: {
-							height: imageHeight,
-							width: imageWidth
-						},
 						src: size
 					} );
 

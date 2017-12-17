@@ -10,7 +10,7 @@ class Login_controller
     public function __construct ()
 	{
         $this->queryBuilder = new QueryBuilder(DB::CONNECT());
-        $this->users = $this->queryBuilder->select_all_from('users');
+        $this->users = $this->queryBuilder->select_all_from('Users');
     }
 
 
@@ -26,7 +26,9 @@ class Login_controller
             }else{
                 $error = "No User";
             }
+            
         }
+    
         return $error;
     }
 
@@ -51,9 +53,9 @@ class Login_controller
 
     public function checkIfHeaders($place){
         if (headers_sent()){
-            die('<script type="text/javascript">window.location.href="'.$place.'";</script>');
+            die('<script type="text/javascript">window.location.href="http://104.152.168.36/~nordicnoirtours'.$place.'";</script>');
         }else{
-            header('Location:/admin');
+            header('Location:http://104.152.168.36/~nordicnoirtours/admin');
             die();
         }   
     }

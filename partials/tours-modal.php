@@ -37,7 +37,7 @@
 			</div>
 		</div>
 		<div class="tour-image half-width no-overflow" id="tour-image">
-			<img src="/assets/2.jpg" alt="">
+			<img src="./assets/2.jpg" alt="">
 		</div>
 	</div>
 	
