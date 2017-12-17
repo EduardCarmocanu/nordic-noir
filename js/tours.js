@@ -35,7 +35,7 @@ function setUpTours() {
         // Checks if tours data and image url exists
         if (toursData[i] && toursData[i].hasOwnProperty('image_url')) {
             // Formats the url
-            toursData[i].image_url = toursData[i].image_url.replace('../', "");
+            toursData[i].image_url = toursData[i].image_url.replace('../', "./");
             // Sets up the tour background image
             tours[i].style.backgroundImage = "url(" + toursData[i].image_url + ")"
             // Sets up the tours titled
@@ -66,7 +66,7 @@ function openTour (el) {
     tour.aditional_info = tour.aditional_info.replace(/(\n)+/g, '<br />');
     
     // Formats the url to math the path of the image
-    tour.thumbnail_url = tour.thumbnail_url.replace('../', '');
+    tour.thumbnail_url = tour.thumbnail_url.replace('../', './');
     
     
     // Displays data on the modal
@@ -96,6 +96,7 @@ function increment() {
 function decrement () {
     if (currentNumberOfPeople > 1) {
         
+        // Substracts the base tours price per person 
         // Substracts the base tours price per person from the current tours price
         currentTourPrice -= tour.price;
         // Decrements the current number of people by 1

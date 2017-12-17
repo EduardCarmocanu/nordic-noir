@@ -9,13 +9,17 @@ class Login_controller
 
     public function __construct ()
 	{
+        // Assign an instance of QueryBuilder in order to do Dababase operations
         $this->queryBuilder = new QueryBuilder(DB::CONNECT());
+        // Gets all users
         $this->users = $this->queryBuilder->select_all_from('users');
     }
 
 
     public function checkUsers($username, $password){
         $error;
+
+        // Runs through all users and checks if there is a match
         foreach ($this->users as $value) {
             if($value['user_name'] === $username){
                 if(password_verify($password,$value['password'])){
@@ -33,6 +37,7 @@ class Login_controller
 
 
     public function userLogged(){
+        // Checks session to see if user is logged in
         if(isset($_SESSION['logged']) && $_SESSION['logged'] != "No User"){
             if($_SESSION['logged'] == true){
                 return true;	
@@ -45,6 +50,7 @@ class Login_controller
     }
 
     public function logout(){
+        // destroys session information in order to logout the user
         session_destroy();
         $this->checkIfHeaders("/admin");   
     }
