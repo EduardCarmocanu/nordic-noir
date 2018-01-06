@@ -1,5 +1,4 @@
 <?php
-
 if(isset($_GET['tour'])){
         $_SESSION['tour'] = $_GET['tour']; 
     }else{
@@ -9,21 +8,18 @@ if(isset($_GET['tour'])){
     if(isset($_GET['logout'])){
         $CLogin->logout();
     }
-
     if(isset($_GET['addtour'])){
         if($CLogin->userLogged()){
             $DBC->createTour();
         }else{
-            $CLogin->checkIfHeaders("/");
+            $CLogin->checkIfHeaders("http://104.152.168.36/~nordicnoirtours/");
         }
     }
-
     if(isset($_GET['deletetour'])){
         if($CLogin->userLogged()){
             $DBC->deleteTour($_GET['deletetour']);
         }else{
-            $CLogin->checkIfHeaders("/");
+            $CLogin->checkIfHeaders("http://104.152.168.36/~nordicnoirtours/");
         }
     }
-
     ?>

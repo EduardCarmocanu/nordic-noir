@@ -20,11 +20,11 @@
 				<div class="flex flex-justify-space-between">
 					<div class="contact-details pa-5 pl-1">
 						<div class="location contact-item flex flex-align-center">
-							<img src="/assets/icons/location-whtie.png" alt="">
+							<img src="./assets/icons/location-whtie.png" alt="">
 							<h4>Ved Vesterport 2<br>1612 København V, Danmark</h4>
 						</div>
 						<div class="email contact-item flex flex-align-center pa-1">
-							<a href="mailto:info@nordicnoirtours.dk"><img src="/assets/icons/mail-white.png" alt=""></a>
+							<a href="mailto:info@nordicnoirtours.dk"><img src="./assets/icons/mail-white.png" alt=""></a>
 							<a href="mailto:info@nordicnoirtours.dk"><h4>info@nordicnoirtours.dk</h4></a>
 						</div>
 						<div class="contact-text pt-3">

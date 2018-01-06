@@ -52,7 +52,7 @@ include('controllers/getters.php');
 </section>
 <nav>
      <h5>Logged in as: <span><?php echo $_SESSION['logged']['user_name']; ?></span></h5>
-     <h5><a href="/admin?logout=logout">Logout</a></h5>
+     <h5><a href="http://104.152.168.36/~nordicnoirtours/admin?logout=logout">Logout</a></h5>
 </nav>
 </header>
 

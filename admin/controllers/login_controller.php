@@ -11,7 +11,6 @@ class Login_controller
 	{
         // Assign an instance of QueryBuilder in order to do Dababase operations
         $this->queryBuilder = new QueryBuilder(DB::CONNECT());
-        // Gets all users
         $this->users = $this->queryBuilder->select_all_from('users');
     }
 
@@ -30,7 +29,9 @@ class Login_controller
             }else{
                 $error = "No User";
             }
+            
         }
+    
         return $error;
     }
 
@@ -57,9 +58,9 @@ class Login_controller
 
     public function checkIfHeaders($place){
         if (headers_sent()){
-            die('<script type="text/javascript">window.location.href="'.$place.'";</script>');
+            die('<script type="text/javascript">window.location.href="http://104.152.168.36/~nordicnoirtours'.$place.'";</script>');
         }else{
-            header('Location:/admin');
+            header('Location:http://104.152.168.36/~nordicnoirtours/admin');
             die();
         }   
     }

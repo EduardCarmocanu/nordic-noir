@@ -6,7 +6,7 @@ require_once '../core/database/QueryBuilder.php';
 // creates an instance of QueryBuilder
 $query_builder = new QueryBuilder(DB::CONNECT());
 
-// gets the raw_data from the databse
+// gets the raw_data from the database
 $raw_data = $query_builder->select_all_where('tours', 'state', '1');
 
 // ecodes the data and echoes it

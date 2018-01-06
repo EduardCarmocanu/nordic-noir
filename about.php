@@ -30,7 +30,7 @@
 		<section class="guides flex pl-5 pr-5">
 			<div class="text-center pa-2 pl-3 pr-3 guide">
 				<div class="guide-image-wrapper no-overflow round center">
-					<img src="/assets/amalie.png" alt="guide picture" class="guide-image full-width">
+					<img src="./assets/amalie.png" alt="guide picture" class="guide-image full-width">
 				</div>
 				<h2 class="pt-3 text-center">Amalie</h2>
 				<br>
@@ -38,7 +38,7 @@
 			</div>
 			<div class="text-center pa-2 pl-3 pr-3 guide">
 				<div class="guide-image-wrapper no-overflow round center">
-					<img src="/assets/christine-profile.png" alt="guide picture" class="guide-image full-width">
+					<img src="./assets/christine-profile.png" alt="guide picture" class="guide-image full-width">
 				</div>
 				<h2 class="pt-3 text-center">Christine</h2>
 				<br>
@@ -46,7 +46,7 @@
 			</div>
 			<div class="text-center pa-2 pl-3 pr-3 guide">
 				<div class="guide-image-wrapper no-overflow round center">
-					<img src="/assets/hanna.png" alt="guide picture" class="guide-image full-width">
+					<img src="./assets/hanna.png" alt="guide picture" class="guide-image full-width">
 				</div>
 				<h2 class="pt-3 text-center">Hanna</h2>
 				<br>

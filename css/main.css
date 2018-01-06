@@ -397,7 +397,7 @@ h2 {
   width: 50%; }
 
 .separator-image {
-  background-image: url("/assets/about-privatetours.jpg"); }
+  background-image: url("../assets/about-privatetours.jpg"); }
 
 .guides .guide {
   width: 33.33333%;
@@ -407,7 +407,7 @@ h2 {
   width: 200px; }
 
 .first-section {
-  background-image: url("/assets/2.jpg");
+  background-image: url("../assets/2.jpg");
   background-position: top !important; }
   .first-section div {
     margin-top: 31vh;
@@ -417,7 +417,7 @@ h2 {
       text-align: center; }
 
 .second-section {
-  background-image: url("/assets/1.jpg"); }
+  background-image: url("../assets/1.jpg"); }
   .second-section .description {
     max-width: 70%; }
   .second-section .tours-cards-section section {
@@ -450,13 +450,14 @@ h2 {
   .third-section .nordic-noir-profile-image {
     height: 70px;
     width: 70px;
-    background-image: url("/assets/2.jpg"); }
+    background-image: url("../assets/2.jpg"); }
   .third-section .image-gallery figure img {
     transition: all 0.2s ease-in-out; }
   .third-section .image-gallery figure:hover img {
     opacity: 0.5;
     cursor: pointer;
-    z-index: 1; }
+    z-index: 1;
+    width: 100%; }
 
 #tour-1,
 #tour-2,
@@ -511,7 +512,7 @@ h2 {
 .contact-main {
   padding-top: 60px; }
   .contact-main .contact-info {
-    background-image: url("/assets/2.jpg"); }
+    background-image: url("../assets/2.jpg"); }
     .contact-main .contact-info .contact-info-wrapper {
       background-color: rgba(0, 0, 0, 0.7); }
       .contact-main .contact-info .contact-info-wrapper .contact-item {
@@ -527,7 +528,7 @@ h2 {
       font-weight: 400; }
 
 .recommendations-header {
-  background-image: url("/assets/thebridge2.jpg");
+  background-image: url("../assets/thebridge2.jpg");
   background-position: top;
   color: white; }
   .recommendations-header .recommendations-header-wrapper {
@@ -549,18 +550,6 @@ h2 {
       font-family: "Lora", serif; }
     .recommendations-list .recommendations-list-wrapper .recommendation p {
       text-align: justify; }
-
-.faq-container {
-  width: 70%;
-  overflow: hidden;
-  min-height: calc(100vh - 60px); }
-  .faq-container .question {
-    cursor: pointer;
-    height: 50px;
-    border-bottom: 1px solid #f8f8f8;
-    margin: 10px; }
-  .faq-container .question-active {
-    height: initial; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -622,15 +611,15 @@ nav {
       background-position: center center;
       background-size: cover; }
     nav .social-media div .tripadvisor {
-      background-image: url("/assets/icons/tripadvisor-black.png");
+      background-image: url("../assets/icons/tripadvisor-black.png");
       height: 25px !important;
       width: 45px !important; }
     nav .social-media div .facebook {
-      background-image: url("/assets/icons/facebook-logo-black.png"); }
+      background-image: url("../assets/icons/facebook-logo-black.png"); }
     nav .social-media div .twitter {
-      background-image: url("/assets/icons/twitter-logo-silhouette-black.png"); }
+      background-image: url("../assets/icons/twitter-logo-silhouette-black.png"); }
     nav .social-media div .instagram {
-      background-image: url("/assets/icons/instagram-symbol-black.png"); }
+      background-image: url("../assets/icons/instagram-symbol-black.png"); }
   nav .dp-sm .hamburger {
     font-size: 2.5em;
     color: #f8f8f8; }
@@ -679,28 +668,28 @@ nav {
   .initial ul a {
     color: #f8f8f8 !important; }
   .initial .tripadvisor {
-    background-image: url("/assets/icons/tripadvisor-white.png") !important;
+    background-image: url("../assets/icons/tripadvisor-white.png") !important;
     height: 25px !important;
     width: 45px !important; }
   .initial .facebook {
-    background-image: url("/assets/icons/facebook-logo-white.png") !important; }
+    background-image: url("../assets/icons/facebook-logo-white.png") !important; }
   .initial .twitter {
-    background-image: url("/assets/icons/twitter-logo-silhouette-white.png") !important; }
+    background-image: url("../assets/icons/twitter-logo-silhouette-white.png") !important; }
   .initial .instagram {
-    background-image: url("/assets/icons/instagram-symbol-white.png") !important; }
+    background-image: url("../assets/icons/instagram-symbol-white.png") !important; }
 
 .active {
   background-color: #f8f8f8; }
   .active ul a {
     color: #171717 !important; }
   .active ul .tripadvisor {
-    background-image: url("/assets/icons/tripadvisor-black.png") !important; }
+    background-image: url("../assets/icons/tripadvisor-black.png") !important; }
   .active ul .facebook {
-    background-image: url("/assets/icons/facebook-logo-black.png") !important; }
+    background-image: url("../assets/icons/facebook-logo-black.png") !important; }
   .active ul .twitter {
-    background-image: url("/assets/icons/twitter-logo-silhouette-black.png") !important; }
+    background-image: url("../assets/icons/twitter-logo-silhouette-black.png") !important; }
   .active ul .instagram {
-    background-image: url("/assets/icons/instagram-symbol-black.png") !important; }
+    background-image: url("../assets/icons/instagram-symbol-black.png") !important; }
 
 .main-footer {
   background-color: #171717; }
@@ -731,7 +720,6 @@ footer {
   color: #f8f8f8;
   text-align: center; }
 
-/*==========  Non-Mobile First Method  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1200px) {
   .dp-big {
@@ -789,7 +777,69 @@ footer {
     height: 70vh; }
 
   .recommendations-list-wrapper {
-    padding: 50px 100px 50px 100px !important; } }
+    padding: 50px 100px 50px 100px !important; }
+
+  .tours-cards-section, .footer-content-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column; }
+
+  .footer-content-wrapper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .footer-content-wrapper div {
+      text-align: center; }
+
+  .tours-cards-section section {
+    margin-bottom: 30px !important; }
+
+  .CTA-btn {
+    max-width: 150px; }
+    .CTA-btn div {
+      font-size: 1em; }
+
+  .third-section {
+    padding-left: 5%;
+    padding-right: 5%; }
+    .third-section .image-gallery figure {
+      width: 50%; }
+
+  .about-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column; }
+    .about-section div {
+      width: 100%; }
+
+  .guides {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column; }
+    .guides div {
+      width: 100% !important; }
+      .guides div .guide-image-wrapper {
+        width: 200px !important; }
+
+  .recommendations-header .recommendations-header-wrapper {
+    padding-top: 50px;
+    padding-left: 10px;
+    min-width: 90vw;
+    text-align: left; }
+    .recommendations-header .recommendations-header-wrapper h1 {
+      font-size: 1.5em; }
+
+  .recommendations-list-wrapper {
+    padding-left: 10px !important;
+    padding-right: 10px !important; }
+    .recommendations-list-wrapper .recommendation {
+      padding-bottom: 20px !important; }
+
+  .contact-info-wrapper {
+    padding-left: 10px; } }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .dp-big {

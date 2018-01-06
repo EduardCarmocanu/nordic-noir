@@ -25,7 +25,7 @@ error_reporting(E_ALL);
 
 <?php
 	//adding the controllers
-	require_once('controllers/Login_controller.php');
+	require_once('controllers/login_controller.php');
 	$CLogin = new Login_controller();
 	
 

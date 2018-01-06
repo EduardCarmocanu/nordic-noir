@@ -48,9 +48,9 @@ class Dashboard_controller
 
     public function relocate(){
         if (headers_sent()){
-            die('<script type="text/javascript">window.location.href="/admin";</script>');
+            die('<script type="text/javascript">window.location.href="http://104.152.168.36/~nordicnoirtours/admin";</script>');
         }else{
-            header('Location:/admin');
+            header('Location:http://104.152.168.36/~nordicnoirtours/admin');
             die();
         }   
     }

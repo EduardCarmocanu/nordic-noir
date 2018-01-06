@@ -9,16 +9,16 @@
 			scandinavian crime tv series<br>
 			</p>
 			<br>
-			<a href="/faq.php"><h3>FAQ</h3></a>
+			<a href="faq.php"><h3>FAQ</h3></a>
 		</div>
 		<div class="footer-col text-center">
 			<h3>FOLLOW US</h3>
 			<br>
 			<div class="flex flex-justify-center">
-				<a href="httpshttps://www.tripadvisor.com/Attraction_Review-g189541-d7055048-Reviews-Nordic_Noir_Tours-Copenhagen_Zealand.html" target="_blank"><img src="/assets/icons/tripadvisor-white.png" alt="1"></a>
-				<a href="https://www.facebook.com/NordicNoirTours" target="_blank"><img src="/assets/icons/facebook-logo-white.png" alt="1"></a>
-				<a href="https://twitter.com/NordicNoirTours" target="_blank"><img src="/assets/icons/twitter-logo-silhouette-white.png" alt="2"></a>
-				<a href="https://www.instagram.com/nordicnoirtours/" target="_blank"><img src="/assets/icons/instagram-symbol-white.png" alt="3"></a>
+				<a href="httpshttps://www.tripadvisor.com/Attraction_Review-g189541-d7055048-Reviews-Nordic_Noir_Tours-Copenhagen_Zealand.html" target="_blank"><img src="./assets/icons/tripadvisor-white.png" alt="1"></a>
+				<a href="https://www.facebook.com/NordicNoirTours" target="_blank"><img src="./assets/icons/facebook-logo-white.png" alt="1"></a>
+				<a href="https://twitter.com/NordicNoirTours" target="_blank"><img src="./assets/icons/twitter-logo-silhouette-white.png" alt="2"></a>
+				<a href="https://www.instagram.com/nordicnoirtours/" target="_blank"><img src="./assets/icons/instagram-symbol-white.png" alt="3"></a>
 			</div>
 		</div>
 		<div class="footer-col text-right">
