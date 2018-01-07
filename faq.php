@@ -14,8 +14,8 @@
 
 	<main>
 		<div class="faq-container center pa-5">
-			<h1 class="pb-5 pt-3">FAQ</h1>
-			<div class="question no-overflow pb-2" id="0">
+			<h1>FAQ</h1>
+			<div class="question no-overflow" id="0">
 				<h3><i class="fa fa-plus" aria-hidden="true"></i> How much does a tour cost?</h3>
 				<br>
 				<p>If there is an open tour in Copenhagen, it costs 150 dkk per person per tour. You receive a 50 dkk discount per person per tour if you make a reservation before Thursday 2 pm.<br>
@@ -27,7 +27,7 @@
 				<br>
 				The cost of a private tour depends on the size of the group, the length of the tour and other wishes. Please send us an email and we will get back to you.</p>
 			</div>
-			<div class="question no-overflow pb-2" id="1">
+			<div class="question no-overflow" id="1">
 				<h3><i class="fa fa-plus" aria-hidden="true"></i> How much does a tour cost?</h3>
 				<br>
 				<p>If there is an open tour in Copenhagen, it costs 150 dkk per person per tour. You receive a 50 dkk discount per person per tour if you make a reservation before Thursday 2 pm.<br>
@@ -39,7 +39,7 @@
 				<br>
 				The cost of a private tour depends on the size of the group, the length of the tour and other wishes. Please send us an email and we will get back to you.</p>
 			</div>
-			<div class="question no-overflow pb-2" id="2">
+			<div class="question no-overflow" id="2">
 				<h3><i class="fa fa-plus" aria-hidden="true"></i> How much does a tour cost?</h3>
 				<br>
 				<p>If there is an open tour in Copenhagen, it costs 150 dkk per person per tour. You receive a 50 dkk discount per person per tour if you make a reservation before Thursday 2 pm.<br>

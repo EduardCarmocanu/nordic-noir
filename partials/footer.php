@@ -1,4 +1,4 @@
-<footer class="pt-2 pb-5 main-footer">
+<footer class="main-footer">
 	<div class="footer-content-wrapper center flex flex-justify-center">
 		<div class="footer-col text-left">
 			<h3>ABOUT US</h3>
@@ -14,7 +14,7 @@
 		<div class="footer-col text-center">
 			<h3>FOLLOW US</h3>
 			<br>
-			<div class="flex flex-justify-center">
+			<div>
 				<a href="httpshttps://www.tripadvisor.com/Attraction_Review-g189541-d7055048-Reviews-Nordic_Noir_Tours-Copenhagen_Zealand.html" target="_blank"><img src="./assets/icons/tripadvisor-white.png" alt="1"></a>
 				<a href="https://www.facebook.com/NordicNoirTours" target="_blank"><img src="./assets/icons/facebook-logo-white.png" alt="1"></a>
 				<a href="https://twitter.com/NordicNoirTours" target="_blank"><img src="./assets/icons/twitter-logo-silhouette-white.png" alt="2"></a>
@@ -32,14 +32,21 @@
 		</div>
 	</div>
 	<section class="copyright-section">
-		<p class="copyright pt-1">&copy; COPYRIGHT 2017 NORDIC NOIR</p>
+		<p>&copy; COPYRIGHT 2017 NORDIC NOIR</p>
 	</section>
 </footer>
-
-
 
 <script src="js/util.js"></script>
 <script src="js/mobileNav.js"></script>
 
 
-<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
+<!-- SCRIPT TO BE RUN WHEN SITE GOES LIVE -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=GA-ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107427368-1');
+</script> -->

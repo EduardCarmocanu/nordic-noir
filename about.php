@@ -15,40 +15,40 @@
 	
 	<main>
 		<br>
-		<div class="heading ml-2 pl-5 pt-2 about-heading">
+		<div class="about-heading">
 			<h1>ABOUT US</h1>
 		</div>
-		<section class="about-section flex flex-jusitify-center pl-4 pr-4">
-			<div class="pa-3 pr-2">
+		<section class="about-section">
+			<div>
 				<p>In July 2016, Nordic Noir Tours was integrated into www.nordic-insite.com. as one of many tours and services offered by our incoming agency.<br><br>Nordic Noir Tours is now managed by Christine Bordin, founder of NORDIC INSITE, Thank must go to Lise Lotte Frederiksen, the original creator of these tours and to Dieuwertje, without whom Nordic Noir Tours would not have existed.<br><br>Many thanks also to all the visitors, contributions and Scandifans that regulary send their comments. Pictures and articles to share our fandom around the Nordic Noir series</p>
 			</div>
-			<div class="pa-3 pl-2">
+			<div>
 				<p>We offer tours through Copenhagen and Malmo, based on the crime series The killing Borgen and The Bridge<br><br>The name Nordic Noir refers to the dark crime fiction genre, also known as Scandinoir or Scandicrime<br><br>These bleak, slow developing and character focused tv series are exactly what the Nordic countries do best. Now this unique genre has gained worldwide fan base through the years. Nordic Noir Tours was founded in the spring of 2014 by Dieuwetje Visser.</p>
 			</div>
 		</section>
-		<section class="separator-image full-width half-view-height mb-3 no-overflow has-background"></section>
-		<section class="guides flex pl-5 pr-5">
-			<div class="text-center pa-2 pl-3 pr-3 guide">
-				<div class="guide-image-wrapper no-overflow round center">
-					<img src="./assets/amalie.png" alt="guide picture" class="guide-image full-width">
+		<section class="separator-image no-overflow"></section>
+		<section class="guides">
+			<div class="guide">
+				<div class="guide-image-wrapper no-overflow round">
+					<img src="./assets/amalie.png" alt="Amalie" class="guide-image">
 				</div>
-				<h2 class="pt-3 text-center">Amalie</h2>
+				<h2>Amalie</h2>
 				<br>
 				<p>Amalie is our local tour guide from Copenhagen who lived in Germany for several years. She has great ambition to improve tourism in Denmark.</p>
 			</div>
-			<div class="text-center pa-2 pl-3 pr-3 guide">
-				<div class="guide-image-wrapper no-overflow round center">
-					<img src="./assets/christine-profile.png" alt="guide picture" class="guide-image full-width">
+			<div class="guide">
+				<div class="guide-image-wrapper no-overflow round">
+					<img src="./assets/christine-profile.png" alt="Christine" class="guide-image">
 				</div>
-				<h2 class="pt-3 text-center">Christine</h2>
+				<h2>Christine</h2>
 				<br>
 				<p>Christine is from France and has been living in Denmark since 1996. She is the owner of Nordic Noir Tours, and when time allows she does what she enjoys the most, guiding tours.</p>
 			</div>
-			<div class="text-center pa-2 pl-3 pr-3 guide">
-				<div class="guide-image-wrapper no-overflow round center">
-					<img src="./assets/hanna.png" alt="guide picture" class="guide-image full-width">
+			<div class="guide">
+				<div class="guide-image-wrapper no-overflow round">
+					<img src="./assets/hanna.png" alt="Hanna" class="guide-image">
 				</div>
-				<h2 class="pt-3 text-center">Hanna</h2>
+				<h2>Hanna</h2>
 				<br>
 				<p>Hanna is the newest addition to our team. She is not only a passionate Nordic Noir fan and a Denmark-enthusiast, she is also an educated expert in the field!</p>
 			</div>

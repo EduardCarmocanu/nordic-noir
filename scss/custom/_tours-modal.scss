@@ -1,4 +1,12 @@
 #tours-modal {
+	position: absolute;
+	@extend .center;
+	padding: 30px;
+	.tour-modal-header {
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 20px;
+	}
 	.fa {
 		transition: color 0.1s ease-in-out;
 		padding: 10px;
@@ -19,18 +27,47 @@
 		max-height: 70vh;
 		overflow: hidden;
 		width: 100%;
+		display: flex;
 		.tour-details-wrapper {
+			display: flex;
+			flex-direction: column;
+			margin-right: 40px;
 			width: 75%;
-		}
-		.tour-image {
-			img {
-				position: relative;
-				height: 100%;
+			.tour-image {
+				width: 50%;
+				img {
+					position: relative;
+					height: 100%;
+				}
+			}
+			.book-tours {
+				margin-bottom: -10px;	
+			}
+			.tour-details {
+				display: flex;
+				flex-direction: column;
+			}
+			.tour-controls {
+				display: inline-flex;
+				text-align: center;
+				align-items: center;
+				justify-content: space-between;
+				margin: 50px 20px 20px 20px;
+				.tour-arrows {
+					display: flex;
+					justify-content: space-between;
+					#number-of-people {
+						font-family: $paragraph;
+					}
+				}
+			}
+			#additional-info {
+				h6 {
+					font-family: $paragraph;
+				}
 			}
 		}
-		.book-tours {
-			margin-bottom: -10px;	
-		}
+		
 	}
 }
 

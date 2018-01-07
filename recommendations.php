@@ -12,8 +12,8 @@
 	<?php include('partials/navbar.php'); ?>	
 	
 	<main>
-		<section class="recommendations-header full-view-width-height has-background">
-			<div class="recommendations-header-wrapper pa-5">
+		<section class="recommendations-header">
+			<div class="recommendations-header-wrapper">
 				<h1>RECOMMENDATIONS</h1>
 				<br>
 				<p>
@@ -31,14 +31,14 @@
 		</section>
 		<section class="recommendations-list">
 			<div class="recommendations-list-wrapper">
-				<div class="recommendation pb-5">
+				<div class="recommendation">
 					<h2>Trapped (2015, Ofaerd, ISL)</h2>
 					<br>
 					<p>A murderer on the loose in a little Islandic village and a snow storm as main character.</p>
 					<br>
 					<p>Brilliant performance Olafur Darri Olafsson as the chief of local police and Bjarne Henriksen (Theis Birke Larsen in The Killing) as a shady captain.</p>
 				</div>
-				<div class="recommendation pb-5">
+				<div class="recommendation">
 					<h2>Blue Eyes (2014, Bla Ogon, SWE)</h2>
 					<br>
 					<p>Taking place in Stockholm on the backdrop of the political campaign of a xenophobic party and the violent actions of an extreme right group</p>
@@ -47,7 +47,7 @@
 					<br>
 					<p>Adam reier Lundgren as the terrifying psychopath Mattias</p>
 				</div>
-				<div class="recommendation pb-5">
+				<div class="recommendation">
 					<h2>Thicker Than Water (2014, Tjockare an vatten, SWE)</h2>
 					<br>
 					<p>A mother who owns a family hotel with one of her sons commits suicide. She leaves one summer to the 3 alienated siblings to run the place together. If profit is being made at the end of the season. They will be able to share the inheritance - otherwise the family fortune will be donated. Old family quarrels are drawn into the plot.</p>

@@ -12,9 +12,9 @@ class DB
 	{
 		// Connection Credentials 
 		$host = "localhost";
-		$db = "nordicnoirtours_nordic";
-		$user = "nordicnoirtours_baldur";
-		$password = "rootpass!";
+		$db = "nordicnoir";
+		$user = "root";
+		$password = "";
 		
 		try {
 			$pdo = new PDO("mysql:host=$host;dbname=$db;charset=utf8", $user, $password);

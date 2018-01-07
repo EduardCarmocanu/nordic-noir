@@ -46,6 +46,10 @@ ul {
     list-style: none;
 }
 nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
     position: fixed;
     top:0;
     left:0;
@@ -55,14 +59,21 @@ nav {
     background-color: $white;
     figure{
         height: 60px;
-        
+        img {
+            padding: 10px 10px 10px 40px;
+            height: 100%;
+        }
     }
     .big-nav {
+        width: 100%;
+        height: 100%;
         ul{
+            display: flex;
             color: $black;
             font-weight: 400;
             padding-left: 5vw;
             .social-media {
+                display: flex;
                 -webkit-box-pack: end;
                     -ms-flex-pack: end;
                         justify-content: flex-end;
@@ -231,40 +242,39 @@ nav {
 
 .main-footer {
     background-color: $black;
-    img {
-        height: 45px;
-        padding: 10px;
-    }
-    .copyright {
-        font-size: 0.9em;
-        opacity: 0.7
-    }
-}
-.footer-col {
-	width: 33.333%;
-}
-.footer-content-wrapper {
-	width: 80vw;
-    color: $white;
-    
-}
-
-
-.dp-sm{
-    display: none !important;
-}
-
-
-footer{
+    padding: 20px 0 50px 0;
     position: relative;
+    .footer-content-wrapper {
+        width: 80vw;
+        color: $white;
+        img {
+            height: 45px;
+            padding: 10px;
+        }
+        
+        .footer-col {
+            width: 33.333%;
+            div {
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
 }
-
 .copyright-section{
     position: absolute;
     bottom: 0;
     width: 100%;
     color: $white;
     text-align: center;
+    p {
+        font-size: 0.9em;
+        opacity: 0.7;
+        padding-top: 10px;
+    }
+}
+.dp-sm{
+    display: none !important;
 }
 
 

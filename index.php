@@ -14,21 +14,20 @@
 	<?php include('partials/navbar.php'); ?>
 	
 	<main mobileTrigger="#f8f8f8">
-		<section class="first-section flex flex-column full-view-height full-width has-background">
-			<div class="pl-5">
-				<h1 class="white main-page-heading pb-3">FROM SCANDINAVIA<br>WITH CRIME</h1>
-				<a href="tours.php" class="CTA-btn mt-1"><div>View Tours</div></a>	
+		<section class="first-section">
+			<div>
+				<h1 class="main-page-heading">FROM SCANDINAVIA<br>WITH CRIME</h1>
+				<a href="tours.php" class="CTA-btn">View Tours</a>	
 			</div>
 		</section>
-		<section class="second-section has-background text-center pt-4 pb-5" trigger mobileTrigger="#171717">
+		<section class="second-section" trigger mobileTrigger="#171717">
 			<div class="description center">
 				<h2>Who are we?</h2>
-				<p class="pt-2">We offer tours based on the popular Scandinavian crime series Borge, The Bridge and the Killing. With Nordic Noir Tours you have the opportunity to explore the locations where the crime misteries took place. <br>Take part in the adventure and join our tours.</p>
+				<p>We offer tours based on the popular Scandinavian crime series Borge, The Bridge and the Killing. With Nordic Noir Tours you have the opportunity to explore the locations where the crime misteries took place. <br>Take part in the adventure and join our tours.</p>
 			</div>
-			<h2 class="pt-5">Tours</h2>
-			<section class="tours-cards-section flex flex-justify-center flex-align-center pt-2 pb-4">
-				
-				<section class="pt-4 ">
+			<h2>Tours</h2>
+			<section class="tours-cards-section">
+				<section>
 					<h4 class="headline">THE KILLING</h4>
 					<br>
 					<h2 class="price">200 DKK</h2>
@@ -38,10 +37,10 @@
 					<br>
 					<br>
 					<h5>Early Reservation<br>
-					Discunt</h5>
+					Discount</h5>
 					<a href="tours.php" class="CTA-btn-tours">View more</a>
 				</section>
-				<section class="special pt-4 ">
+				<section class="special ">
 					<h3 class="headline">BORGEN</h3>
 					<br>
 					<h2 class="price">200 DKK</h2>
@@ -51,10 +50,10 @@
 					<br>
 					<br>
 					<h5>Early Reservation<br>
-					Discunt</h5>
+					Discount</h5>
 					<a href="tours.php" class="CTA-btn-tours">View more</a>
 				</section>
-				<section class="pt-4 ">
+				<section>
 					<h4 class="headline">THE BRIDGE</h4>
 					<br>
 					<h2 class="price">300 DKK</h2>
@@ -64,23 +63,22 @@
 					<br>
 					<br>
 					<h5>Early Reservation<br>
-					Discunt</h5>
+					Discount</h5>
 					<a href="tours.php" class="CTA-btn-tours">View more</a>
 				</section>
 			</section>
 			
 		</section>
-		<section class="third-section pb-3 pt-5 full-width">
-			<section class="nordic-noir-insta flex flex-column flex-align-center text-center pb-1">
-				<div class="round has-background nordic-noir-profile-image mb-1"></div>
+		<section class="third-section">
+			<section class="nordic-noir-insta">
+				<div class="round nordic-noir-profile-image"></div>
 				<div class="insta-info">
 					<h2>NORDIC NOIR TOURS</h2>
 					<h4>Instagram</h4>
 				</div>
 			</section>
 			
-			
-			<section class="image-gallery flex flex-justify-space-between flex-wrap flex-row" id="feed">
+			<section class="image-gallery" id="feed">
 		</section>
 	</main>
 	<div mobileTrigger="#f8f8f8"></div>
@@ -88,7 +86,6 @@
 	<?php include('partials/footer.php'); ?>
 	<script src="js/nav.js"></script>	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
 	<script src="js/instagram.js"></script>	
 
 
