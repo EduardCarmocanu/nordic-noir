@@ -18,7 +18,7 @@
 			
 			<div class="contact-info-wrapper">
 				<div class="form-wrapper">
-					<form action="#">
+					<form action="/admin/controllers/mail_controller.php" method="POST">
 						<h1>CONTACT US</h1>
 						<div class="form-group">
 							<input type="email" name="email" id="email" required minlength="6" maxlength="60" placeholder="Email">
