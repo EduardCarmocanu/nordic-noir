@@ -1,7 +1,7 @@
 'use strict';
 
 // checks windows width in order to avoid conflict with mobileNav.js
-if (window.innerWidth > 768 && (window.location.pathname === "/~nordicnoirtours/" || window.location.pathname === "/~nordicnoirtours/index.php")) {
+if (window.innerWidth > 768 && (window.location.pathname === "/" || window.location.pathname === "/index.php")) {
 	// Check to see the window location is on the landing page
 	// Sets the appropriate initial styling
 	$('nav')[0].classList.remove('active');

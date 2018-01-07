@@ -325,7 +325,7 @@ h2 {
 .quarter-view-width {
   height: 25vw; }
 
-.has-background {
+.has-background, .contact-main .contact-info {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; }
@@ -339,7 +339,7 @@ h2 {
 .relative {
   position: relative; }
 
-.CTA-btn {
+.CTA-btn, .contact-main .contact-info .contact-info-wrapper .form-wrapper .form-group input[type=submit] {
   display: block;
   color: white;
   max-width: 240px;
@@ -358,9 +358,11 @@ h2 {
   /* Standard syntax */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
   transition: all 0.2s ease-in-out; }
-  .CTA-btn div {
+  .CTA-btn div, .contact-main .contact-info .contact-info-wrapper .form-wrapper .form-group input[type=submit] div {
     margin-top: 0 !important; }
-  .CTA-btn:hover {
+  .CTA-btn:hover, .contact-main .contact-info .contact-info-wrapper .form-wrapper .form-group input[type=submit]:hover {
+    transform: scale(1.1, 1.1); }
+  .CTA-btn:focus, .contact-main .contact-info .contact-info-wrapper .form-wrapper .form-group input[type=submit]:focus {
     transform: scale(1.1, 1.1); }
 
 .CTA-btn-tours {
@@ -397,7 +399,7 @@ h2 {
   width: 50%; }
 
 .separator-image {
-  background-image: url("../assets/about-privatetours.jpg"); }
+  background-image: url("/assets/about-privatetours.jpg"); }
 
 .guides .guide {
   width: 33.33333%;
@@ -407,7 +409,7 @@ h2 {
   width: 200px; }
 
 .first-section {
-  background-image: url("../assets/2.jpg");
+  background-image: url("/assets/2.jpg");
   background-position: top !important; }
   .first-section div {
     margin-top: 31vh;
@@ -417,7 +419,7 @@ h2 {
       text-align: center; }
 
 .second-section {
-  background-image: url("../assets/1.jpg"); }
+  background-image: url("/assets/1.jpg"); }
   .second-section .description {
     max-width: 70%; }
   .second-section .tours-cards-section section {
@@ -450,7 +452,7 @@ h2 {
   .third-section .nordic-noir-profile-image {
     height: 70px;
     width: 70px;
-    background-image: url("../assets/2.jpg"); }
+    background-image: url("/assets/2.jpg"); }
   .third-section .image-gallery figure img {
     transition: all 0.2s ease-in-out; }
   .third-section .image-gallery figure:hover img {
@@ -512,23 +514,55 @@ h2 {
 .contact-main {
   padding-top: 60px; }
   .contact-main .contact-info {
-    background-image: url("../assets/2.jpg"); }
+    background-image: url("/assets/2.jpg");
+    width: 100%;
+    color: #f8f8f8; }
     .contact-main .contact-info .contact-info-wrapper {
-      background-color: rgba(0, 0, 0, 0.7); }
-      .contact-main .contact-info .contact-info-wrapper .contact-item {
-        padding-left: 0; }
-        .contact-main .contact-info .contact-info-wrapper .contact-item h4 {
-          font-weight: 100; }
-        .contact-main .contact-info .contact-info-wrapper .contact-item img {
-          height: 40px;
-          padding-right: 20px; }
-      .contact-main .contact-info .contact-info-wrapper .contact-text {
-        width: 60%; }
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 50px 0 50px 50px;
+      width: 100%;
+      height: 100%;
+      display: flex; }
+      .contact-main .contact-info .contact-info-wrapper .form-wrapper {
+        width: 100%;
+        padding-right: 10%; }
+        .contact-main .contact-info .contact-info-wrapper .form-wrapper input, .contact-main .contact-info .contact-info-wrapper .form-wrapper textarea {
+          width: 100%;
+          outline: none;
+          border: none;
+          box-shadow: none;
+          font-family: "Poppins", sans-serif;
+          padding: 7px;
+          resize: none;
+          border-radius: 5px; }
+        .contact-main .contact-info .contact-info-wrapper .form-wrapper .form-group {
+          padding: 10px 0 20px 0; }
+          .contact-main .contact-info .contact-info-wrapper .form-wrapper .form-group textarea {
+            height: 300px; }
+      .contact-main .contact-info .contact-info-wrapper .contact-details {
+        width: 100%;
+        padding: 50px 50px 50px 10px; }
+        .contact-main .contact-info .contact-info-wrapper .contact-details .contact-item {
+          display: flex;
+          align-items: center; }
+          .contact-main .contact-info .contact-info-wrapper .contact-details .contact-item h4 {
+            font-weight: 100; }
+          .contact-main .contact-info .contact-info-wrapper .contact-details .contact-item img {
+            height: 40px;
+            padding-right: 20px; }
+        .contact-main .contact-info .contact-info-wrapper .contact-details .email {
+          padding: 10px; }
+        .contact-main .contact-info .contact-info-wrapper .contact-details .contact-text {
+          width: 60%;
+          padding-top: 30px; }
     .contact-main .contact-info h3 {
       font-weight: 400; }
+  .contact-main #map {
+    width: 100%;
+    height: 50vh; }
 
 .recommendations-header {
-  background-image: url("../assets/thebridge2.jpg");
+  background-image: url("/assets/thebridge2.jpg");
   background-position: top;
   color: white; }
   .recommendations-header .recommendations-header-wrapper {
@@ -550,6 +584,18 @@ h2 {
       font-family: "Lora", serif; }
     .recommendations-list .recommendations-list-wrapper .recommendation p {
       text-align: justify; }
+
+.faq-container {
+  width: 70%;
+  overflow: hidden;
+  min-height: calc(100vh - 60px); }
+  .faq-container .question {
+    cursor: pointer;
+    height: 50px;
+    border-bottom: 1px solid #f8f8f8;
+    margin: 10px; }
+  .faq-container .question-active {
+    height: initial; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -611,15 +657,15 @@ nav {
       background-position: center center;
       background-size: cover; }
     nav .social-media div .tripadvisor {
-      background-image: url("../assets/icons/tripadvisor-black.png");
+      background-image: url("/assets/icons/tripadvisor-black.png");
       height: 25px !important;
       width: 45px !important; }
     nav .social-media div .facebook {
-      background-image: url("../assets/icons/facebook-logo-black.png"); }
+      background-image: url("/assets/icons/facebook-logo-black.png"); }
     nav .social-media div .twitter {
-      background-image: url("../assets/icons/twitter-logo-silhouette-black.png"); }
+      background-image: url("/assets/icons/twitter-logo-silhouette-black.png"); }
     nav .social-media div .instagram {
-      background-image: url("../assets/icons/instagram-symbol-black.png"); }
+      background-image: url("/assets/icons/instagram-symbol-black.png"); }
   nav .dp-sm .hamburger {
     font-size: 2.5em;
     color: #f8f8f8; }
@@ -668,28 +714,28 @@ nav {
   .initial ul a {
     color: #f8f8f8 !important; }
   .initial .tripadvisor {
-    background-image: url("../assets/icons/tripadvisor-white.png") !important;
+    background-image: url("/assets/icons/tripadvisor-white.png") !important;
     height: 25px !important;
     width: 45px !important; }
   .initial .facebook {
-    background-image: url("../assets/icons/facebook-logo-white.png") !important; }
+    background-image: url("/assets/icons/facebook-logo-white.png") !important; }
   .initial .twitter {
-    background-image: url("../assets/icons/twitter-logo-silhouette-white.png") !important; }
+    background-image: url("/assets/icons/twitter-logo-silhouette-white.png") !important; }
   .initial .instagram {
-    background-image: url("../assets/icons/instagram-symbol-white.png") !important; }
+    background-image: url("/assets/icons/instagram-symbol-white.png") !important; }
 
 .active {
   background-color: #f8f8f8; }
   .active ul a {
     color: #171717 !important; }
   .active ul .tripadvisor {
-    background-image: url("../assets/icons/tripadvisor-black.png") !important; }
+    background-image: url("/assets/icons/tripadvisor-black.png") !important; }
   .active ul .facebook {
-    background-image: url("../assets/icons/facebook-logo-black.png") !important; }
+    background-image: url("/assets/icons/facebook-logo-black.png") !important; }
   .active ul .twitter {
-    background-image: url("../assets/icons/twitter-logo-silhouette-black.png") !important; }
+    background-image: url("/assets/icons/twitter-logo-silhouette-black.png") !important; }
   .active ul .instagram {
-    background-image: url("../assets/icons/instagram-symbol-black.png") !important; }
+    background-image: url("/assets/icons/instagram-symbol-black.png") !important; }
 
 .main-footer {
   background-color: #171717; }
@@ -795,9 +841,9 @@ footer {
   .tours-cards-section section {
     margin-bottom: 30px !important; }
 
-  .CTA-btn {
+  .CTA-btn, .contact-main .contact-info .contact-info-wrapper .form-wrapper .form-group input[type=submit] {
     max-width: 150px; }
-    .CTA-btn div {
+    .CTA-btn div, .contact-main .contact-info .contact-info-wrapper .form-wrapper .form-group input[type=submit] div {
       font-size: 1em; }
 
   .third-section {
@@ -864,9 +910,9 @@ footer {
   .tours-cards-section section {
     margin-bottom: 30px !important; }
 
-  .CTA-btn {
+  .CTA-btn, .contact-main .contact-info .contact-info-wrapper .form-wrapper .form-group input[type=submit] {
     max-width: 150px; }
-    .CTA-btn div {
+    .CTA-btn div, .contact-main .contact-info .contact-info-wrapper .form-wrapper .form-group input[type=submit] div {
       font-size: 1em; }
 
   .third-section {

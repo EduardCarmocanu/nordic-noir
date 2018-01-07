@@ -16,8 +16,10 @@ $end: #e73827;
 	&:hover {
 		transform: scale(1.1, 1.1);
 	}
+	&:focus {
+		transform: scale(1.1, 1.1);
+	}
 }
-
 .CTA-btn-tours{
 	display: block;
 	color: white;

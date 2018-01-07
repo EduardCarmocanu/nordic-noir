@@ -8,7 +8,7 @@ if (window.innerWidth < 768) {
 	$('nav')[0].classList.add('initial');
 	
 	// Checks the window location in order to set the right behaviour
-	if (window.location.pathname === '/~nordicnoirtours/' || window.location.pathname === '/~nordicnoirtours/index.php') {
+	if (window.location.pathname === '/' || window.location.pathname === '/index.php') {
 		// Binds function to window scroll event
 		window.addEventListener('scroll', function() {
 			// Gets all the triggers in the current page

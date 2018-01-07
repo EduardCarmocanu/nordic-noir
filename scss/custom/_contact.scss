@@ -2,24 +2,69 @@
 	padding-top: 60px;
 	.contact-info {
 		background-image: url('/assets/2.jpg');
+		width: 100%;
+		@extend .has-background;
+		color: $white;
 		.contact-info-wrapper  {
 			background-color: rgba(0, 0, 0, 0.7);
-			.contact-item {
-				padding-left: 0;
-				h4 {
-					font-weight: 100;
+			padding: 50px 0 50px 50px;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			.form-wrapper {
+				width: 100%; 	
+				padding-right: 10%; 
+				input, textarea {
+					width: 100%;
+					outline: none;
+					border: none;
+					box-shadow: none;
+					font-family: $paragraph;
+					padding: 7px;
+					resize: none;
+					border-radius: 5px;
 				}
-				img {
-					height: 40px;
-					padding-right: 20px;
+				.form-group {
+					padding: 10px 0 20px 0; 
+					textarea {
+						height: 300px;
+					}
+					input[type=submit] {
+						@extend .CTA-btn;
+					}
 				}
 			}
-			.contact-text {
-				width: 60%;
-			}
+			.contact-details {
+				width: 100%;
+				padding: 50px 50px 50px 10px;
+				.contact-item {
+					display: flex;
+					align-items: center;
+					h4 {
+						font-weight: 100;
+					}
+					img {
+						height: 40px;
+						padding-right: 20px;
+					}
+				}
+				.email {
+					padding: 10px;
+				}
+				.contact-text {
+					width: 60%;
+					padding-top: 30px;
+				}
+			}	
+			
+			
 		}
 		h3 {
 			font-weight: 400;
 		}
 	}	
+	#map {
+		width: 100%;
+		height: 50vh;
+	}
 }

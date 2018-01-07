@@ -14,30 +14,47 @@
 	<?php include('partials/navbar.php'); ?>
 	
 	<main class="contact-main">
-		<section class="contact-info full-width has-background white">
-			<div class="contact-info-wrapper pl-5 pt-5 pb-5 full-width full-height">
-				<h1 class="pl-1">CONTACT US</h1>
-				<div class="flex flex-justify-space-between">
-					<div class="contact-details pa-5 pl-1">
-						<div class="location contact-item flex flex-align-center">
-							<img src="./assets/icons/location-whtie.png" alt="">
-							<h4>Ved Vesterport 2<br>1612 København V, Danmark</h4>
+		<section class="contact-info">
+			
+			<div class="contact-info-wrapper">
+				<div class="form-wrapper">
+					<form action="#">
+						<h1>CONTACT US</h1>
+						<div class="form-group">
+							<input type="email" name="email" id="email" required minlength="6" maxlength="60" placeholder="Email">
 						</div>
-						<div class="email contact-item flex flex-align-center pa-1">
-							<a href="mailto:info@nordicnoirtours.dk"><img src="./assets/icons/mail-white.png" alt=""></a>
-							<a href="mailto:info@nordicnoirtours.dk"><h4>info@nordicnoirtours.dk</h4></a>
+						<div class="form-group">
+							<input type="name" name="name" id="name" required minlength="1" maxlength="78" placeholder="Full Name">
 						</div>
-						<div class="contact-text pt-3">
-							<br>
-							<p>
-								All our tours start from Vesterport station.<br><br>
-								If you would like to enquire about a group tour, please specify the group size, type of tour and preffered date/time and we will get back to you with the options
-							</p>
+						<div class="form-group">
+							<textarea name="message" id="message" minlength="20" maxlength="2400" placeholder="Message"></textarea>
 						</div>
-					</div>	
+						<div class="form-group">
+							<input type="submit" value="Send Message">		
+						</div>
+					</form>
+				</div>
+
+				<div class="contact-details">
+					<div class="location contact-item">
+						<img src="./assets/icons/location-whtie.png" alt="">
+						<h4>Ved Vesterport 2<br>1612 København V, Danmark</h4>
+					</div>
+					<div class="email contact-item">
+						<a href="mailto:info@nordicnoirtours.dk"><img src="./assets/icons/mail-white.png" alt=""></a>
+						<a href="mailto:info@nordicnoirtours.dk"><h4>info@nordicnoirtours.dk</h4></a>
+					</div>
+					<div class="contact-text">
+						<br>
+						<p>
+							All our tours start from Vesterport station.<br><br>
+							If you would like to enquire about a group tour, please specify the group size, type of tour and preffered date/time and we will get back to you with the options
+						</p>
+					</div>
 				</div>
 			</div>
-		</section><section id="map" class="full-width half-view-height"></section>
+		</section>
+		<section id="map"></section>
 	</main>
 	
 	<?php include('partials/footer.php'); ?>
