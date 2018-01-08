@@ -1,3 +1,5 @@
+<?php include "services/mailing_service.php" ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,19 +20,22 @@
 			
 			<div class="contact-info-wrapper">
 				<div class="form-wrapper">
-					<form action="/admin/controllers/mail_controller.php" method="POST">
+					<form action="<?php echo $_SERVER["PHP_SELF"] ?>" method="POST">
 						<h1>CONTACT US</h1>
 						<div class="form-group">
-							<input type="email" name="email" id="email" required minlength="6" maxlength="60" placeholder="Email">
+							<input type="name" name="name" id="name" required minlength="1" maxlength="78" placeholder="Full Name" autofocus value="<?php echo isset($_POST['name']) ? $name : ''; ?>">
 						</div>
 						<div class="form-group">
-							<input type="name" name="name" id="name" required minlength="1" maxlength="78" placeholder="Full Name">
+							<input type="email" name="email" id="email"  placeholder="Email" value="<?php echo isset($_POST['email']) ? $email : ''; ?>">
 						</div>
 						<div class="form-group">
-							<textarea name="message" id="message" minlength="20" maxlength="2400" placeholder="Message"></textarea>
+							<textarea name="message" id="message" required minlength="20" maxlength="2400" placeholder="Message"><?php echo isset($_POST['message']) ? htmlentities($message) : ''; ?></textarea>
 						</div>
+						<?php if (!empty($msg) && $msg != "") : ?>
+							<p><?= $msg ?></p>
+						<?php endif; ?>
 						<div class="form-group">
-							<input type="submit" value="Send Message">		
+							<input type="submit" name="submit" value="Send Message">		
 						</div>
 					</form>
 				</div>

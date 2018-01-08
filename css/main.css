@@ -628,7 +628,8 @@ h2 {
         .contact-main .contact-info .contact-info-wrapper .form-wrapper .form-group {
           padding: 10px 0 20px 0; }
           .contact-main .contact-info .contact-info-wrapper .form-wrapper .form-group textarea {
-            height: 300px; }
+            height: 300px;
+            text-align: left; }
       .contact-main .contact-info .contact-info-wrapper .contact-details {
         width: 100%;
         padding: 50px 50px 50px 10px; }
