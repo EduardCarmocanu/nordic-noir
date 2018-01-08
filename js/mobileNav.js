@@ -1,7 +1,7 @@
 "use strict";
 
 // check the window size in order to avoid conflicts with nav.js
-if (window.innerWidth < 768) {
+if (window.innerWidth < 893) {
 
 	// Sets the styling by adding CSS classe
 	$('nav')[0].classList.remove('active');
