@@ -20,7 +20,7 @@ class Upload_controller
         //define ('SITE_ROOT', realpath(dirname(__FILE__)));
         $this->file_name = $this->DBC->generateRandomString();
         
-        $this->upload_directory = "../assets/tours/";
+        $this->upload_directory = "/assets/tours/";
         $this->uploadOk = 1;
         $this->target_file = $this->upload_directory . basename($this->file_name . $this->the_file['name']);
         $this->imageFileType = pathinfo($this->target_file,PATHINFO_EXTENSION);

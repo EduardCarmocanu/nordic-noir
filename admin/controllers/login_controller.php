@@ -58,9 +58,9 @@ class Login_controller
 
     public function checkIfHeaders($place){
         if (headers_sent()){
-            die('<script type="text/javascript">window.location.href="http://104.152.168.36/~nordicnoirtours'.$place.'";</script>');
+            die('<script type="text/javascript">window.location.href="localhost:8080'.$place.'";</script>');
         }else{
-            header('Location:http://104.152.168.36/~nordicnoirtours/admin');
+            header('Location:localhost:8080/admin');
             die();
         }   
     }

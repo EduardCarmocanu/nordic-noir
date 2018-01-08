@@ -62,7 +62,7 @@
             <label for="">Click here or drag an image here</label>
         </div>
         <div class="buttons">
-            <a href="http://104.152.168.36/~nordicnoirtours/admin?deletetour=<?php $DBC->printOut($tours[$_SESSION['tour']]['id'])?>" class="delete-btn">Delete</a>                    
+            <a href="/admin?deletetour=<?php $DBC->printOut($tours[$_SESSION['tour']]['id'])?>" class="delete-btn">Delete</a>                    
             <input type="submit" value="SAVE" class="btn btn-green" name="submit">
             
         </div>

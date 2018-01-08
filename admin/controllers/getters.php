@@ -12,14 +12,14 @@ if(isset($_GET['tour'])){
         if($CLogin->userLogged()){
             $DBC->createTour();
         }else{
-            $CLogin->checkIfHeaders("http://104.152.168.36/~nordicnoirtours/");
+            $CLogin->checkIfHeaders("localhost:8080/");
         }
     }
     if(isset($_GET['deletetour'])){
         if($CLogin->userLogged()){
             $DBC->deleteTour($_GET['deletetour']);
         }else{
-            $CLogin->checkIfHeaders("http://104.152.168.36/~nordicnoirtours/");
+            $CLogin->checkIfHeaders("localhost:8080/");
         }
     }
     ?>
