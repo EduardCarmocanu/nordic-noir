@@ -34,3 +34,38 @@
 		}
 	}
 }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 893px) {
+	.recommendations-header{
+		height: initial;
+		.recommendations-header-wrapper{
+		text-align: center;
+		padding: 90px 10px 90px 10px;
+		min-width: 90vw;
+		max-width: initial;
+			h1{
+				font-size: 1.5em;
+				
+			}
+		}
+	}
+	.recommendations-list-wrapper{
+		padding: 20px !important;
+
+		.recommendation{
+			padding-bottom: 40px !important;
+		}
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+
+@media only screen and (max-width : 320px) {
+
+}

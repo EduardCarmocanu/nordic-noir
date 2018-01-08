@@ -46,3 +46,53 @@
 		width: 200px;
 	}
 }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 893px) {
+	.about-heading {
+		text-align: center;
+		margin-left: 0px;
+	}
+	.about-section{
+		text-align: center;
+		div{
+			padding-left:0px;
+			padding-right: 0;
+		}
+	}
+	.guides{
+		padding: 0px;
+		text-align: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-flow: column;
+				flex-flow: column;
+		.guide {
+			text-align: center;
+			width: 100% !important;
+			.guide-image-wrapper{
+				width: 200px !important;
+			}
+		}
+	}
+	.about-section{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+			-ms-flex-flow: column;
+				flex-flow: column;
+		div {
+			width: 100%;
+		}
+	} 
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+
+@media only screen and (max-width : 320px) {
+
+}

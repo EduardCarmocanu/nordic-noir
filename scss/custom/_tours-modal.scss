@@ -33,13 +33,6 @@
 			flex-direction: column;
 			margin-right: 40px;
 			width: 75%;
-			.tour-image {
-				width: 50%;
-				img {
-					position: relative;
-					height: 100%;
-				}
-			}
 			.book-tours {
 				margin-bottom: -10px;	
 			}
@@ -67,7 +60,57 @@
 				}
 			}
 		}
-		
+		.tour-image {
+			max-width: 500px !important;
+			img {
+				position: relative;
+				height: 100%;
+				
+			}
+		}
 	}
 }
 
+/* Small Devices, Tablets */
+@media only screen and (max-width : 893px) {
+	#tours-modal {
+		max-height: 85vh;
+		overflow-y: scroll;
+		.tours-modal-content-wrapper {
+			flex-direction: column-reverse;
+			max-height: initial;
+			
+			.tour-image {
+				max-height: 220px;
+				margin-bottom: 20px;
+				max-width: initial !important;
+			}
+			.tour-details-wrapper {	
+				margin-right: 0px;
+				width: initial;
+			}
+			.tour-controls {
+				margin: 50px 0 50px 0;
+				display: block !important;
+				.book-tours {
+					left: 0;
+					right: 0;
+					width: 130px;
+					margin: 20px auto 10px auto;
+				}
+			}
+		}
+	}
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */ 
+
+@media only screen and (max-width : 320px) {
+
+}
