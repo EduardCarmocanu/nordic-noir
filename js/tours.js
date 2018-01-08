@@ -26,11 +26,9 @@ xhttp.send();
 
 
 function setUpTours() {
-    
-    
+
     var tours = $('.tour');
     var tourNames = $('.tour-name');
-    console.log(toursData);
     for(var i = 0; i < tours.length; i++) {
         // Binds function to each tour
         tours[i].addEventListener('click', openTour);
@@ -39,9 +37,7 @@ function setUpTours() {
             // Formats the url
             toursData[i].image_url = toursData[i].image_url.replace('../', "./");
             // Sets up the tour background image
-            console.log(toursData[i].thumbnail_url);
-tours[i].style.backgroundImage = "url(" + toursData[i].image_url + ")"
-            console.log("HEllo");
+            tours[i].style.backgroundImage = "url(" + toursData[i].image_url + ")"
             // Sets up the tours titled
             tourNames[i].innerHTML = toursData[i].title;
         }
@@ -67,7 +63,7 @@ function openTour (el) {
     
     // Replaces new lines with <br> tags
     tour.content = tour.content.replace(/(\n)+/g, '<br />');
-    tour.aditional_info = tour.aditional_info.replace(/(\n)+/g, '<br />');
+    tour.aditional_info = tour.aditional_info.replace(/(\n)+/g, '<br /><br />');
     
     // Formats the url to math the path of the image
     tour.thumbnail_url = tour.thumbnail_url.replace('../', './');
