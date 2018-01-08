@@ -26,7 +26,7 @@ if (filter_has_var(INPUT_POST, 'submit') && $_SERVER['REQUEST_METHOD'] === "POST
             $headers .= "From: " . $name . "<" . $email . ">" . "\r\n";
 
             if (mail($to, $subject, $body, $headers)) {
-                $msg = "Your message has been succesfully sent!";
+            $msg = "Your message has been succesfully sent!";
             }else {
                 $msg = "There has been an internal error when sending you email, Please Try again";
             }
@@ -35,5 +35,5 @@ if (filter_has_var(INPUT_POST, 'submit') && $_SERVER['REQUEST_METHOD'] === "POST
         $msg = "Please fill in all fields";
     }
 } else {
-    $msg = "There has been a problem in submitting the from, Try refreshing the page";
+    // $msg = "There has been a problem in submitting the from, Try refreshing the page";
 }
