@@ -430,6 +430,40 @@ h2 {
     height: 200px;
     width: 200px; }
 
+/* Small Devices, Tablets */
+@media only screen and (max-width: 893px) {
+  .about-heading {
+    text-align: center;
+    margin-left: 0px; }
+
+  .about-section {
+    text-align: center; }
+    .about-section div {
+      padding-left: 0px;
+      padding-right: 0; }
+
+  .guides {
+    padding: 0px;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column; }
+    .guides .guide {
+      text-align: center;
+      width: 100% !important; }
+      .guides .guide .guide-image-wrapper {
+        width: 200px !important; }
+
+  .about-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column; }
+    .about-section div {
+      width: 100%; } }
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
 .first-section {
   background-image: url("/assets/2.jpg");
   background-position: top !important;
@@ -547,6 +581,9 @@ h2 {
       height: 100%;
       padding-top: 50px; }
 
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
 #tours-modal {
   position: absolute;
   padding: 30px;
@@ -577,11 +614,6 @@ h2 {
       flex-direction: column;
       margin-right: 40px;
       width: 75%; }
-      #tours-modal .tours-modal-content-wrapper .tour-details-wrapper .tour-image {
-        width: 50%; }
-        #tours-modal .tours-modal-content-wrapper .tour-details-wrapper .tour-image img {
-          position: relative;
-          height: 100%; }
       #tours-modal .tours-modal-content-wrapper .tour-details-wrapper .book-tours {
         margin-bottom: -10px; }
       #tours-modal .tours-modal-content-wrapper .tour-details-wrapper .tour-details {
@@ -600,7 +632,37 @@ h2 {
             font-family: "Poppins", sans-serif; }
       #tours-modal .tours-modal-content-wrapper .tour-details-wrapper #additional-info h6 {
         font-family: "Poppins", sans-serif; }
+    #tours-modal .tours-modal-content-wrapper .tour-image {
+      max-width: 500px !important; }
+      #tours-modal .tours-modal-content-wrapper .tour-image img {
+        position: relative;
+        height: 100%; }
 
+/* Small Devices, Tablets */
+@media only screen and (max-width: 893px) {
+  #tours-modal {
+    max-height: 85vh;
+    overflow-y: scroll; }
+    #tours-modal .tours-modal-content-wrapper {
+      flex-direction: column-reverse;
+      max-height: initial; }
+      #tours-modal .tours-modal-content-wrapper .tour-image {
+        max-height: 220px;
+        margin-bottom: 20px;
+        max-width: initial !important; }
+      #tours-modal .tours-modal-content-wrapper .tour-details-wrapper {
+        margin-right: 0px;
+        width: initial; }
+      #tours-modal .tours-modal-content-wrapper .tour-controls {
+        margin: 50px 0 50px 0;
+        display: block !important; }
+        #tours-modal .tours-modal-content-wrapper .tour-controls .book-tours {
+          left: 0;
+          right: 0;
+          width: 130px;
+          margin: 20px auto 10px auto; } }
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
 .contact-main {
   padding-top: 60px; }
   .contact-main .contact-info {
@@ -680,6 +742,24 @@ h2 {
     .recommendations-list .recommendations-list-wrapper .recommendation p {
       text-align: justify; }
 
+/* Small Devices, Tablets */
+@media only screen and (max-width: 893px) {
+  .recommendations-header {
+    height: initial; }
+    .recommendations-header .recommendations-header-wrapper {
+      text-align: center;
+      padding: 90px 10px 90px 10px;
+      min-width: 90vw;
+      max-width: initial; }
+      .recommendations-header .recommendations-header-wrapper h1 {
+        font-size: 1.5em; }
+
+  .recommendations-list-wrapper {
+    padding: 20px !important; }
+    .recommendations-list-wrapper .recommendation {
+      padding-bottom: 40px !important; } }
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
 .faq-container {
   padding: 50px;
   width: 70%;
@@ -878,22 +958,8 @@ nav {
 .dp-sm {
   display: none !important; }
 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
-  .dp-big {
-    display: block !important; }
-
-  .dp-sm {
-    display: none !important; } }
-/* Medium Devices, Desktops */
-@media only screen and (max-width: 992px) {
-  .dp-big {
-    display: block !important; }
-
-  .dp-sm {
-    display: none !important; } }
 /* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 893px) {
   .dp-big {
     display: none !important; }
 
@@ -921,22 +987,6 @@ nav {
   .active .dp-sm .small-nav .social-media div a {
     color: #f8f8f8 !important; }
 
-  .guides {
-    padding: 0px; }
-
-  .heading, .about-section {
-    padding-left: 30px;
-    margin-left: 0px; }
-
-  .about-section div {
-    padding-left: 0px; }
-
-  .recommendations-header {
-    height: 70vh; }
-
-  .recommendations-list-wrapper {
-    padding: 50px 100px 50px 100px !important; }
-
   .tours-cards-section, .footer-content-wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -963,49 +1013,11 @@ nav {
     padding-right: 5%; }
     .third-section .image-gallery figure {
       width: 50%; }
-
-  .about-section {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: column;
-    flex-flow: column; }
-    .about-section div {
-      width: 100%; }
-
-  .guides {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: column;
-    flex-flow: column; }
-    .guides div {
-      width: 100% !important; }
-      .guides div .guide-image-wrapper {
-        width: 200px !important; }
-
-  .recommendations-header .recommendations-header-wrapper {
-    padding-top: 50px;
-    padding-left: 10px;
-    min-width: 90vw;
-    text-align: left; }
-    .recommendations-header .recommendations-header-wrapper h1 {
-      font-size: 1.5em; }
-
-  .recommendations-list-wrapper {
-    padding-left: 10px !important;
-    padding-right: 10px !important; }
-    .recommendations-list-wrapper .recommendation {
-      padding-bottom: 20px !important; }
 
   .contact-info-wrapper {
     padding-left: 10px; } }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-  .dp-big {
-    display: none !important; }
-
-  .dp-sm {
-    display: block !important; }
-
   .tours-cards-section, .footer-content-wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1033,46 +1045,8 @@ nav {
     .third-section .image-gallery figure {
       width: 50%; }
 
-  .about-section {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: column;
-    flex-flow: column; }
-    .about-section div {
-      width: 100%; }
-
-  .guides {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: column;
-    flex-flow: column; }
-    .guides div {
-      width: 100% !important; }
-      .guides div .guide-image-wrapper {
-        width: 200px !important; }
-
-  .recommendations-header .recommendations-header-wrapper {
-    padding-top: 50px;
-    padding-left: 10px;
-    min-width: 90vw;
-    text-align: left; }
-    .recommendations-header .recommendations-header-wrapper h1 {
-      font-size: 1.5em; }
-
-  .recommendations-list-wrapper {
-    padding-left: 10px !important;
-    padding-right: 10px !important; }
-    .recommendations-list-wrapper .recommendation {
-      padding-bottom: 20px !important; }
-
   .contact-info-wrapper {
     padding-left: 10px; } }
 /* Custom, iPhone Retina */
-@media only screen and (max-width: 320px) {
-  .dp-big {
-    display: none !important; }
-
-  .dp-sm {
-    display: block !important; } }
 
 /*# sourceMappingURL=main.css.map */
